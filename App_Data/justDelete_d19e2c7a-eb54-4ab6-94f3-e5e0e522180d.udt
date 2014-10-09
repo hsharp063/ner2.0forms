@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType>
+  <Info>
+    <Name>Event Registration Page</Name>
+    <Alias>EventRegistrationPage</Alias>
+    <Icon>developerDatatype.gif</Icon>
+    <Thumbnail>doc.png</Thumbnail>
+    <Description></Description>
+    <AllowedTemplates>
+      <Template>EventRegistrationPage</Template>
+    </AllowedTemplates>
+    <DefaultTemplate>EventRegistrationPage</DefaultTemplate>
+  </Info>
+  <Structure />
+  <GenericProperties>
+    <GenericProperty>
+      <Name>Auto Response Email Body</Name>
+      <Alias>autoResponseEmailBody</Alias>
+      <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+      <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+      <Tab>Form</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[Body of auto response email.]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Notification Email To</Name>
+      <Alias>notificationEmailTo</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Form</Tab>
+      <Mandatory>True</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[Email address for new form submissions.]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Notification Email From</Name>
+      <Alias>notificationEmailFrom</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Form</Tab>
+      <Mandatory>True</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[From email address for new form submissions.]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Auto Response Email From</Name>
+      <Alias>autoResponseEmailFrom</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Form</Tab>
+      <Mandatory>True</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[From email address for auto response to user on form submission.]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Auto Response Email Subject</Name>
+      <Alias>autoResponseEmailSubject</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Form</Tab>
+      <Mandatory>True</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[Subject of auto response email to customer.]]></Description>
+    </GenericProperty>
+  </GenericProperties>
+  <Tabs>
+    <Tab>
+      <Id>13</Id>
+      <Caption>Form</Caption>
+    </Tab>
+  </Tabs>
+</DocumentType>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType>
+  <Info>
+    <Name>ContentPageWithSlider</Name>
+    <Alias>ContentPageWithSlider</Alias>
+    <Icon>folder.gif</Icon>
+    <Thumbnail>folder.png</Thumbnail>
+    <Description></Description>
+    <Master>Master</Master>
+    <AllowedTemplates>
+      <Template>TextpageWithGallery</Template>
+    </AllowedTemplates>
+    <DefaultTemplate>TextpageWithGallery</DefaultTemplate>
+  </Info>
+  <Structure>
+    <DocumentType>SliderImage</DocumentType>
+  </Structure>
+  <GenericProperties>
+    <GenericProperty>
+      <Name>Page Heading</Name>
+      <Alias>pageHeading</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Content</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Main Content</Name>
+      <Alias>pageContent</Alias>
+      <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+      <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+      <Tab>Content</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[If you want text to appear under the image slider, enter it here. ]]></Description>
+    </GenericProperty>
+  </GenericProperties>
+  <Tabs>
+    <Tab>
+      <Id>24</Id>
+      <Caption>Content</Caption>
+    </Tab>
+  </Tabs>
+</DocumentType>

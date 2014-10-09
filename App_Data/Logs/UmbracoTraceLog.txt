@@ -1,0 +1,1 @@
+2014-10-09 05:54:53,472 [30] INFO  umbraco.BusinessLogic.Log - [Thread 59] Log scrubbed.  Removed all items older than 2014-08-10 05:54:52

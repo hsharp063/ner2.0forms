@@ -1,0 +1,33 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+
+@{ 
+	@*Get the root of the website *@
+    var root = Model.AncestorOrSelf(1);
+}
+
+<nav>
+	<ul>
+		@foreach (var page in root.Children.Where("Visible"))
+		{ 
+			var childPages = page.Children.Where("Visible");
+			<li class="@page.IsAncestorOrSelf(Model, "current-menu-item", "")">
+				<a href="@page.Url">@page.navigationTitle</a>
+				@if(childPages.Count() > 0){
+					<ul class="sub-menu">
+						@foreach(var sub in childPages){
+							<li><a href="@sub.Url">@sub.navigationTitle</a></li>
+						}
+					</ul>
+				}
+			</li>
+		}
+	</ul>
+</nav>
+<!-- End Navigation -->
+			
+
+
+	
+
+				

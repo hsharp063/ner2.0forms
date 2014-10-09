@@ -1,0 +1,50 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+    Macro parameter to be set on the macro
+    Show:True   Alias:propertyAlias     Name:Property Alias    Type:Textstring
+*@   
+
+
+@{
+    
+    @* Get the property alias we want to filter on from the macro parameter *@
+    var selection = Model.Children.Where("Visible").OrderBy("startDate");
+}
+
+
+<!-- Start Event List -->
+			<div id="events_list" class="page">
+				<h1>@Model.uBlogsyContentTitle</h1>
+				@Model.textOnTop
+				<BR/><BR/>
+				<h2>Upcoming Events</h2>
+				<br/>
+    @foreach (var page in selection)
+    { 
+        <div class="list">
+					<div class="box_heading">
+						<h3>@page.startDate.ToString("D")</h3>
+						<span class="line"></span>
+					</div>
+					<div class="event_details">
+						<h5>@page.eventName</h5>
+						@page.eventDescription
+					</div>
+					<div class="event_date">
+						<ul class="left">
+							@if(!String.IsNullOrEmpty(page.startDate.ToString())) {<li>Start:</li>}
+							@if(!String.IsNullOrEmpty(page.endDate.ToString())) {<li>End:</li>}
+							@if(!String.IsNullOrEmpty(page.location.ToString())) {<li>Venue:</li>}
+							@if(!String.IsNullOrEmpty(page.address.ToString())) {<li>Address:</li>}
+						</ul>
+						<ul class="right">
+							@if(!String.IsNullOrEmpty(page.startDate.ToString())) {<li>@page.startDate.ToString("MM dd, yyyy h:mm tt")</li>}
+							@if(!String.IsNullOrEmpty(page.endDate.ToString())) {<li>@page.endDate.ToString("MM dd, yyyy h:mm tt")</li>}
+							@if(!String.IsNullOrEmpty(page.location.ToString())) {<li>@Html.Raw(page.location)</li>}
+							@if(!String.IsNullOrEmpty(page.address.ToString())) {<li>@Html.Raw(page.address)</li>}
+						</ul>
+					</div>
+				</div>
+    }
+</div>

@@ -1,0 +1,137 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Main.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderID="cp_body" runat="server">
+    <section class="page_heading home">
+		<div class="logo container">
+			<a href="/"><umbraco:item ID="Item1" runat="server" field="siteName" recursive="true"></umbraco:item></a>		
+			<span class="tagline"><umbraco:Item ID="tagline" runat="server" Field="tagline" recursive="true"></umbraco:item></span>
+		</div>
+	</section>
+    <div id="home" class="page_wrapper">
+		
+		<!-- Start Container -->
+		<section class="container">
+		
+			<!-- Start Page -->
+			<div class="page">
+				
+				<!-- Start Slider -->
+				<umbraco:Macro ID="Macro2" Alias="HomepageSliders" runat="server"></umbraco:Macro>
+				<!-- End Slider -->
+				
+				<div class="sub_heading">
+					<h2><umbraco:Item ID="Item12" field="headerUnderImages" runat="server" /></h2>
+					<span class="line"></span>
+				</div>
+				<div id="revolution_wrap" class="full">
+					<div id="description" class="one_third">
+						<h3><umbraco:Item ID="Item2" field="leftParagraphHeader" runat="server" /></h3>
+                        <umbraco:Item ID="Item3" field="leftParagraphContent" runat="server" />
+											
+					</div>
+					
+					<!-- Start Actions -->
+					<div id="actions">
+						<div class="box one_half">
+							<div class="inner">
+								<div class="box_heading">
+									<span class="icon general-enclosed">2</span>
+									<h4><umbraco:Item ID="Item4" field="boxOneHeader" runat="server" /></h4>
+								</div>
+								<umbraco:Item ID="Item5" field="boxOneContent" runat="server" />
+							</div>
+						</div>
+						<div class="box one_half column_last">
+							<div class="inner">
+								<div class="box_heading">
+									<span class="icon general-enclosed">o</span>
+									<h4><umbraco:Item ID="Item8" field="boxThreeHeader" runat="server" /></h4>
+								</div>
+								<umbraco:Item ID="Item9" field="boxThreeContent" runat="server" />
+							</div>
+						</div>
+						<div class="box one_half">
+							<div class="inner">
+								<div class="box_heading">
+									<span class="icon general-enclosed">~</span>
+									<h4><umbraco:Item ID="Item6" field="boxTwoHeader" runat="server" /></h4>
+								</div>
+								<umbraco:Item ID="Item7" field="boxTwoContent" runat="server" />
+							</div>
+						</div>
+						<div class="box one_half column_last">
+							<div class="inner">
+								<div class="box_heading">
+									<span class="icon general-enclosed">l</span>
+									<h4><umbraco:Item ID="Item10" field="boxFourHeader" runat="server" /></h4>
+								</div>
+								<umbraco:Item ID="Item11" field="boxFourContent" runat="server" />
+							</div>
+						</div>
+					</div>
+					<!-- End Actions -->		
+				</div>
+				
+				
+				<!-- Start Help -->
+				<div id="help" class="framed_box">
+					<span class="icon general">l</span>
+					<div class="text">
+						<h3>Donate what you can to help</h3>
+						<span class="color">Your tax-free donation helps us do stuff for people, animals and communities in need.</span>
+					</div>
+					<a href="#" class="donate_button">Donate Now!</a>
+				</div>
+				<!-- End Help -->		
+				
+				<!-- Start Items -->		
+				<div id="items">
+				
+					<!-- Start News -->
+					<div class="news one_third">
+						<div class="box_heading">
+							<h2>Blog</h2>
+							<span class="line"></span>
+						</div>
+						<ul>
+							<li>
+								<h5><a href="blog_single.html">Save The Whales</a></h5>
+								<p>Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl.</p>
+							</li>
+							<li>
+								<h5><a href="blog_single.html">Vote Superman for President</a></h5>
+								<p>Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl.</p>
+							</li>
+							<li>
+								<h5><a href="blog_single.html">Protect Our Coral Reefs</a></h5>
+								<p>Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl.</p>
+							</li>
+							
+						</ul>						
+					</div>
+					<!-- End News -->
+					
+					<!-- Start Events -->
+					<div class="events one_third">
+						<div class="box_heading">
+							<h2>Events</h2>
+							<span class="line"></span>
+						</div>
+						<umbraco:Macro ID="macroEventDisplay" Alias="EventDisplaySummary" runat="server" ></umbraco:Macro>
+					</div>
+					<!-- End Events -->
+					
+					<!-- Start Sponsors -->
+					<umbraco:Macro ID="Macro1" Alias="HomepageSponsers" runat="server"></umbraco:Macro>
+					<!-- End Sponsors -->
+					
+				</div>
+				<!-- End Items -->
+								
+			</div>
+			<!-- End Page -->
+			
+		</section>
+		<!-- End Container -->
+		
+	</div>
+</asp:Content>

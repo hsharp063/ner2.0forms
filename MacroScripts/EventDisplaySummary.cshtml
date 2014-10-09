@@ -1,0 +1,37 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+	@{
+        var eventFolders = Model.Children().Where("nodeTypeAlias = \"CalenderPage\" ");
+		var eventPage = eventFolders.FirstOrDefault();
+		if(eventPage != null){
+			var events = eventPage.Children().Where("startDate > DateTime.Now").OrderBy("startDate").Take(3);
+			if(events.Count() > 0){
+				<ul>	
+					@foreach(var e in events){
+								<li>
+									<div class="date"><span>@String.Format("{0:dd}", e.startDate)</span><br/> @e.startDate.ToString("MMM")</div>
+									<div class="details">
+										@if(!String.IsNullOrEmpty(e.eventDescription.ToString())){
+											<h5><a href="@eventPage.Url">
+											@if(e.eventName.ToString().Length > 100) 
+												{
+													@Html.Raw(e.eventName.ToString().Substring(0,100) + "...");
+												}else{
+													@Html.Raw(e.eventName.ToString());
+												}</a></h5>
+										}
+										<p>@e.location</p>
+									</div>
+								</li>
+					}
+							</ul>
+			}else{
+				<h4>There are currently no upcoming events on our calendar.  Please check back soon!</h4>
+			}
+									
+	
+		}else{
+			
+		}
+	}
+
+

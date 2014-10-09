@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType>
+  <Info>
+    <Name>Event</Name>
+    <Alias>Event</Alias>
+    <Icon>newsletter.gif</Icon>
+    <Thumbnail>doc.png</Thumbnail>
+    <Description></Description>
+    <AllowedTemplates>
+      <Template>EventPage</Template>
+    </AllowedTemplates>
+    <DefaultTemplate>EventPage</DefaultTemplate>
+  </Info>
+  <Structure>
+    <DocumentType>SliderImage</DocumentType>
+  </Structure>
+  <GenericProperties>
+    <GenericProperty>
+      <Name>Note</Name>
+      <Alias>note</Alias>
+      <Type>6c738306-4c17-4d88-b9bd-6546f3771597</Type>
+      <Definition>f0bc4bfb-b499-40d6-ba86-058885a5178c</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[To show a gallery on this event page, place slider images below this page in the structure. ]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>NavigationTitle</Name>
+      <Alias>navigationTitle</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab></Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[If this page is going to show in the navigation, provide a navigation title. ]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Title</Name>
+      <Alias>title</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>True</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[This will be what shows on the calender and the top of the event page]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Hide in Navigation?</Name>
+      <Alias>umbracoNaviHide</Alias>
+      <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+      <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+      <Tab></Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[Most events will probably have this checked. Checking here will not prevent it from showing in the calendar, it just won't show in navigation. ]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Start Date/Time</Name>
+      <Alias>eventStartDateTime</Alias>
+      <Type>b6fb1622-afa5-4bbf-a3cc-d9672a442222</Type>
+      <Definition>e4d66c0f-b935-4200-81f0-025f7256b89a</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>End Date/Time</Name>
+      <Alias>eventEndDateTime</Alias>
+      <Type>b6fb1622-afa5-4bbf-a3cc-d9672a442222</Type>
+      <Definition>e4d66c0f-b935-4200-81f0-025f7256b89a</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Summary</Name>
+      <Alias>eventSummary</Alias>
+      <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+      <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>True</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[This is more information on the event. Will show on the event page as well as on the tooltip on the calendar. ]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Location</Name>
+      <Alias>eventLocation</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[The name of event location. Also, if a map is shown, this will be used to mark the map.]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Address</Name>
+      <Alias>eventAddress</Alias>
+      <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+      <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Registration Link</Name>
+      <Alias>registrationLink</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[The link to the registration page.  If this is filled out a link will appear to sign up online. ]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Event Flyer File</Name>
+      <Alias>eventFlyerFile</Alias>
+      <Type>ead69342-f06d-4253-83ac-28000225583b</Type>
+      <Definition>93929b9a-93a2-4e2a-b239-d99334440a59</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[Flyer file for event (will show up on event page)]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>MapLat</Name>
+      <Alias>mapLat</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[The Latitude value for the google map. Note that both MapLong AND MapLat need to be filled out to add the map]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>MapLong</Name>
+      <Alias>mapLong</Alias>
+      <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Event Info</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[The Longitude value for the google map. Note that both MapLong AND MapLat need to be filled out to add the map]]></Description>
+    </GenericProperty>
+  </GenericProperties>
+  <Tabs>
+    <Tab>
+      <Id>11</Id>
+      <Caption>Event Info</Caption>
+    </Tab>
+  </Tabs>
+</DocumentType>

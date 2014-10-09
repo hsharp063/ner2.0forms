@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType>
+  <Info>
+    <Name>Rotator Item</Name>
+    <Alias>RotatorItem</Alias>
+    <Icon>.sprTreeMediaPhoto</Icon>
+    <Thumbnail>docWithImage.png</Thumbnail>
+    <Description></Description>
+    <Master>HomeRotator</Master>
+    <AllowedTemplates />
+    <DefaultTemplate></DefaultTemplate>
+  </Info>
+  <Structure />
+  <GenericProperties>
+    <GenericProperty>
+      <Name>Image</Name>
+      <Alias>rotatorImage</Alias>
+      <Type>ead69342-f06d-4253-83ac-28000225583b</Type>
+      <Definition>93929b9a-93a2-4e2a-b239-d99334440a59</Definition>
+      <Tab>Content</Tab>
+      <Mandatory>False</Mandatory>
+      <Validation></Validation>
+      <Description><![CDATA[Image for rotator.]]></Description>
+    </GenericProperty>
+  </GenericProperties>
+  <Tabs>
+    <Tab>
+      <Id>22</Id>
+      <Caption>Content</Caption>
+    </Tab>
+  </Tabs>
+</DocumentType>

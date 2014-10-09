@@ -1,0 +1,10 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+    var root = Model.AncestorOrSelf(1);
+    var footerLinks = root.DescendantsOrSelf().Where("showLinkInFooter"); 
+
+		foreach(var f in footerLinks){
+			<a href="@f.Url">@f.GetPropertyValue("navigationTitle")</a><br />
+		}
+
+}

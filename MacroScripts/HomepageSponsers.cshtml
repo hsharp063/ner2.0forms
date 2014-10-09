@@ -1,0 +1,30 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{ 
+	@*Get the root of the website *@
+    var root = Model.AncestorOrSelf(1);
+	var nodes = root.Children.Where("nodeTypeAlias = \"Resources\"");
+	var cssClass="";
+
+				<!-- Start Sponsors -->
+
+	if(nodes != null){
+		var resourceFolder = nodes[0];
+		var resources = resourceFolder.Children();
+	<div class="box_heading">
+		<h2>Resources</h2>
+		<span class="line"></span>
+	</div>
+		<ul>
+		@for(var i = 0; i < resources.Count(); i ++){
+			if(( i % 2 == 1 ) || i == 1){
+				cssClass="class=last";
+			}else{
+				cssClass="";
+			}
+			<li @cssClass><a href="@resources[i].link" target="_blank"><img src="@(Model.MediaById(resources[i].image).umbracoFile)" alt="@resources[i].link" /></a></li>
+	
+		}
+	</ul>
+	}
+}
+<!-- End Sponsors -->
