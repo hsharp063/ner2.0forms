@@ -1,36 +1,140 @@
-@*
+﻿@*
     Sample home layout template. Your home layout does NOT have to inherit from _uBlogsyBaseSite.
 *@
 
-@using System.Web.Mvc
-@using Umbraco.Web
-@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@inherits UmbracoTemplatePage
 @{
     Layout = "_uBlogsyBaseSite.cshtml";
 }
 
 @section uBlogsyHead
 { 
-    <link type="text/css" rel="Stylesheet" media="screen" href="/css/uBlogsy.css" />
+    <link type="text/css" rel="Stylesheet" media="screen" href="css/uBlogsy.css" />
+			<link type="text/css" rel="Stylesheet" media="screen" href="css/tipsy.css"/>
+		<link type="text/css" rel="Stylesheet" media="screen" href="css/base.css"/>
+		
+		<link type="text/css" rel="Stylesheet" media="screen" href="css/flexslider.css"/>
+		<link type="text/css" rel="Stylesheet" media="screen" href="css/media.queries.css"/>
 }
 
 
 @section uBlogsyMain
 {
-    <div id="uBlogsy"> 
-        <div id="uBlogsy_main" style="width:80%;padding: 0 5%">
-            <h1>
-                @Umbraco.Field("uBlogsyContentTitle")
-            </h1>
-            
-            <section>
-                @Umbraco.Field("uBlogsyContentBody")
-            </section>
-            
-            @* list posts for home - this only works if the home page is a parent, or sibling of uBlogsyLanding *@
-            @Html.CachedPartial("uBlogsy/Widgets/uBlogsyWidgetListPostsForHome", Model, 0, false, true, new ViewDataDictionary(ViewData) { { "ItemLimit", 5 } })		
-        </div>
-    </div>
+          	
+<!-- Start Home -->
+	<div id="home" class="page_wrapper">
+		
+		<!-- Start Container -->
+		<section class="container">
+		
+			<!-- Start Page -->
+			<div class="page">
+		
+				
+				<div class="sub_heading">
+					<h2>@Umbraco.Field("headerUnderImages")</h2>
+					<span class="line"></span>
+				</div>
+				<div id="revolution_wrap" class="full">
+					<div id="description" class="one_third">
+						<h3>@Umbraco.Field("leftParagraphHeader")</h3>
+
+						@Umbraco.Field("leftParagraphContent")
+						
+					</div>
+					
+					<!-- Start Actions -->
+					<div id="actions">
+						<div class="box one_half">
+							<div class="inner">
+								<div class="box_heading">
+									<span class="icon general-enclosed">n</span>
+									<h4>@Umbraco.Field("square1Header")</h4>
+								</div>
+								@Umbraco.Field("square1Content")
+							</div>
+						</div>
+						<div class="box one_half column_last">
+							<div class="inner">
+								<div class="box_heading">
+									<span class="icon general-enclosed">i</span>
+									<h4>@Umbraco.Field("square2Header")</h4>
+								</div>
+								@Umbraco.Field("square2Content")
+							</div>
+						</div>
+						<div class="box one_half">
+							<div class="inner">
+								<div class="box_heading">
+									<span class="icon general-enclosed">b</span>
+									<h4>@Umbraco.Field("square3Header")</h4>
+								</div>
+								@Umbraco.Field("square3Content")
+							</div>
+						</div>
+						<div class="box one_half column_last">
+							<div class="inner">
+								<div class="box_heading">
+									<span class="icon general-enclosed">o</span>
+									<h4>@Umbraco.Field("square4Header")</h4>
+								</div>
+								@Umbraco.Field("square4Content")
+							</div>
+						</div>
+					</div>
+					<!-- End Actions -->		
+				</div>
+
+				<!-- Start Help -->
+				<div id="help" class="framed_box">
+					<span class="icon general">l</span>
+					<div class="text">
+						<h3>@Umbraco.Field("centerAreaTextHeader")</h3>
+						<span class="color">@Umbraco.Field("centerAreTextContent")</span>
+					</div>
+					<a href="@Umbraco.Field("centerAreaLink")" class="donate_button">@Umbraco.Field("centerAreaButtonText")</a>
+				</div>
+				<!-- End Help -->		
+				<!-- Start Slider -->
+					@Umbraco.RenderMacro("HomepageSliders")
+				<!-- End Slider -->
+				
+				<!-- Start Items -->		
+				<div id="items">
+				
+					<!-- Start News -->
+					<div class="news one_third">
+						<div class="box_heading">
+							<h2>Recent Posts</h2>
+							<span class="line"></span>
+						</div>
+						           @* list posts for home - this only works if the home page is a parent, or sibling of uBlogsyLanding *@
+            @Html.CachedPartial("uBlogsy/Widgets/uBlogsyWidgetListPostsForHome", Model, 0, false, true, new ViewDataDictionary(ViewData) { { "ItemLimit", 2 } })					
+					</div>
+					<!-- End News -->
+					
+					<!-- Start Events -->
+					<div class="events one_third">
+						<div class="box_heading">
+							<h2>Events</h2>
+							<span class="line"></span>
+						</div>
+						@Umbraco.RenderMacro("HomepageEventDisplay")
+					</div>
+					<!-- End Events -->
+					
+					@Umbraco.RenderMacro("HomepageSponsers")
+					
+				</div>
+				<!-- End Items -->
+								
+			</div>
+			<!-- End Page -->
+			
+		</section>
+		<!-- End Container -->
+		
+	</div>
+	<!-- End Home -->		
+ 
 }
-
-

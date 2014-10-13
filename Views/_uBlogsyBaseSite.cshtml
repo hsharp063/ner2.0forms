@@ -1,32 +1,62 @@
-@*
+﻿@*
     Base Site layout. Make this inherit from your base template
 *@
 
-@using Umbraco.Web
-@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@inherits UmbracoTemplatePage
 @{
     Layout = "_uBlogsyBase.cshtml";
 }
 
 @section uBlogsyMain
 {
-    <!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
-    <html lang="en-GB" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" dir="ltr">
-        <head>
-            <title>My Site</title>          
-            @RenderSection("uBlogsyHead")
-        </head>
-        <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <title>@Umbraco.Field("siteName", recursive: true)</title>     
+	    <link type="text/css" rel="Stylesheet" media="screen" href="/dakota/css/uBlogsy.css" />
+	<link type="text/css" rel="Stylesheet" media="screen" href="/dakota/css/tipsy.css"/>
+		<link type="text/css" rel="Stylesheet" media="screen" href="/dakota/css/base.css"/>
+		
+		<link type="text/css" rel="Stylesheet" media="screen" href="/dakota/css/flexslider.css"/>
+		<link type="text/css" rel="Stylesheet" media="screen" href="/dakota/css/media.queries.css"/>
+		<link rel="stylesheet" type="text/css" href="/dakota/scripts/fancybox/jquery.fancybox-1.3.4.css" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Pacifico|Cabin:400,700,600,500">
            
-            @*top navigation*@
-            @Html.CachedPartial("uBlogsy/Global/uBlogsyGlobalHeader", Model, 60, true)
+		<!-- Javascripts -->
+	<script type="text/javascript" src="/dakota/scripts/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/html5shiv.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/jquery.mobilemenu.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/jquery.infieldlabel.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/jquery.twitter.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/jquery.quicksand.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="/dakota/scripts/advocate.js"></script>
+	
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	@RenderSection("uBlogsyHead")
+        </head>
+	
+	        <body>
                 
             @*top navigation*@
-            @Html.CachedPartial("uBlogsy/Global/uBlogsyGlobalNavigation", Model, 60, true)
+          @Html.CachedPartial("uBlogsy/Global/uBlogsyGlobalNavigation", Model, 60, true)
+	
+	  @*Site header area*@
+            @Html.CachedPartial("uBlogsy/Global/uBlogsyGlobalHeader", Model, 60, true)
             
                     
             @RenderSection("uBlogsyMain")
             
+			@Html.CachedPartial("uBlogsy/Global/uBlogsyGlobalFooter", Model, 60, true)
         </body>
     </html>
+
 }

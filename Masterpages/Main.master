@@ -36,10 +36,8 @@
 			<!-- Start Social Icons -->
 			<aside>
 				<ul class="social icon">
-					<li><a href="" original-title="Twitter">a</a></li>
-					<li><a href="" original-title="Facebook">v</a></li>
-					<li><a href="" original-title="RSS">b</a></li>
-					-->
+					<li><a href="<umbraco:Item field="twitterURL" recursive="true" runat="server" />" target="_blank" original-title="Twitter" title="Twitter">a</a></li>
+					<li><a href="<umbraco:Item field="facebookURL" recursive="true" runat="server" />" target="_blank" original-title="Facebook" title="Facebook">v</a></li>
 				</ul>
 			</aside>
 			<!-- End Social Icons -->

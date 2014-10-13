@@ -1,0 +1,116 @@
+﻿@*
+    Shows post for landing. This is almost identical to /Post/uBlogsyPostShowPost.cshtml but gives you the option to customise it individually.
+*@
+
+@using uBlogsy.BusinessLogic
+@using uHelpsy.Helpers
+@using uHelpsy.Singletons
+@inherits UmbracoTemplatePage
+@{
+    // image settings
+    const string defaultImage = null;// "http://placekitten.com/300/200/"; // change this if want a default image. eg "http://placekitten.com/300/200/", else make it null (no "")
+    const int imageHieght = -1; // -1 if no height specified
+    const int imageWidth = 300;
+    
+    var node = (IPublishedContent)ViewData["Node"];
+
+    var url = Request.QueryString.Count == 0 ? node.Url() : string.Format("{0}?{1}", node.Url(), Request.QueryString);
+    
+    @ShowPost(node, url, imageHieght, imageWidth, defaultImage)
+}
+
+
+
+@helper ShowPost(IPublishedContent node, string url, int imageHieght, int imageWidth, string defaultImage)
+    {
+       	<!-- Start Page Content -->
+	  <div class="post">
+			
+				<!-- Start Blog Post -->
+				<div class="post">
+					 @RenderPostImage(node, imageHieght, imageWidth, defaultImage)
+					<h3>@node.GetPropertyValue("uBlogsyContentTitle")</h3>
+					<div class="meta">
+						<span class="date"> <span class="icon general">i</span> @(node.GetPropertyValue<DateTime>("uBlogsyPostDate").ToString("dddd MMMM d, yyyy"))</span>
+					</div>
+					<p>@RenderPostBody(node) <a href="@url">Read More</a></p>
+				</div>
+
+        @*<aside class="uBlogsy_post_details">
+            @*list tags
+            <div class="uBlogsy_tag_container">
+                @Html.Partial("uBlogsy/Post/uBlogsyPostListTags", new ViewDataDictionary(ViewData) { { "ShowCount", true } })
+            </div>
+
+            @*list labels
+            <div class="uBlogsy_label_container">
+                @Html.Partial("uBlogsy/Post/uBlogsyPostListLabels", ViewData)
+            </div>
+            
+            @*list authors
+            @Html.Partial("uBlogsy/Post/uBlogsyPostListAuthors", ViewData)
+                
+        </aside>*@
+            
+        @*link to comments on this page - install uCommentsy, then uncomment this line*@
+       @* @try
+        {
+            @Html.Partial("uCommentsy/uCommentsyShowLinkToComments")
+        }
+        catch (Exception) { }*@
+            
+    </div>
+}
+
+
+
+
+
+
+@helper RenderPostBody(IPublishedContent d)
+    {
+    var useSummary = DataService.Instance.GetValueFromLanding(d, "uBlogsyGeneralUseSummary");
+    if (useSummary == "1" && d.GetPropertyValue<string>("uBlogsyContentSummary").Trim() != string.Empty)
+    {
+        @Html.Raw(d.GetPropertyValue("uBlogsyContentSummary"))
+    }
+    else
+    {
+    @Html.Raw(library.RenderMacroContent(d.GetPropertyValue<string>("uBlogsyContentBody"), d.Id))
+    } 
+}
+
+
+
+
+
+@helper RenderPostImage(IPublishedContent node, int imageHieght, int imageWidth, string defaultImage)
+    {
+    var imageId = node.GetPropertyValue<string>("uBlogsyPostImage");
+
+    if (string.IsNullOrWhiteSpace(imageId) && string.IsNullOrWhiteSpace(defaultImage))
+    {
+        // no property or default so do nothing
+        return;
+    }
+
+    var viewData = new ViewDataDictionary(ViewData)
+             {
+                 {"Alias", "uBlogsyPostImage"},
+                 {"Suffix", ""},
+                 {"Height", imageHieght},
+                 {"Width", imageWidth},
+                 {"CssClass", "uBlogsy_post_image"},
+                 {"Title", "Main Image"},
+                 {"Map", string.Empty },
+                 {"DefaultImage", defaultImage}
+             };
+
+    if (!viewData.ContainsKey("Node")) { viewData.Add("Node", node); }
+                 
+    <a href="@node.Url" title="Post image">
+        <figure class="uBlogsy_post_image">
+            @Html.Partial("~/Views/Partials/uBlogsy/Shared/uBlogsyShowImage.cshtml", viewData)     
+        </figure>
+    </a>
+ }

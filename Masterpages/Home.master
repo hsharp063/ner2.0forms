@@ -92,21 +92,7 @@
 							<h2>Blog</h2>
 							<span class="line"></span>
 						</div>
-						<ul>
-							<li>
-								<h5><a href="blog_single.html">Save The Whales</a></h5>
-								<p>Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl.</p>
-							</li>
-							<li>
-								<h5><a href="blog_single.html">Vote Superman for President</a></h5>
-								<p>Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl.</p>
-							</li>
-							<li>
-								<h5><a href="blog_single.html">Protect Our Coral Reefs</a></h5>
-								<p>Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl.</p>
-							</li>
-							
-						</ul>						
+						<umbraco:Macro Alias="UBlogsyRecentPosts" runat="server" />				
 					</div>
 					<!-- End News -->
 					
@@ -121,7 +107,13 @@
 					<!-- End Events -->
 					
 					<!-- Start Sponsors -->
+					<div class="sponsers one_third">
+						<div class="box_heading">
+							<h2>Our Sponsers</h2>
+							<span class="line"></span>
+						</div>
 					<umbraco:Macro ID="Macro1" Alias="HomepageSponsers" runat="server"></umbraco:Macro>
+					</div>
 					<!-- End Sponsors -->
 					
 				</div>

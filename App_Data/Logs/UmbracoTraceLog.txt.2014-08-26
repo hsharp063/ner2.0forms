@@ -1,0 +1,202 @@
+2014-08-26 08:31:38,272 [11] INFO  umbraco.BasePages.BasePage - [Thread 6] User admin (Id: 0) logged in
+2014-08-26 08:31:38,444 [11] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-08-26 08:31:38,444 [11] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2014-08-26 08:31:44,368 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:44,384 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:44,399 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:44,415 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:44,431 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:44,431 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:45,056 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:45,056 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:45,071 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:45,087 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:45,102 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:45,102 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:45,165 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 08:31:45,181 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 20:08:19,321 [11] INFO  umbraco.BusinessLogic.Log - [Thread 52] Log scrubbed.  Removed all items older than 2014-06-27 20:08:19
+2014-08-26 21:12:42,211 [11] INFO  umbraco.BasePages.BasePage - [Thread 52] User admin (Id: 0) logged in
+2014-08-26 21:13:15,899 [11] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-26 21:13:15,915 [11] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 13ms)
+2014-08-26 21:13:58,236 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 55] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:13:58,252 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 55] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,627 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,627 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,642 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,642 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,658 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,674 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,689 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,689 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,705 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,705 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,721 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,721 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,767 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:14:01,783 [11] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-26 21:17:04,821 [11] ERROR Umbraco.Core.Configuration.UmbracoSettings - [Thread 52] Error reading umbracoSettings file: System.IO.IOException: The process cannot access the file 'E:\web\rachelelise\htdocs\dakota\config\umbracoSettings.config' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at Umbraco.Core.Configuration.UmbracoSettings.EnsureSettingsDocument()
+System.IO.IOException: The process cannot access the file 'E:\web\rachelelise\htdocs\dakota\config\umbracoSettings.config' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at Umbraco.Core.Configuration.UmbracoSettings.EnsureSettingsDocument()
+2014-08-26 21:17:04,821 [11] ERROR Umbraco.Core.Configuration.UmbracoSettings - [Thread 52] Error reading umbracoSettings file: System.IO.IOException: The process cannot access the file 'E:\web\rachelelise\htdocs\dakota\config\umbracoSettings.config' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at Umbraco.Core.Configuration.UmbracoSettings.EnsureSettingsDocument()
+System.IO.IOException: The process cannot access the file 'E:\web\rachelelise\htdocs\dakota\config\umbracoSettings.config' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at Umbraco.Core.Configuration.UmbracoSettings.EnsureSettingsDocument()
+2014-08-26 21:17:04,821 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 52] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Umbraco.Core.Configuration.UmbracoSettings.GetKey(String key)
+   at Umbraco.Core.Configuration.UmbracoSettings.get_AuthCookieName()
+   at Umbraco.Web.UmbracoModule.AuthenticateRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-26 21:17:26,141 [11] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 55] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2014-08-26 21:18:17,984 [11] INFO  umbraco.BusinessLogic.Log - [Thread 47] Log scrubbed.  Removed all items older than 2014-06-27 21:18:17
+2014-08-26 21:18:17,984 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 47] Application shutdown. Reason: ConfigurationChange
+2014-08-26 21:18:21,187 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Determining hash of code files on disk
+2014-08-26 21:18:21,202 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Hash determined (took 4ms)
+2014-08-26 21:18:21,202 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-26 21:18:21,312 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 116ms)
+2014-08-26 21:18:21,327 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-26 21:18:21,327 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2014-08-26 21:18:21,327 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-26 21:18:21,327 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2014-08-26 21:18:21,327 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-26 21:18:21,327 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2014-08-26 21:18:21,327 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-26 21:18:21,343 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2014-08-26 21:18:21,343 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-26 21:18:21,343 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2014-08-26 21:18:21,827 [60] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 15] Initializing Examine and binding to business logic events
+2014-08-26 21:18:22,343 [60] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 15] Adding examine event handlers for index providers: 3
+2014-08-26 21:18:22,343 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-26 21:18:22,359 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2014-08-26 21:18:22,405 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2014-08-26 21:18:22,437 [60] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2014-08-26 21:18:24,218 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-26 21:18:24,218 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-08-26 21:18:26,660 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-26 21:18:26,676 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 18ms)
+2014-08-26 21:18:26,691 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.ITree
+2014-08-26 21:18:26,707 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 23ms)
+2014-08-26 21:18:27,129 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-26 21:18:27,144 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2014-08-26 21:18:27,144 [60] INFO  umbraco.content - [Thread 48] Loading content from disk cache...
+2014-08-26 21:18:27,160 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-08-26 21:18:27,160 [60] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2014-08-26 21:18:31,348 [60] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-26 21:18:31,348 [60] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2014-08-26 21:18:31,426 [60] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-26 21:18:31,426 [60] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 4ms)

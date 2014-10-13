@@ -1,0 +1,598 @@
+2014-08-30 17:57:17,166 [7] INFO  umbraco.BusinessLogic.Log - [Thread 53] Log scrubbed.  Removed all items older than 2014-07-01 17:57:17
+2014-08-30 18:24:28,169 [7] INFO  umbraco.BasePages.BasePage - [Thread 35] User admin (Id: 0) logged in
+2014-08-30 18:24:28,388 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-08-30 18:24:28,388 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2014-08-30 20:43:39,502 [7] INFO  umbraco.BasePages.BasePage - [Thread 19] User admin (Id: 0) logged in
+2014-08-30 20:52:24,262 [7] INFO  umbraco.BusinessLogic.Log - [Thread 13] Log scrubbed.  Removed all items older than 2014-07-01 20:52:24
+2014-08-30 20:52:24,278 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 13] Application shutdown. Reason: ConfigurationChange
+2014-08-30 20:52:33,403 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Determining hash of code files on disk
+2014-08-30 20:52:33,418 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Hash determined (took 4ms)
+2014-08-30 20:52:33,418 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-30 20:52:34,028 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 608ms)
+2014-08-30 20:52:34,028 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-30 20:52:34,028 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2014-08-30 20:52:34,028 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-30 20:52:34,043 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+2014-08-30 20:52:34,043 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-30 20:52:34,043 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2014-08-30 20:52:34,043 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-30 20:52:34,043 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2014-08-30 20:52:34,043 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-30 20:52:34,043 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2014-08-30 20:52:35,309 [40] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 42] Initializing Examine and binding to business logic events
+2014-08-30 20:52:35,309 [40] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 42] Adding examine event handlers for index providers: 3
+2014-08-30 20:52:35,309 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-30 20:52:35,309 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2014-08-30 20:52:35,371 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ITree
+2014-08-30 20:52:35,403 [40] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2014-08-30 20:54:54,694 [40] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2014-08-30 20:54:54,740 [40] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-30 20:54:54,740 [40] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2014-08-30 20:55:00,936 [40] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-30 20:55:00,936 [40] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2014-08-30 20:55:01,061 [40] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-30 20:55:01,233 [40] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 165ms)
+2014-08-30 20:55:01,233 [40] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.ITree
+2014-08-30 20:55:01,249 [40] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 19ms)
+2014-08-30 20:55:01,264 [40] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-30 20:55:01,264 [40] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2014-08-30 21:04:46,277 [40] INFO  umbraco.BusinessLogic.Log - [Thread 9] Log scrubbed.  Removed all items older than 2014-07-01 21:04:46
+2014-08-30 21:04:46,277 [40] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 9] Application shutdown. Reason: ConfigurationChange
+2014-08-30 21:04:54,559 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Determining hash of code files on disk
+2014-08-30 21:04:54,559 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Hash determined (took 5ms)
+2014-08-30 21:04:54,575 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-30 21:04:55,090 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 523ms)
+2014-08-30 21:04:55,090 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-30 21:04:55,106 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2014-08-30 21:04:55,106 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-30 21:04:55,106 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2014-08-30 21:04:55,106 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-30 21:04:55,106 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2014-08-30 21:04:55,106 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-30 21:04:55,106 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2014-08-30 21:04:55,106 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-30 21:04:55,121 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2014-08-30 21:04:55,200 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Initializing Examine and binding to business logic events
+2014-08-30 21:04:55,746 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Adding examine event handlers for index providers: 3
+2014-08-30 21:04:55,746 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-30 21:04:55,746 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 6ms)
+2014-08-30 21:04:56,200 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.ITree
+2014-08-30 21:04:56,215 [5] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2014-08-30 21:11:49,941 [5] INFO  umbraco.content - [Thread 55] Loading content from disk cache...
+2014-08-30 21:11:49,987 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-30 21:11:50,003 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2014-08-30 21:11:52,378 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-30 21:11:52,378 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2014-08-30 21:11:52,472 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-30 21:11:52,503 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 32ms)
+2014-08-30 21:11:52,503 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.interfaces.ITree
+2014-08-30 21:11:52,534 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 28ms)
+2014-08-30 21:11:52,550 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-30 21:11:52,550 [5] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 6ms)
+2014-08-30 21:12:00,847 [5] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-08-30 21:12:00,847 [5] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2014-08-30 21:13:07,235 [5] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-30 21:13:07,235 [5] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2014-08-30 21:14:49,205 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,205 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,455 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,455 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,470 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,486 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,502 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,502 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,533 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,533 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,549 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,564 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,830 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,845 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,845 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,861 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,877 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,877 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,892 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,908 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,908 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,924 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,939 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,939 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,970 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:49,970 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 26] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:50,017 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:50,064 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:51,220 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:51,220 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,143 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,143 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,159 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,159 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,174 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,190 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,190 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,252 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,268 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,284 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,299 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,315 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,331 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:14:52,346 [5] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 36] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:22:54,034 [5] WARN  umbraco.macro - [Thread 15] Error loading MacroEngine script (file: HomepageSliders.cshtml, Type: ''. Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_macroScripts_HomepageSliders_cshtml.Execute() in e:\web\rachelelise\htdocs\dakota\MacroScripts\HomepageSliders.cshtml:line 13
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-30 21:23:28,414 [5] WARN  umbraco.macro - [Thread 37] Error loading MacroEngine script (file: HomepageSliders.cshtml, Type: ''. Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_macroScripts_HomepageSliders_cshtml.Execute() in e:\web\rachelelise\htdocs\dakota\MacroScripts\HomepageSliders.cshtml:line 13
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-30 21:25:02,813 [5] WARN  umbraco.macro - [Thread 45] Error loading MacroEngine script (file: HomepageSliders.cshtml, Type: ''. Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_macroScripts_HomepageSliders_cshtml.Execute() in e:\web\rachelelise\htdocs\dakota\MacroScripts\HomepageSliders.cshtml:line 15
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-30 21:26:30,026 [5] INFO  umbraco.BusinessLogic.Log - [Thread 15] Log scrubbed.  Removed all items older than 2014-07-01 21:26:30
+2014-08-30 21:26:30,026 [5] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 15] Application shutdown. Reason: ConfigurationChange
+2014-08-30 21:26:31,807 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Determining hash of code files on disk
+2014-08-30 21:26:31,822 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Hash determined (took 4ms)
+2014-08-30 21:26:31,822 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-30 21:26:32,401 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 571ms)
+2014-08-30 21:26:32,401 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-30 21:26:32,401 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2014-08-30 21:26:32,401 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-30 21:26:32,401 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2014-08-30 21:26:32,401 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-30 21:26:32,401 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2014-08-30 21:26:32,401 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-30 21:26:32,416 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2014-08-30 21:26:32,416 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-30 21:26:32,416 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2014-08-30 21:26:32,494 [51] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Initializing Examine and binding to business logic events
+2014-08-30 21:26:33,244 [51] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Adding examine event handlers for index providers: 3
+2014-08-30 21:26:33,557 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-30 21:26:33,573 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 14ms)
+2014-08-30 21:26:33,619 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.ITree
+2014-08-30 21:26:33,651 [51] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2014-08-30 21:26:33,744 [51] INFO  umbraco.content - [Thread 13] Loading content from disk cache...
+2014-08-30 21:26:33,823 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-30 21:26:33,838 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2014-08-30 21:26:35,635 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-30 21:26:35,635 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2014-08-30 21:26:36,088 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-30 21:26:36,119 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 18ms)
+2014-08-30 21:26:36,119 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.ITree
+2014-08-30 21:26:36,135 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 19ms)
+2014-08-30 21:26:36,151 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-30 21:26:36,151 [51] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2014-08-30 21:27:02,579 [51] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-08-30 21:27:02,579 [51] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2014-08-30 21:30:09,723 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,723 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,754 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,754 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,785 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,785 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,801 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,816 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,832 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,832 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,863 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:09,879 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:10,238 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:10,254 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 16] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,677 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,677 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,692 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,692 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,708 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,708 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,723 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,739 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,755 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,755 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,770 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,770 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,802 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,817 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:30,911 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Dakota Alano' with Id '1159' has been published.
+2014-08-30 21:30:31,099 [51] INFO  Umbraco.Core.PluginManager - [Thread 18] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-30 21:30:31,114 [51] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2014-08-30 21:30:52,531 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,531 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,547 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,562 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,578 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,593 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,609 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,609 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,625 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,640 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,656 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,656 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:52,718 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:53,031 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:30:53,109 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Dakota Alano' with Id '1159' has been published.
+2014-08-30 21:31:00,631 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 9] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:31:00,646 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 9] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:31:44,306 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 55] New document 1260
+2014-08-30 21:32:06,151 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Monday8' with Id '1260' has been published.
+2014-08-30 21:33:01,404 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Wendesday8' with Id '1261' has been published.
+2014-08-30 21:33:10,532 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 55] New document 1262
+2014-08-30 21:33:52,013 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Tuesday6' with Id '1262' has been published.
+2014-08-30 21:34:09,457 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 33] New document 1263
+2014-08-30 21:34:27,263 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Tuesday730' with Id '1263' has been published.
+2014-08-30 21:34:47,105 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 40] New document 1264
+2014-08-30 21:35:06,008 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Wednesday7AM' with Id '1264' has been published.
+2014-08-30 21:35:30,377 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 15] New document 1265
+2014-08-30 21:35:58,227 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Wednesday6' with Id '1265' has been published.
+2014-08-30 21:36:21,195 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 15] New document 1266
+2014-08-30 21:36:36,448 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Thursday1145' with Id '1266' has been published.
+2014-08-30 21:36:48,353 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 36] New document 1267
+2014-08-30 21:37:00,129 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Thursday' with Id '1267' has been published.
+2014-08-30 21:37:11,074 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 36] New document 1268
+2014-08-30 21:37:29,741 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Thursday730' with Id '1268' has been published.
+2014-08-30 21:37:48,676 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 40] New document 1269
+2014-08-30 21:38:16,217 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'ThurdsayAlanon' with Id '1269' has been published.
+2014-08-30 21:38:26,732 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 33] New document 1270
+2014-08-30 21:38:38,934 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Friday6' with Id '1270' has been published.
+2014-08-30 21:38:47,262 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 10] New document 1271
+2014-08-30 21:38:56,990 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Friday8' with Id '1271' has been published.
+2014-08-30 21:39:07,290 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 45] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:39:07,306 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 45] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:39:14,119 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 37] New document 1272
+2014-08-30 21:39:31,011 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Saturday9' with Id '1272' has been published.
+2014-08-30 21:39:52,639 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 15] New document 1273
+2014-08-30 21:40:06,639 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Saturday11' with Id '1273' has been published.
+2014-08-30 21:40:41,832 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 55] New document 1274
+2014-08-30 21:40:51,663 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 37] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:40:51,663 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 37] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:41:28,009 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Saturday 6' with Id '1274' has been published.
+2014-08-30 21:41:44,719 [51] INFO  umbraco.cms.businesslogic.web.Document - [Thread 9] New document 1275
+2014-08-30 21:41:59,093 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'SundayFellowship' with Id '1275' has been unpublished.
+2014-08-30 21:42:11,955 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Tuesday6' with Id '1262' has been published.
+2014-08-30 21:42:11,955 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Tuesday730' with Id '1263' has been published.
+2014-08-30 21:42:11,955 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Wednesday7AM' with Id '1264' has been published.
+2014-08-30 21:42:11,955 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Wednesday6' with Id '1265' has been published.
+2014-08-30 21:42:11,955 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Wendesday8' with Id '1261' has been published.
+2014-08-30 21:42:20,102 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,117 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,133 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,133 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,149 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,164 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,180 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,180 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,211 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,211 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,610 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,626 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,673 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:42:20,688 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 13] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,435 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,450 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,466 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,466 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,482 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,497 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,497 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,513 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,513 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,528 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,544 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,544 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,575 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,591 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 11] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:37,653 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Dakota Alano' with Id '1159' has been published.
+2014-08-30 21:43:58,725 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,741 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,757 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,757 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,772 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,788 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,819 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,819 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,835 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,850 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,866 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,866 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,928 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:58,944 [51] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 33] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-30 21:43:59,132 [51] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Dakota Alano' with Id '1159' has been published.
+2014-08-30 22:57:14,221 [51] INFO  umbraco.BusinessLogic.Log - [Thread 47] Log scrubbed.  Removed all items older than 2014-07-01 22:57:14
+2014-08-30 22:57:14,221 [51] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 47] Application shutdown. Reason: HostingEnvironment

@@ -1,0 +1,20 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+	@*Get the root of the website *@
+    var root = Model.AncestorOrSelf(1);
+	var blogPosts = root.Descendants("uBlogsyPost").OrderBy("uBlogsyPostDate desc");
+	var maxPosts = 5;
+	
+	if(blogPosts.Count() > 0){
+	<ul>
+		@for(var i = 0; i < blogPosts.Count() && i <= maxPosts; i ++){
+			<li>
+				<h5><a href="@blogPosts[i].Url">@blogPosts[i].uBlogsyNavigationTitle</a></h5>
+				<p>@blogPosts[i].uBlogsyContentSummary.ToString().Substring(0,150)... <a href="@blogPosts[i].Url">Read More</a></p>
+			</li>
+		}
+	</ul>
+	}else{
+		<h4>Please check back for new posts!</h4>
+	} 
+}

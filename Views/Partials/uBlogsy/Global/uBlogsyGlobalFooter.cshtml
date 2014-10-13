@@ -1,0 +1,39 @@
+@*
+    Footer.
+*@
+@using uBlogsy.BusinessLogic
+@inherits UmbracoTemplatePage
+@{
+    var home = DataService.Instance.GetSiteRoot(Model.Content, "uBlogsySiteRoot") ?? DataService.Instance.GetLanding(Model.Content);
+    var footerLinks = home.DescendantsOrSelf().Where("showLinkInFooter");  
+    <footer>
+		<div class="container">
+			<div class="widget one_fourth">
+				<h5>Quick Links</h5>
+                @foreach(var f in footerLinks){
+                    <a href="@f.Url">@f.GetPropertyValue("uBlogsyNavigationTitle")</a><br />
+                }
+			</div>
+			<div class="widget one_fourth column_last">
+				<h5>Dakota Alano</h5>
+				<div class="location_widget">
+					@home.GetPropertyValue("address")
+					<p>
+						<span class="icon general">r</span> @home.GetPropertyValue("phone") <br/>
+                        @{var email = home.GetPropertyValue("email");
+                            if(email != null && email != ""){
+                                <span class="icon general">h</span> @email <br/>
+                            }
+                          }
+						
+					</p>
+				</div>
+			</div>
+		
+			<div class="copy">
+				<p>Copyright &copy;2014</p>
+			</div>
+			
+		</div>
+	</footer>
+}

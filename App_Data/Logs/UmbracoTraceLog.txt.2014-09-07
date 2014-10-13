@@ -1,0 +1,728 @@
+2014-09-07 12:13:54,068 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-09-07 12:13:54,068 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2014-09-07 12:13:54,084 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-09-07 12:13:54,537 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 465ms)
+2014-09-07 12:13:54,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-09-07 12:13:54,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2014-09-07 12:13:54,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-09-07 12:13:54,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2014-09-07 12:13:54,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-09-07 12:13:54,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2014-09-07 12:13:54,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-09-07 12:13:54,568 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2014-09-07 12:13:54,568 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-09-07 12:13:54,568 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2014-09-07 12:13:55,193 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-09-07 12:13:55,193 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-09-07 12:13:55,193 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-09-07 12:13:55,209 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2014-09-07 12:13:55,240 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-09-07 12:13:55,271 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 25ms)
+2014-09-07 12:13:55,381 [7] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2014-09-07 12:13:55,725 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-09-07 12:13:55,725 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-09-07 12:13:57,037 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-09-07 12:13:57,053 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 11ms)
+2014-09-07 12:13:57,568 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.IDataType
+2014-09-07 12:13:57,600 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 18ms)
+2014-09-07 12:13:57,600 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2014-09-07 12:13:57,631 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 28ms)
+2014-09-07 12:13:57,631 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-09-07 12:13:57,631 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2014-09-07 12:14:58,962 [7] INFO  umbraco.BasePages.BasePage - [Thread 12] User admin (Id: 0) logged in
+2014-09-07 12:14:59,322 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-09-07 12:14:59,337 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2014-09-07 12:19:16,621 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Summer Picnic' with Id '1184' has been unpublished.
+2014-09-07 12:19:16,683 [7] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-09-07 12:19:16,699 [7] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 12ms)
+2014-09-07 12:21:07,948 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Board Meeting' with Id '1185' has been published.
+2014-09-07 12:27:01,970 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Contact Us' with Id '1224' has been published.
+2014-09-07 12:27:58,643 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Contact Us' with Id '1224' has been published.
+2014-09-07 12:30:18,799 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Contact Us' with Id '1224' has been published.
+2014-09-07 12:31:15,863 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Contact Us' with Id '1224' has been published.
+2014-09-07 17:09:48,362 [7] INFO  umbraco.BasePages.BasePage - [Thread 95] User admin (Id: 0) logged in
+2014-09-07 17:11:33,581 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 95] New document 1287
+2014-09-07 17:12:07,350 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 95] Content 'Alano Board 2' with Id '1287' has been published.
+2014-09-07 17:12:53,055 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Alano Board 2' with Id '1287' has been published.
+2014-09-07 17:15:43,876 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Alano Board 2' with Id '1287' has been published.
+2014-09-07 17:17:26,660 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Alano Board 2' with Id '1287' has been published.
+2014-09-07 17:18:20,763 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Alano Board 2' with Id '1287' has been published.
+2014-09-07 17:18:44,184 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 75] Couldn't find any page with nodeId=1069. This is most likely caused by the page not being published.
+2014-09-07 17:18:54,078 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Alano Board' with Id '1259' has been published.
+2014-09-07 17:19:06,431 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Minutes' with Id '1287' has been published.
+2014-09-07 17:24:28,539 [7] INFO  umbraco.BusinessLogic.Log - [Thread 76] Log scrubbed.  Removed all items older than 2014-07-09 17:24:28
+2014-09-07 17:24:28,539 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 76] Application shutdown. Reason: MaxRecompilationsReached
+2014-09-07 17:24:31,539 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Determining hash of code files on disk
+2014-09-07 17:24:31,555 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Hash determined (took 5ms)
+2014-09-07 17:24:31,555 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-09-07 17:24:32,102 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 547ms)
+2014-09-07 17:24:32,102 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-09-07 17:24:32,102 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2014-09-07 17:24:32,102 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-09-07 17:24:32,117 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2014-09-07 17:24:32,117 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-09-07 17:24:32,117 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2014-09-07 17:24:32,117 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-09-07 17:24:32,117 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2014-09-07 17:24:32,117 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-09-07 17:24:32,117 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2014-09-07 17:24:32,805 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 54] Initializing Examine and binding to business logic events
+2014-09-07 17:24:32,805 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 54] Adding examine event handlers for index providers: 3
+2014-09-07 17:24:32,805 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.interfaces.IApplication
+2014-09-07 17:24:32,820 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2014-09-07 17:24:32,852 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.interfaces.ITree
+2014-09-07 17:24:32,883 [7] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2014-09-07 17:24:33,008 [7] INFO  umbraco.content - [Thread 75] Loading content from disk cache...
+2014-09-07 17:24:33,211 [7] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-09-07 17:24:33,227 [7] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-09-07 17:25:34,974 [7] INFO  Umbraco.Core.PluginManager - [Thread 81] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-09-07 17:25:34,989 [7] INFO  Umbraco.Core.PluginManager - [Thread 81] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2014-09-07 17:25:35,286 [7] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of umbraco.interfaces.ITree
+2014-09-07 17:25:35,318 [7] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 23ms)
+2014-09-07 17:25:35,380 [7] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-09-07 17:25:35,380 [7] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2014-09-07 17:26:47,394 [7] INFO  Umbraco.Core.PluginManager - [Thread 77] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-09-07 17:26:47,394 [7] INFO  Umbraco.Core.PluginManager - [Thread 77] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2014-09-07 17:26:47,488 [7] INFO  Umbraco.Core.PluginManager - [Thread 77] Starting resolution types of umbraco.interfaces.IDataType
+2014-09-07 17:26:47,519 [7] INFO  Umbraco.Core.PluginManager - [Thread 77] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 24ms)
+2014-09-07 17:26:47,519 [7] INFO  Umbraco.Core.PluginManager - [Thread 77] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-09-07 17:26:47,535 [7] INFO  Umbraco.Core.PluginManager - [Thread 77] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2014-09-07 17:29:05,065 [7] INFO  Umbraco.Core.PluginManager - [Thread 93] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-09-07 17:29:05,065 [7] INFO  Umbraco.Core.PluginManager - [Thread 93] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 6ms)
+2014-09-07 17:30:02,828 [7] INFO  Umbraco.Core.PluginManager - [Thread 70] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2014-09-07 17:30:02,843 [7] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 4ms)
+2014-09-07 17:30:02,968 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 70] Success uploading to parent 1288
+2014-09-07 17:30:04,815 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 77] Success uploading to parent 1288
+2014-09-07 17:30:05,471 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 94] Success uploading to parent 1288
+2014-09-07 17:30:07,002 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 95] Success uploading to parent 1288
+2014-09-07 17:30:08,596 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 97] Success uploading to parent 1288
+2014-09-07 17:30:18,099 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 81] Success uploading to parent 1288
+2014-09-07 17:30:41,349 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 97] New document 1295
+2014-09-07 17:30:41,818 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 76] New document 1296
+2014-09-07 17:31:13,570 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 76] New document 1297
+2014-09-07 17:31:30,258 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 76] New document 1298
+2014-09-07 17:31:39,542 [7] INFO  Umbraco.Core.Services.ContentService - [Thread 97] Content 'Web Admin' with Id '1298' could not be published because its parent is not published.
+2014-09-07 17:31:39,542 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Web Admin' with Id '1298' has been published.
+2014-09-07 17:31:39,635 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 97] Couldn't find any page with nodeId=1298. This is most likely caused by the page not being published.
+2014-09-07 17:31:44,135 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Web Admin (1)' with Id '1296' has been unpublished.
+2014-09-07 17:31:47,339 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content 'Web Admin' with Id '1295' has been unpublished.
+2014-09-07 17:31:51,183 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Authors' with Id '1297' has been published.
+2014-09-07 17:32:11,702 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content '2014' with Id '1300' has been published.
+2014-09-07 17:32:11,765 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Authors' with Id '1297' has been published.
+2014-09-07 17:32:12,265 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'September' with Id '1301' has been published.
+2014-09-07 17:32:12,796 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content '07' with Id '1302' has been published.
+2014-09-07 17:32:12,999 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 70] New document 1299
+2014-09-07 17:32:57,401 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'June 2014 Board Minutes' with Id '1299' has been published.
+2014-09-07 17:32:58,089 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:32:58,089 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:32:58,089 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:32:58,089 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:32:58,089 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:32:58,089 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:32:58,089 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:32:58,089 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:34:19,366 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 87] Couldn't find any page with nodeId=1069. This is most likely caused by the page not being published.
+2014-09-07 17:34:36,913 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'June 2014 Board Minutes' with Id '1299' has been published.
+2014-09-07 17:34:37,007 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'August' with Id '1303' has been published.
+2014-09-07 17:34:37,053 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'August' with Id '1303' has been published.
+2014-09-07 17:34:37,053 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'September' with Id '1301' has been published.
+2014-09-07 17:34:37,194 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content '07' with Id '1304' has been published.
+2014-09-07 17:34:37,741 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'June 2014 Board Minutes' with Id '1299' has been published.
+2014-09-07 17:34:37,819 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:34:37,819 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:34:37,819 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:34:37,819 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:34:37,882 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:34:37,882 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:34:37,882 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:34:37,882 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:34:37,928 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:34:37,928 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:34:37,928 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:34:37,928 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:34:37,944 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:34:37,944 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:34:37,944 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:34:37,944 [7] ERROR System.Exception - [Thread 72] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:35:55,163 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 84] New document 1305
+2014-09-07 17:36:51,363 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'April 2014 Meeting Minutes' with Id '1305' has been published.
+2014-09-07 17:36:51,456 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:36:51,456 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:36:51,456 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:36:51,456 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:36:51,456 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:36:51,456 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:36:51,456 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:36:51,456 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:37:41,956 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=1069. This is most likely caused by the page not being published.
+2014-09-07 17:37:56,662 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=1069. This is most likely caused by the page not being published.
+2014-09-07 17:38:12,703 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'April 2014 Meeting Minutes' with Id '1305' has been published.
+2014-09-07 17:38:12,796 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'May' with Id '1306' has been published.
+2014-09-07 17:38:12,843 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'May' with Id '1306' has been published.
+2014-09-07 17:38:12,843 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'August' with Id '1303' has been published.
+2014-09-07 17:38:12,843 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'September' with Id '1301' has been published.
+2014-09-07 17:38:13,015 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '01' with Id '1307' has been published.
+2014-09-07 17:38:13,343 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'April 2014 Meeting Minutes' with Id '1305' has been published.
+2014-09-07 17:38:13,437 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:13,437 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:38:13,437 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:13,437 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:38:13,468 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:13,468 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:38:13,468 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:13,468 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:38:13,843 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:13,843 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:38:13,843 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:13,843 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:38:13,843 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:13,843 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:38:13,843 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:13,843 [7] ERROR System.Exception - [Thread 69] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:38:45,892 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'June 2014 Board Minutes' with Id '1299' has been published.
+2014-09-07 17:38:45,971 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'July' with Id '1308' has been published.
+2014-09-07 17:38:46,017 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'July' with Id '1308' has been published.
+2014-09-07 17:38:46,017 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'August' with Id '1303' has been published.
+2014-09-07 17:38:46,017 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'September' with Id '1301' has been published.
+2014-09-07 17:38:46,564 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '01' with Id '1309' has been published.
+2014-09-07 17:38:46,674 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'June 2014 Board Minutes' with Id '1299' has been published.
+2014-09-07 17:38:47,158 [7] ERROR System.Exception - [Thread 66] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:47,158 [7] ERROR System.Exception - [Thread 66] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:38:47,158 [7] ERROR System.Exception - [Thread 66] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:47,158 [7] ERROR System.Exception - [Thread 66] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:38:47,189 [7] ERROR System.Exception - [Thread 66] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:47,189 [7] ERROR System.Exception - [Thread 66] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:38:47,189 [7] ERROR System.Exception - [Thread 66] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:47,189 [7] ERROR System.Exception - [Thread 66] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:38:47,236 [7] ERROR System.Exception - [Thread 87] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:47,236 [7] ERROR System.Exception - [Thread 87] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:38:47,236 [7] ERROR System.Exception - [Thread 87] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:47,236 [7] ERROR System.Exception - [Thread 87] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:38:47,252 [7] ERROR System.Exception - [Thread 87] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:47,252 [7] ERROR System.Exception - [Thread 87] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:38:47,252 [7] ERROR System.Exception - [Thread 87] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:38:47,252 [7] ERROR System.Exception - [Thread 87] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:38:47,267 [7] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 83] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2014-09-07 17:40:16,969 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'Frontpage Sliders' with Id '1069' has been unpublished.
+2014-09-07 17:40:17,000 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'New to Umbraco?' with Id '1073' has been unpublished.
+2014-09-07 17:40:17,015 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'And changing the colors is easy as well!' with Id '1072' has been unpublished.
+2014-09-07 17:40:17,015 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'You can (of course) change these images!' with Id '1071' has been unpublished.
+2014-09-07 17:40:17,031 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'Hello everybody!' with Id '1070' has been unpublished.
+2014-09-07 17:41:26,407 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 84] New document 1310
+2014-09-07 17:42:30,880 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content 'Archive' with Id '1310' has been published.
+2014-09-07 17:46:15,271 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Document Archive' with Id '1310' has been published.
+2014-09-07 17:48:51,716 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 83] New document 1311
+2014-09-07 17:50:03,346 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'February 2014 Meeting Minutes' with Id '1311' has been published.
+2014-09-07 17:50:03,439 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'March' with Id '1312' has been published.
+2014-09-07 17:50:03,486 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'March' with Id '1312' has been published.
+2014-09-07 17:50:03,486 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'May' with Id '1306' has been published.
+2014-09-07 17:50:03,486 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'July' with Id '1308' has been published.
+2014-09-07 17:50:03,486 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'August' with Id '1303' has been published.
+2014-09-07 17:50:03,486 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'September' with Id '1301' has been published.
+2014-09-07 17:50:04,033 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '01' with Id '1313' has been published.
+2014-09-07 17:50:04,549 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'February 2014 Meeting Minutes' with Id '1311' has been published.
+2014-09-07 17:50:04,658 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:04,658 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:50:04,658 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:04,658 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:50:04,705 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:04,705 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:50:04,705 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:04,705 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:50:05,236 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:05,236 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:50:05,236 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:05,236 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:50:05,252 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:05,252 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:50:05,252 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:05,252 [7] ERROR System.Exception - [Thread 89] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:50:59,171 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'February 2014 Meeting Minutes' with Id '1311' has been published.
+2014-09-07 17:50:59,250 [7] ERROR System.Exception - [Thread 93] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:59,250 [7] ERROR System.Exception - [Thread 93] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:50:59,250 [7] ERROR System.Exception - [Thread 93] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:59,250 [7] ERROR System.Exception - [Thread 93] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:50:59,312 [7] ERROR System.Exception - [Thread 93] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:59,312 [7] ERROR System.Exception - [Thread 93] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:50:59,312 [7] ERROR System.Exception - [Thread 93] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:50:59,312 [7] ERROR System.Exception - [Thread 93] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:53:31,931 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'February 2014 Meeting Minutes' with Id '1311' has been published.
+2014-09-07 17:53:32,384 [7] ERROR System.Exception - [Thread 70] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:53:32,384 [7] ERROR System.Exception - [Thread 70] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:53:32,384 [7] ERROR System.Exception - [Thread 70] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:53:32,384 [7] ERROR System.Exception - [Thread 70] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:53:32,384 [7] ERROR System.Exception - [Thread 70] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:53:32,384 [7] ERROR System.Exception - [Thread 70] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 17:53:32,384 [7] ERROR System.Exception - [Thread 70] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 17:53:32,384 [7] ERROR System.Exception - [Thread 70] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 17:55:31,073 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Document Archive' with Id '1310' has been published.
+2014-09-07 18:04:40,191 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Document Archive' with Id '1310' has been published.
+2014-09-07 18:05:25,439 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 76] Success uploading to parent 1288
+2014-09-07 18:05:25,470 [7] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 82] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2014-09-07 18:05:27,126 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 8] Success uploading to parent 1288
+2014-09-07 18:05:29,298 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 66] Success uploading to parent 1288
+2014-09-07 18:05:29,907 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 8] Success uploading to parent 1288
+2014-09-07 18:05:31,438 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 9] Success uploading to parent 1288
+2014-09-07 18:05:33,110 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 71] Success uploading to parent 1288
+2014-09-07 18:05:45,235 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 82] Success uploading to parent 1288
+2014-09-07 18:05:47,032 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 8] Success uploading to parent 1288
+2014-09-07 18:05:53,236 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 61] Success uploading to parent 1288
+2014-09-07 18:06:08,892 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 9] Success uploading to parent 1288
+2014-09-07 18:06:10,876 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 66] Success uploading to parent 1288
+2014-09-07 18:07:22,441 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 78] Success uploading to parent 1325
+2014-09-07 18:07:28,300 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 75] Success uploading to parent 1325
+2014-09-07 18:07:29,269 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 82] Success uploading to parent 1325
+2014-09-07 18:11:56,742 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Document Archive' with Id '1310' has been published.
+2014-09-07 18:13:44,979 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 82] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.WriteDeflaterOutput(Boolean isAsync)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context) in f:\tempdir\v4.0.30319\dakota\52c01c4b\a2650f4a\App_Web_tinymce3tinymcecompress.aspx.43b758d9.sx2ymztz.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-09-07 18:13:55,017 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 61] Success uploading to parent 1288
+2014-09-07 18:15:31,417 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 78] Success uploading to parent 1288
+2014-09-07 18:15:32,011 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 78] Success uploading to parent 1288
+2014-09-07 18:16:22,012 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Document Archive' with Id '1310' has been published.
+2014-09-07 18:17:22,291 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 9] New document 1332
+2014-09-07 18:18:55,544 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'January 2014 Board Minutes' with Id '1332' has been published.
+2014-09-07 18:18:55,622 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'February' with Id '1333' has been published.
+2014-09-07 18:18:56,028 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'February' with Id '1333' has been published.
+2014-09-07 18:18:56,028 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'March' with Id '1312' has been published.
+2014-09-07 18:18:56,028 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'May' with Id '1306' has been published.
+2014-09-07 18:18:56,028 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'July' with Id '1308' has been published.
+2014-09-07 18:18:56,028 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'August' with Id '1303' has been published.
+2014-09-07 18:18:56,028 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'September' with Id '1301' has been published.
+2014-09-07 18:18:56,278 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '01' with Id '1334' has been published.
+2014-09-07 18:18:56,669 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'January 2014 Board Minutes' with Id '1332' has been published.
+2014-09-07 18:18:56,762 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:18:56,762 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:18:56,762 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:18:56,762 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:18:57,215 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:18:57,215 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:18:57,215 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:18:57,215 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:18:57,262 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:18:57,262 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:18:57,262 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:18:57,262 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:18:57,309 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:18:57,309 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:18:57,309 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:18:57,309 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:18:57,372 [7] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 9] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2014-09-07 18:21:19,712 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'January 2014 Board Minutes' with Id '1332' has been published.
+2014-09-07 18:21:20,259 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:21:20,259 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:21:20,259 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:21:20,259 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:21:20,322 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:21:20,322 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:21:20,322 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:21:20,322 [7] ERROR System.Exception - [Thread 82] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:22:16,283 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 58] Success uploading to parent 1288
+2014-09-07 18:22:17,377 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 86] Success uploading to parent 1288
+2014-09-07 18:23:29,655 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'January 2014 Board Minutes' with Id '1332' has been published.
+2014-09-07 18:23:29,765 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:23:29,765 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:23:29,765 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:23:29,765 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:23:29,765 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:23:29,765 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:23:29,765 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:23:29,765 [7] ERROR System.Exception - [Thread 83] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:23:54,567 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 58] New document 1337
+2014-09-07 18:24:04,676 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'July 2014 Board Minutes' with Id '1337' has been unpublished.
+2014-09-07 18:24:13,147 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 97] New document 1338
+2014-09-07 18:26:53,618 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'July 2014 Board Minutes' with Id '1338' has been published.
+2014-09-07 18:26:53,728 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '01' with Id '1339' has been published.
+2014-09-07 18:26:53,774 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '01' with Id '1339' has been published.
+2014-09-07 18:26:53,774 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '07' with Id '1304' has been published.
+2014-09-07 18:26:53,978 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'July 2014 Board Minutes' with Id '1338' has been published.
+2014-09-07 18:26:54,071 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:26:54,071 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:26:54,071 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:26:54,071 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:26:54,071 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:26:54,071 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:26:54,071 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:26:54,071 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:26:54,634 [7] ERROR System.Exception - [Thread 85] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:26:54,634 [7] ERROR System.Exception - [Thread 85] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:26:54,634 [7] ERROR System.Exception - [Thread 85] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:26:54,634 [7] ERROR System.Exception - [Thread 85] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:26:54,634 [7] ERROR System.Exception - [Thread 85] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:26:54,634 [7] ERROR System.Exception - [Thread 85] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:26:54,634 [7] ERROR System.Exception - [Thread 85] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:26:54,634 [7] ERROR System.Exception - [Thread 85] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:29:26,064 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'July 2014 Board Minutes' with Id '1338' has been published.
+2014-09-07 18:29:26,158 [7] ERROR System.Exception - [Thread 9] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:29:26,158 [7] ERROR System.Exception - [Thread 9] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:29:26,158 [7] ERROR System.Exception - [Thread 9] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:29:26,158 [7] ERROR System.Exception - [Thread 9] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:29:26,158 [7] ERROR System.Exception - [Thread 9] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:29:26,158 [7] ERROR System.Exception - [Thread 9] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:29:26,158 [7] ERROR System.Exception - [Thread 9] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:29:26,158 [7] ERROR System.Exception - [Thread 9] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:29:44,921 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'June 2014 Board Minutes' with Id '1299' has been published.
+2014-09-07 18:29:44,999 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:29:44,999 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:29:44,999 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:29:44,999 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:29:44,999 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:29:44,999 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabels, propertyAlias:uBlogsyPostLabels, aliasInNode:uBlogsyLabelName.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIndexByPropertyInSelectedNodes(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias, String aliasInNode) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 31
+2014-09-07 18:29:44,999 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.GetValueFromFieldOrProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 98
+2014-09-07 18:29:44,999 [7] ERROR System.Exception - [Thread 97] During indexing luceneFieldName:uBlogsySearchableLabelIds, propertyAlias:uBlogsyPostLabels.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uHelpsy.Helpers.ExamineIndexHelper.AddIdsFromCsvProperty(IndexingNodeDataEventArgs e, String luceneFieldName, String propertyAlias) in d:\_PROJECTS\Personal\uHelpsy - Library\uHelpsy\Source\uHelpsy.Web\Helpers\ExamineIndexHelper.cs:line 66
+2014-09-07 18:35:08,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'About' with Id '1172' has been published.
+2014-09-07 18:35:08,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Events' with Id '1183' has been published.
+2014-09-07 18:35:08,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Meetings' with Id '1204' has been published.
+2014-09-07 18:35:08,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Resources' with Id '1210' has been published.
+2014-09-07 18:35:08,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Alano Board' with Id '1259' has been published.
+2014-09-07 18:35:08,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Newsletter' with Id '1160' has been published.
+2014-09-07 18:35:08,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Minutes' with Id '1287' has been published.
+2014-09-07 18:35:08,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Contact Us' with Id '1224' has been published.
+2014-09-07 18:35:08,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'SliderImg1' with Id '1175' has been published.

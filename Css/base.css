@@ -40,6 +40,13 @@ body {
 body ul {
 	list-style: none;
 }
+ul.contentList {
+list-style: initial;
+margin-left: 45px;
+margin-top: 5px;
+margin-bottom: 5px;
+color: initial;
+}
 .container {
 	width: 1000px;
 	margin: 0 auto;
@@ -57,7 +64,7 @@ body ul {
 		overflow: hidden;
 	}
 section.page_heading {
-	background: #B85400;
+	background: #308383;
 	width: 100%;
 	height: 90px;
 }
@@ -131,8 +138,7 @@ div.page_wrapper {
 2. Header and Navigation
 ---------------------------------------------*/
 header {
-	/*background: url('../images/header.png') repeat-x;*/
-	background-color:#670404;
+	background: url('../images/header.png') repeat-x;
 	height: 65px;
 }
 	header .select-menu { display: none; }
@@ -182,7 +188,8 @@ header {
 				margin-bottom: 0px;
 				padding-bottom: 0px;
 				padding: 2px 15px 2px 15px;
-				background: #670404;
+				background: #000;
+				background: rgba(0,0,0,0.60);
 			}
 			header nav ul li ul li a,
 			header nav ul li.current-menu-item ul li a,
@@ -205,7 +212,7 @@ header {
 				border-right: none;
 				border-color: #ddd;
 				box-shadow: none;
-				color: white;
+				color: #666;
 			}
 				header nav ul li ul li a:hover {
 					background: none;
@@ -372,7 +379,7 @@ div.flexslider-container {
 			width: 40px;
 			height: 33px;
 			padding-top: 7px;
-			background: #B85400;
+			background: #d07837;
 			color: #fff;
 			-webkit-border-radius: 5px;
 			-moz-border-radius: 5px;
@@ -407,17 +414,14 @@ div.flexslider-container {
 		div#sponsors ul li {
 			display: inline;
 			float: left;
-			padding: 5px 8px 5px 9px;{
- { div.post h3 a {
-
-
-
+			padding: 5px 8px 5px 9px;
 		}
 			div#sponsors ul li img {
 				margin: 0;
+				max-width: 272px;
 			}
 		div#sponsors ul li.last {
-			border-right: none;
+			float: right;
 		}
 		div#sponsors ul li.bottom {
 			border-bottom: none;
@@ -703,6 +707,7 @@ div#contact p { margin-bottom: 25px; }
 		overflow: hidden;
 		clear: both;
 		width: 715px;
+		border-bottom:none;
 	}
 		div#contact div.row input,
 		div#contact div.row select { width: 315px; }
@@ -848,7 +853,7 @@ div.widget { }
 		margin-bottom: 15px;
 	}
 	div.widget .logo { font-size: 28px; color: #7f7f7f; margin-bottom: 10px; }
-	div.widget a { color: #7d7d7d; margin-bottom: 15px; line-height: 22px;}
+	div.widget a { color: #7d7d7d; }
 	aside div.widget {
 		clear: both;
 		margin-bottom: 30px;
@@ -999,7 +1004,7 @@ footer {
 10. Typography
 ---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 { font-weight: normal; sans-serif; }
-h1,h2 { font-family: 'Pacifico'; color: #4f3102; }
+h1,h2 { font-family: 'Pacifico'; color: #d07837; }
 h3,h4 { font-family: 'Cabin'; font-weight: bold; }
 h1 {
 	font-size: 32px;
@@ -1011,10 +1016,10 @@ h2 {
 h3,
 h3 a {
 	font-size: 24px;
-	color: #670404;
+	color: #292929;
 }
 h4 {
-	color: #670404;
+	color: #333;
 	font-size: 20px;
 }
 h5,
@@ -1031,7 +1036,7 @@ h6 {
 p {
 	font-size: 13px;
 	line-height: 20px;
-	color: #8c8c8c;
+	color: black;
 }
 	p.larger {
 		font-size: 16px;		
@@ -1041,12 +1046,19 @@ p {
 		color: #666;
 	}
 a {
-	color: #B85400;
+	color: #d07837;
 	outline: none;
 }
 	a:hover { text-decoration: none; }
 b {
 	color: #333;
+}
+.center h4 {
+text-align: center;
+}
+.center {
+margin-top: 25px;
+margin-bottom: 25px;
 }
 .tipsy { line-height: 17px; }
 /* Blockquotes */
@@ -1423,7 +1435,7 @@ iframe {
 /*--------------------------------------------
 14. Icons
 ---------------------------------------------*/
-.icon { cursor: default; font-size: 18px; line-height: 1; color: #B85400; }
+.icon { cursor: default; font-size: 18px; line-height: 1; color: #d07837; }
 /* Icons General */
 @font-face {
   font-family: 'FoundationIconsGeneral';
@@ -1564,16 +1576,120 @@ div#events {
 		div#events div.event div.event_date ul.one li, ul.three li {
 			font-weight: bold;
 		}
+		
+	div.box{
+		float:left;
+	}
+	
+	.left{
+		float:left;
+	}
+	
+	div.row {
+border-bottom: 1px solid #8c8c8c;
+margin-bottom: 5px;
+}
+
+div.row div.one_third {
+margin-bottom: 12px;
+}
+
+
+table.prettytable tr th {
+text-align: left;
+}
+
+table.prettytable tr td {
+text-align: left;
+padding: 7px;
+}
+
+table.prettytable {
+margin: auto;
+}
+
+
+.blogcolumns p, .blogcolumns {
+line-height: 2;
+	padding: 5px;
+}
+
+.column {
+display: block;
+width: 48%;
+float: left;
+padding: 3px;
+}
+
+.right.column {
+border-left: solid 1px lightgray;
+padding-left: 5px;
+}
 
 
 
+.boldUnderline{
+text-decoration: underline; 
+font-weight:bold;
+}
 
+.boldItalic{
+font-weight:bold;
+font-style:italic;
+}
 
+.bold{
+font-weight:bold;
+}
 
+.fullRow {
+width: 100%;
+display: block;
+clear: both;
+}
 
+div.widget div.one_third {
+width: inherit;
+}
+
+div.widget div#sponsors ul li img {
+margin: 0;
+max-width: 219px;
+}
+
+div.widget div.box_heading h2 {
+border-bottom: 1px dashed #c9c9c9;
+padding-bottom: 5px;
+margin-bottom: 15px;
+font-size: 15px;
+color: #515151;
+text-decoration: none;
+font-family:"Helvetica Neue", helvetica, sans-serif;
+background: none;
+}
+
+div#contact {
+margin-top: 20px;
+}
+
+.prettytable.members td, .prettytable.members th {
+border-bottom: solid 1px lightgray;
+}
 
 
 
 
 
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+.boldUnderline {
+.boldUnderline{ text-decoration: underline; font-weight:bold; 
+}
+
+.boldItalic {
+.boldItalic{ font-weight:bold; font-style:italic; 
+}
+
+.bold {
+.bold{ font-weight:bold; 
+}
+

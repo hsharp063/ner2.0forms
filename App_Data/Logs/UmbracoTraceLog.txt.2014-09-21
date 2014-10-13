@@ -1,132 +1,37 @@
-2014-09-21 14:19:15,877 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Determining hash of code files on disk
-2014-09-21 14:19:15,922 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Hash determined (took 37ms)
-2014-09-21 14:19:16,063 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
-2014-09-21 14:19:17,310 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1245ms)
-2014-09-21 14:19:17,419 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
-2014-09-21 14:19:17,446 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 26ms)
-2014-09-21 14:19:17,465 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
-2014-09-21 14:19:17,489 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 23ms)
-2014-09-21 14:19:17,521 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
-2014-09-21 14:19:17,551 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 29ms)
-2014-09-21 14:19:17,576 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
-2014-09-21 14:19:17,604 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 28ms)
-2014-09-21 14:19:17,605 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
-2014-09-21 14:19:17,639 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 33ms)
-2014-09-21 14:19:18,394 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 5] Initializing Examine and binding to business logic events
-2014-09-21 14:19:20,748 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 5] Adding examine event handlers for index providers: 3
-2014-09-21 14:19:20,761 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplication
-2014-09-21 14:19:20,794 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 32ms)
-2014-09-21 14:19:21,038 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
-2014-09-21 14:19:21,085 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 46ms)
-2014-09-21 14:19:22,639 [9] INFO  umbraco.content - [Thread 5] Loading content from disk cache...
-2014-09-21 14:19:22,663 [9] WARN  Umbraco.Web.UmbracoModule - [Thread 5] Umbraco has no content
-2014-09-21 14:19:48,515 [9] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
-2014-09-21 14:19:48,547 [9] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 32ms)
-2014-09-21 14:21:52,441 [9] WARN  Umbraco.Web.UmbracoModule - [Thread 5] Umbraco has no content
-2014-09-21 14:40:10,675 [9] INFO  umbraco.BasePages.BasePage - [Thread 5] User admin (Id: 0) logged in
-2014-09-21 14:40:10,878 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
-2014-09-21 14:40:10,896 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 17ms)
-2014-09-21 14:40:11,100 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
-2014-09-21 14:40:11,139 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 38ms)
-2014-09-21 14:44:14,872 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ICacheRefresher
-2014-09-21 14:44:14,900 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 27ms)
-2014-09-21 14:44:20,257 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IDataType
-2014-09-21 14:44:20,297 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 39ms)
-2014-09-21 14:44:20,859 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IPackageAction
-2014-09-21 14:44:20,888 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IPackageAction, found 12 (took 29ms)
-2014-09-21 14:44:20,923 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplication
-2014-09-21 14:44:20,952 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 29ms)
-2014-09-21 14:44:20,958 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
-2014-09-21 14:44:20,999 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 40ms)
-2014-09-21 14:44:21,151 [9] INFO  umbraco.content - [Thread 20] Loading content from database...
-2014-09-21 14:44:22,004 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
-System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): The file '/NER2.0Forms/usercontrols/uBlogsy/dashboard/Installer.ascx' does not exist.
-   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
-   at System.Web.UI.TemplateControl.LoadControl(String virtualPath)
-   at umbraco.presentation.developer.packages.Installer.ProcessInstall(String currentStep)
-   at umbraco.presentation.developer.packages.Installer.Page_Load(Object sender, EventArgs e)
-   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
-   at System.Web.UI.Control.OnLoad(EventArgs e)
-   at umbraco.BasePages.BasePage.OnLoad(EventArgs e)
-   at System.Web.UI.Control.LoadRecursive()
-   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
-   at System.Web.UI.Page.HandleError(Exception e)
-   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
-   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
-   at System.Web.UI.Page.ProcessRequest()
-   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
-   at System.Web.UI.Page.ProcessRequest(HttpContext context)
-   at ASP.umbraco_developer_packages_installer_aspx.ProcessRequest(HttpContext context) in c:\Users\hilary\AppData\Local\Temp\Temporary ASP.NET Files\ner2.0forms\6171b9eb\3c5e1982\App_Web_installer.aspx.5d1c7564.5imayrml.0.cs:line 0
-   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
-   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
-2014-09-21 14:56:07,729 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 13] Packager: Error handling allowed templates. Template with alias 'Main' could not be found.
-2014-09-21 14:56:07,742 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 13] Packager: Error handling allowed templates. Template with alias 'Homepage' could not be found.
-2014-09-21 14:56:07,749 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 13] Packager: Error handling default template. Default template with alias 'Homepage' could not be found.
-2014-09-21 14:56:28,530 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 22] Packager: Error handling allowed templates. Template with alias 'ContactUsPage' could not be found.
-2014-09-21 14:56:28,536 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 22] Packager: Error handling default template. Default template with alias 'ContactUsPage' could not be found.
-2014-09-21 14:56:41,742 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 13] Packager: Error handling allowed templates. Template with alias 'EmploymentApplication' could not be found.
-2014-09-21 14:56:41,748 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 13] Packager: Error handling default template. Default template with alias 'EmploymentApplication' could not be found.
-2014-09-21 14:56:54,656 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 22] Packager: Error handling allowed templates. Template with alias 'EventPage' could not be found.
-2014-09-21 14:56:54,663 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 22] Packager: Error handling default template. Default template with alias 'EventPage' could not be found.
-2014-09-21 14:56:54,872 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 22] Packager: Error handling DocumentType structure. DocumentType with alias 'SliderImage' could not be found and was not added to the structure for 'Event'.
-2014-09-21 14:57:06,898 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling allowed templates. Template with alias 'EventRegistrationPage' could not be found.
-2014-09-21 14:57:06,905 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling default template. Default template with alias 'EventRegistrationPage' could not be found.
-2014-09-21 14:57:36,728 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 23] Packager: Error handling allowed templates. Template with alias 'NewsPage' could not be found.
-2014-09-21 14:57:36,735 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 23] Packager: Error handling default template. Default template with alias 'NewsPage' could not be found.
-2014-09-21 14:57:37,277 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 12] Packager: Error handling allowed templates. Template with alias 'NewsPage' could not be found.
-2014-09-21 14:57:37,281 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 12] Packager: Error handling default template. Default template with alias 'NewsPage' could not be found.
-2014-09-21 14:57:57,098 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 8] Packager: Error handling allowed templates. Template with alias 'NewsEventPage' could not be found.
-2014-09-21 14:57:57,105 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 8] Packager: Error handling default template. Default template with alias 'NewsEventPage' could not be found.
-2014-09-21 14:57:57,364 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 8] Packager: Error handling DocumentType structure. DocumentType with alias 'Event' could not be found and was not added to the structure for 'NewsEventsPage'.
-2014-09-21 14:57:57,364 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 8] Packager: Error handling DocumentType structure. DocumentType with alias 'News' could not be found and was not added to the structure for 'NewsEventsPage'.
-2014-09-21 14:58:09,913 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 5] Packager: Error handling allowed templates. Template with alias 'ScholarshipApplication' could not be found.
-2014-09-21 14:58:09,918 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 5] Packager: Error handling default template. Default template with alias 'ScholarshipApplication' could not be found.
-2014-09-21 14:59:06,266 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling allowed templates. Template with alias 'TextPage' could not be found.
-2014-09-21 14:59:06,272 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling default template. Default template with alias 'TextPage' could not be found.
-2014-09-21 14:59:06,374 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling DocumentType structure. DocumentType with alias 'Event' could not be found and was not added to the structure for 'Textpage'.
-2014-09-21 14:59:06,374 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling DocumentType structure. DocumentType with alias 'SliderImage' could not be found and was not added to the structure for 'Textpage'.
-2014-09-21 14:59:06,374 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling DocumentType structure. DocumentType with alias 'ContentPageWithSlider' could not be found and was not added to the structure for 'Textpage'.
-2014-09-21 14:59:06,374 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling DocumentType structure. DocumentType with alias 'CalenderPage' could not be found and was not added to the structure for 'Textpage'.
-2014-09-21 14:59:06,374 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling DocumentType structure. DocumentType with alias 'ContactUsPage' could not be found and was not added to the structure for 'Textpage'.
-2014-09-21 14:59:06,374 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling DocumentType structure. DocumentType with alias 'EmploymentApplication' could not be found and was not added to the structure for 'Textpage'.
-2014-09-21 14:59:06,374 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling DocumentType structure. DocumentType with alias 'ScholarshipApplication' could not be found and was not added to the structure for 'Textpage'.
-2014-09-21 14:59:27,247 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling allowed templates. Template with alias 'CalenderPage' could not be found.
-2014-09-21 14:59:27,258 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling default template. Default template with alias 'CalenderPage' could not be found.
-2014-09-21 14:59:27,335 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling DocumentType structure. DocumentType with alias 'Event' could not be found and was not added to the structure for 'CalenderPage'.
-2014-09-21 14:59:42,827 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling allowed templates. Template with alias 'TextpageWithGallery' could not be found.
-2014-09-21 14:59:42,834 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling default template. Default template with alias 'TextpageWithGallery' could not be found.
-2014-09-21 14:59:42,893 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 21] Packager: Error handling DocumentType structure. DocumentType with alias 'SliderImage' could not be found and was not added to the structure for 'ContentPageWithSlider'.
-2014-09-21 15:00:09,548 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 16] Packager: Error handling allowed templates. Template with alias 'NewsAlertsMoreInformation' could not be found.
-2014-09-21 15:00:09,556 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 16] Packager: Error handling default template. Default template with alias 'NewsAlertsMoreInformation' could not be found.
-2014-09-21 15:00:09,851 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 16] Packager: Error handling DocumentType structure. DocumentType with alias 'Textpage' could not be found and was not added to the structure for 'NewsAlertsMoreInformation'.
-2014-09-21 15:12:31,648 [9] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
-2014-09-21 15:12:31,682 [9] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 34ms)
-2014-09-21 17:44:10,754 [9] INFO  umbraco.BasePages.BasePage - [Thread 14] User admin (Id: 0) logged in
-2014-09-21 18:01:50,545 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling allowed templates. Template with alias 'Homepage' could not be found.
-2014-09-21 18:01:50,554 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling allowed templates. Template with alias 'EmploymentApplication' could not be found.
-2014-09-21 18:01:50,577 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling default template. Default template with alias 'Homepage' could not be found.
-2014-09-21 18:01:51,584 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling DocumentType structure. DocumentType with alias 'Textpage' could not be found and was not added to the structure for 'Homepage'.
-2014-09-21 18:01:51,584 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling DocumentType structure. DocumentType with alias 'Event' could not be found and was not added to the structure for 'Homepage'.
-2014-09-21 18:01:51,584 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling DocumentType structure. DocumentType with alias 'SliderImage' could not be found and was not added to the structure for 'Homepage'.
-2014-09-21 18:01:51,584 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling DocumentType structure. DocumentType with alias 'ContentPageWithSlider' could not be found and was not added to the structure for 'Homepage'.
-2014-09-21 18:01:51,584 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling DocumentType structure. DocumentType with alias 'Article' could not be found and was not added to the structure for 'Homepage'.
-2014-09-21 18:01:51,584 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling DocumentType structure. DocumentType with alias 'ArticleSummary' could not be found and was not added to the structure for 'Homepage'.
-2014-09-21 18:01:51,584 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling DocumentType structure. DocumentType with alias 'CalenderPage' could not be found and was not added to the structure for 'Homepage'.
-2014-09-21 18:01:51,584 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling DocumentType structure. DocumentType with alias 'ContactUsPage' could not be found and was not added to the structure for 'Homepage'.
-2014-09-21 18:01:51,584 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 20] Packager: Error handling DocumentType structure. DocumentType with alias 'NewsAlertsMoreInformation' could not be found and was not added to the structure for 'Homepage'.
-2014-09-21 18:05:21,283 [9] WARN  Umbraco.Web.UmbracoModule - [Thread 20] Umbraco has no content
-2014-09-21 18:07:38,299 [9] WARN  Umbraco.Web.UmbracoModule - [Thread 20] Umbraco has no content
-2014-09-21 18:11:35,827 [9] INFO  umbraco.cms.businesslogic.web.Document - [Thread 14] New document 1112
-2014-09-21 18:12:26,567 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Home' with Id '1112' has been published.
-2014-09-21 18:26:26,338 [9] INFO  umbraco.content - [Thread 28] Loading content from database...
-2014-09-21 20:05:58,851 [9] INFO  umbraco.BasePages.BasePage - [Thread 17] User admin (Id: 0) logged in
-2014-09-21 20:25:23,137 [9] INFO  Umbraco.Core.Services.ContentService - [Thread 21] Content 'Home' with Id '1112' could not be published because of invalid properties.
-2014-09-21 20:27:31,902 [9] INFO  Umbraco.Core.Services.ContentService - [Thread 13] Content 'Home' with Id '1112' could not be published because of invalid properties.
-2014-09-21 20:27:42,078 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Home' with Id '1112' has been published.
-2014-09-21 20:36:39,877 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Home' with Id '1112' has been published.
-2014-09-21 20:42:39,415 [9] WARN  Umbraco.Core.Services.PackagingService - [Thread 15] Packager: Error handling DocumentType structure. DocumentType with alias 'HomepageResourceLink' could not be found and was not added to the structure for 'Resources'.
-2014-09-21 20:43:34,562 [9] INFO  umbraco.cms.businesslogic.web.Document - [Thread 36] New document 1119
-2014-09-21 20:43:42,347 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Our Sponsers' with Id '1119' has been published.
+2014-09-21 13:06:25,002 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-09-21 13:06:25,013 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2014-09-21 13:06:25,013 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-09-21 13:06:25,154 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 129ms)
+2014-09-21 13:06:25,169 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-09-21 13:06:25,169 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2014-09-21 13:06:25,169 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-09-21 13:06:25,169 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+2014-09-21 13:06:25,169 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-09-21 13:06:25,169 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 2ms)
+2014-09-21 13:06:25,169 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-09-21 13:06:25,185 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2014-09-21 13:06:25,185 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-09-21 13:06:25,185 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2014-09-21 13:06:26,794 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-09-21 13:06:26,794 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-09-21 13:06:26,794 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-09-21 13:06:26,810 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2014-09-21 13:06:26,872 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-09-21 13:06:27,310 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 442ms)
+2014-09-21 13:06:27,482 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2014-09-21 13:06:27,951 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-09-21 13:06:27,951 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2014-09-21 13:06:31,247 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-09-21 13:06:31,247 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2014-09-21 13:06:31,357 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.interfaces.IDataType
+2014-09-21 13:06:31,544 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 186ms)
+2014-09-21 13:06:31,560 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.interfaces.ITree
+2014-09-21 13:06:31,576 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 19ms)
+2014-09-21 13:06:31,591 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-09-21 13:06:31,591 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 4ms)
+2014-09-21 13:06:36,232 [7] INFO  umbraco.BasePages.BasePage - [Thread 12] User admin (Id: 0) logged in
+2014-09-21 13:06:36,591 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-09-21 13:06:36,591 [7] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2014-09-21 16:22:18,611 [7] INFO  umbraco.BasePages.BasePage - [Thread 79] User admin (Id: 0) logged in
+2014-09-21 18:40:19,267 [7] INFO  umbraco.BasePages.BasePage - [Thread 29] User admin (Id: 0) logged in
+2014-09-21 18:40:19,314 [7] INFO  umbraco.BasePages.BasePage - [Thread 5] User admin (Id: 0) logged in

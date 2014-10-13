@@ -4,28 +4,25 @@
 @{ 
 	@*Get the root of the website *@
     var root = Model.AncestorOrSelf(1);
-    var slides = root.Descendants("HomepageSliderImage");
+	var slides = root.Children.Where("nodeTypeAlias = \"HomepageSliderImage\"");
 }
-@if (slides.Count() > 0)
-{
+@if(slides.Count() > 0){
 		<div class="flexslider-container">
 					<div id="slider" class="flexslider">
 						<ul class="slides">
-							@foreach (var s in slides)
-       {
+							@foreach(var s in slides){
 								<li>
-						      	<img src="@Model.MediaById(s.sliderImage).umbracoFile" alt="@s.Name" />
-									@if (!string.IsNullOrEmpty(s.caption))
-         {	<p class="flex-caption">
+						      	<img src="@("/dakota/" + Model.MediaById(s.sliderImage).umbracoFile)" alt="@s.Name" />
+									@if(! string.IsNullOrEmpty(s.caption))
+									{	<p class="flex-caption">
 											@Html.Raw(s.caption)
 										</p>
-         }
+									}
 						    </li>
-       }
+							}
 							
 							</ul>
 		</div>
 							</div>
 							
 }
-

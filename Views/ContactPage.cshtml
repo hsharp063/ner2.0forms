@@ -1,0 +1,45 @@
+﻿@*
+    Text page layout.
+*@
+@inherits UmbracoTemplatePage
+@{
+    Layout = "_uBlogsyBaseSite.cshtml";
+}
+
+@section uBlogsyHead{
+     <link type="text/css" rel="Stylesheet" media="screen" href="/css/uBlogsy.css" />
+
+}
+
+@section uBlogsyMain
+{
+    <div class="page_wrapper">
+        <section class="container">
+			<div id="about" class="page with_sidebar">
+				  <h1>@Umbraco.Field("uBlogsyContentTitle")
+            </h1>
+				<div class="full">
+					@Html.Raw(library.RenderMacroContent(Umbraco.Field("uBlogsyContentBody").ToString(), Model.Content.Id))
+
+					</div>
+			</div>
+ 		   <aside>
+				<div id="sidebar">
+						
+					<div class="widget">
+						<h5>Recent Posts</h5>
+						  @Html.CachedPartial("uBlogsy/Widgets/uBlogsyWidgetListPosts", Model, 0, false, true, new ViewDataDictionary(ViewData) { { "ItemLimit", 5 } })
+					</div>
+					
+					
+					<div class="widget">
+						@Umbraco.RenderMacro("HomepageSponsers")
+						
+					</div>	
+					
+						
+				</div>
+			</aside>
+        </section>
+    </div>
+}

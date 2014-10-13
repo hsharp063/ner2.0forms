@@ -1,0 +1,24 @@
+2014-10-08 16:17:18,161 [7] INFO  umbraco.BusinessLogic.Log - [Thread 93] Log scrubbed.  Removed all items older than 2014-08-09 16:17:17
+2014-10-08 17:41:58,970 [7] INFO  umbraco.BasePages.BasePage - [Thread 83] User admin (Id: 0) logged in
+2014-10-08 17:41:59,314 [7] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-10-08 17:41:59,314 [7] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2014-10-08 17:45:16,959 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'About' with Id '1172' has been published.
+2014-10-08 17:45:17,257 [7] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-10-08 17:45:17,271 [7] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2014-10-08 17:49:43,076 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content 'Events' with Id '1183' has been published.
+2014-10-08 17:51:20,329 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Events' with Id '1183' has been published.
+2014-10-08 17:51:31,908 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content 'Events' with Id '1183' has been published.
+2014-10-08 17:52:11,783 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Board Meeting' with Id '1185' has been published.
+2014-10-08 17:52:50,912 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 21] New document 1384
+2014-10-08 17:54:12,384 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Quarterly Squad Leaders Meeting' with Id '1384' has been published.
+2014-10-08 18:10:28,016 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Alano Board' with Id '1259' has been published.
+2014-10-08 18:13:46,364 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content 'Alano Board' with Id '1259' has been published.
+2014-10-08 18:20:11,374 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content 'Document Archive' with Id '1310' has been published.
+2014-10-08 18:21:29,844 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content 'Document Archive' with Id '1310' has been published.
+2014-10-08 18:24:16,109 [7] INFO  Umbraco.Core.PluginManager - [Thread 35] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-10-08 18:24:16,109 [7] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 7ms)
+2014-10-08 18:24:22,109 [7] INFO  Umbraco.Core.PluginManager - [Thread 92] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2014-10-08 18:24:22,109 [7] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 4ms)
+2014-10-08 18:24:22,281 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 92] Success uploading to parent 1288
+2014-10-08 18:24:42,985 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Document Archive' with Id '1310' has been published.
+2014-10-08 18:24:51,079 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content 'Document Archive' with Id '1310' has been published.

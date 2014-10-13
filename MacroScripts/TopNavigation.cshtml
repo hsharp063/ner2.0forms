@@ -8,9 +8,10 @@
 
 <nav>
 	<ul>
-		@foreach (var page in root.Children.Where("Visible"))
+		<li><a href="/">Home</a></li>
+		@foreach (var page in root.Children.Where("Visible && (nodeTypeAlias == \"Homepage\" || nodeTypeAlias == \"CalenderPage\" || nodeTypeAlias == \"ContactUsPage\" || nodeTypeAlias == \"TextPage\" || nodeTypeAlias == \"NewsEventPage\" || nodeTypeAlias == \"uBlogsyLanding\") "))
 		{ 
-			var childPages = page.Children.Where("Visible");
+			var childPages = page.Children.Where("Visible && (nodeTypeAlias == \"Homepage\" || nodeTypeAlias == \"CalenderPage\" || nodeTypeAlias == \"ContactUsPage\" || nodeTypeAlias == \"TextPage\" || nodeTypeAlias == \"NewsEventPage\" || nodeTypeAlias == \"uBlogsyLanding\" )");
 			<li class="@page.IsAncestorOrSelf(Model, "current-menu-item", "")">
 				<a href="@page.Url">@page.navigationTitle</a>
 				@if(childPages.Count() > 0){

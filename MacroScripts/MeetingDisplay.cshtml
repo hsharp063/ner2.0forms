@@ -1,0 +1,141 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+    Macro parameter to be set on the macro
+    Show:True   Alias:propertyAlias     Name:Property Alias    Type:Textstring
+*@   
+
+
+@{
+    
+    @* Get the property alias we want to filter on from the macro parameter *@
+    var meetings = Model.Children();
+	List<string> days = new List<string>(); 
+	List<string> programs = new List<string>();
+	List<string> openClosed = new List<string>();
+	
+	foreach(var m in meetings){
+		if(!days.Contains(m.dayOfTheWeek)){
+			days.Add(m.dayOfTheWeek);
+		}
+		
+		if(!programs.Contains(m.program)){
+			programs.Add(m.program);
+		}
+		
+		if(!openClosed.Contains(umbraco.library.GetPreValueAsString(m.access))){
+			openClosed.Add(umbraco.library.GetPreValueAsString(m.access));
+		}
+	}
+}
+
+<!-- Start Event List -->
+<div id="meetings_list" class="page">
+				
+	@Model.textOnTop
+	<h1>Meetings</h1>
+	<div class="row">
+		<div class="one_third">
+			<h4>Day / Time</h4>
+			@if(days.Count() > 1){
+				<select id="daysofweekfilter">
+					<option value="all">Show All</option>
+					@foreach(var d in days){
+						<option value="@d">@d</option>
+					}
+				</select>
+			}
+		</div>
+		<div class="one_third"><h4>Program</h4>
+			@if(programs.Count() > 1){
+				<select id="programfilter">
+					<option value="all">Show All</option>
+					@foreach(var p in programs){
+						<option value="@p">@p</option>
+					}
+				</select>
+			}
+		</div>
+		<div class="one_third column_last"><h4>Details</h4>
+			@if(openClosed.Count() > 1){
+				<select id="openfilter">
+					<option value="all">Show All</option>
+					@foreach(var o in openClosed){
+						<option value="@o">@o</option>
+					}
+				</select>
+			}
+		</div>
+		<div class="clear"></div>
+	</div>
+    @foreach (var m in meetings)
+    { 
+		<div class="row @umbraco.library.GetPreValueAsString(m.access) @m.dayOfTheWeek @m.program">
+		<div class="one_third">@m.dayOfTheWeek @m.time</div>
+		<div class="one_third">@m.program</div>
+		<div class="one_third column_last">@umbraco.library.GetPreValueAsString(m.access) @umbraco.library.GetPreValueAsString(m.audience) @m.shortDescription</div>
+    	<div class="clear"></div>
+			</div>
+	}
+
+</div>
+<script type="text/javascript">
+	$('#openfilter').change(function(){
+		updateByFilters();
+	});
+		
+	$('#programfilter').change(function(){
+		updateByFilters();
+	});
+
+	$('#daysofweekfilter').change(function(){
+		updateByFilters();
+	});
+	
+	function showAll(){
+		$('.row').show();
+	}
+
+	function updateByFilters(){
+		showAll();
+		var programval = $('#programfilter').val();
+		var dayval = $('#daysofweekfilter').val();
+		var openval = $('#openfilter').val();
+		
+		if(programval != "all" && programval != null){
+			var programs = ["AA","Al-Anon","ACOA", "NA"];
+			programs = removeA(programs, programval);
+			hideRows(programs);
+		}
+		
+		if(dayval != "all" && dayval != null){
+			var days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+			days = removeA(days, dayval);
+			hideRows(days);
+		}
+		
+		if(openval != "all" && openval != null){
+			var open = ["Open","Closed"];
+			open = removeA(open, openval);
+			hideRows(open);
+		}
+	}
+
+function hideRows(arr){
+	for(var i = 0; i < arr.length; i ++){
+		$('.' + arr[i]).hide();
+	}
+}
+
+function removeA(arr) {
+    var what, a = arguments, L = a.length, ax;
+    while (L > 1 && arr.length) {
+        what = a[--L];
+        while ((ax= arr.indexOf(what)) !== -1) {
+            arr.splice(ax, 1);
+        }
+    }
+    return arr;
+}
+	
+</script>

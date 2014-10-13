@@ -1,0 +1,13 @@
+2014-06-08 14:48:30,347 [12] INFO  umbraco.BusinessLogic.Log - [Thread 37] Log scrubbed.  Removed all items older than 2014-04-09 14:48:30
+2014-06-08 14:48:32,111 [26] ERROR umbraco.BusinessLogic.Log - [Thread 33] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146

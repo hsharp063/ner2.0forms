@@ -1,0 +1,51 @@
+2014-06-19 07:30:17,880 [25] ERROR umbraco.BusinessLogic.Log - [Thread 77] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146
+2014-06-19 07:30:18,264 [25] ERROR umbraco.BusinessLogic.Log - [Thread 72] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146
+2014-06-19 07:46:54,351 [25] INFO  umbraco.BusinessLogic.Log - [Thread 5] Log scrubbed.  Removed all items older than 2014-04-20 07:46:54
+2014-06-19 13:02:01,824 [25] ERROR umbraco.BusinessLogic.Log - [Thread 51] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146
+2014-06-19 13:02:03,782 [25] ERROR umbraco.BusinessLogic.Log - [Thread 6] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146
+2014-06-19 14:12:05,994 [25] INFO  umbraco.BusinessLogic.Log - [Thread 55] Log scrubbed.  Removed all items older than 2014-04-20 14:12:05
+2014-06-19 14:12:08,084 [25] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 55] Application shutdown. Reason: ConfigurationChange

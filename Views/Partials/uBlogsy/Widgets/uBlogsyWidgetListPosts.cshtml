@@ -1,0 +1,100 @@
+﻿@*
+    Lists posts.
+*@
+
+@using System.Linq
+@using uBlogsy.BusinessLogic
+@using uHelpsy.Extensions
+@inherits UmbracoTemplatePage
+@{
+    const int ITEMS_PER_PAGE = 20; // for testing
+
+    // image settings
+    const string defaultImage = null; // change this if want a default image. eg "http://placekitten.com/25/25/", else make it null (no "")
+    const int imageHieght = -1; // -1 if no height specified
+    const int imageWidth = 300;
+
+    // get item count
+    var itemLimit = (int)ViewData["ItemLimit"];
+    var landing = GetLanding();
+    
+    var nodes = PostService.Instance.GetPosts(landing).Take(itemLimit).ToIPublishedContent(true);
+
+    @RenderForWidget(nodes, imageHieght, imageWidth, defaultImage)
+}
+
+
+
+
+@helper RenderForWidget(IEnumerable<IPublishedContent> nodes, int imageHieght, int imageWidth, string defaultImage)
+    {
+    <div class="bloglist">
+        <ul>
+            @foreach (var n in nodes)
+            {
+                <li><a href="@n.Url()" title="@n.GetPropertyValue("uBlogsyNavigationTitle")">@RenderPostImage(n, imageHieght, imageWidth, defaultImage)
+                        <span>@n.GetPropertyValue("uBlogsyNavigationTitle")</span>
+                    </a> - <span>@(n.GetPropertyValue<DateTime>("uBlogsyPostDate").ToString("d MMMM yyyy"))</span>
+                </li>
+            }
+        </ul>
+    </div>
+}
+
+
+@functions {
+
+    /// <summary>
+    /// Gets landing node. 
+    /// First try to get it from siblings of this node. Then checks descendents of parent.
+    /// </summary>
+    /// <returns></returns>
+    IPublishedContent GetLanding()
+    {
+        var landing = Model.Content.Sibling("uBlogsyLanding");
+
+        if (landing == null)
+        {
+            var startNode = this.Model.Content.Parent ?? this.Model.Content;
+            try{
+                landing = startNode.DescendentsOrSelf("uBlogsyLanding", new[] { "uBlogsyLanding", "uBlogsyPage", "uTagsyTagContainer", "uCommentsyConfiguration", "uCommentsyContainerComment", "uCommentsyComment" }).First();
+            }catch(Exception ex){
+                landing = Model.Content;
+            }
+            
+        }
+
+        return landing;
+    }
+}
+
+
+
+
+@helper RenderPostImage(IPublishedContent node, int imageHieght, int imageWidth, string defaultImage)
+    {
+    var imageId = node.GetPropertyValue<string>("uBlogsyPostImage");
+
+    if (string.IsNullOrWhiteSpace(imageId) && string.IsNullOrWhiteSpace(defaultImage))
+    {
+        // no property or default so do nothing
+        return;
+    }
+
+    var viewData = new ViewDataDictionary(ViewData)
+             {
+                 {"Alias", "uBlogsyPostImage"},
+                 {"Suffix", ""},
+                 {"Height", imageHieght},
+                 {"Width", imageWidth},
+                 {"CssClass", "uBlogsy_post_image"},
+                 {"Title", "Main Image"},
+                 {"Map", string.Empty },
+                 {"DefaultImage", defaultImage}
+             };
+    if (!viewData.ContainsKey("Node")) { viewData.Add("Node", node); }
+
+    <figure class="uBlogsy_post_list_image">
+        @Html.Partial("~/Views/Partials/uBlogsy/Shared/uBlogsyShowImage.cshtml", viewData)     
+    </figure>
+}

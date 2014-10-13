@@ -1,0 +1,12 @@
+﻿@using System.Linq
+@using uBlogsy.Common.Extensions
+@using uBlogsy.BusinessLogic
+@using uHelpsy.Extensions
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+
+@using (Html.BeginUmbracoForm<ContactFormSurfaceController>("SubmitForm"))
+{
+    @Html.EditorFor(x => Model)
+    <input type="submit"/>
+}

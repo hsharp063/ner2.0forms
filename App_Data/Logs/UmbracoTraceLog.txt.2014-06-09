@@ -1,0 +1,156 @@
+2014-06-09 21:04:47,375 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-06-09 21:04:47,402 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 18ms)
+2014-06-09 21:04:47,425 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-06-09 21:04:48,549 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 1121ms)
+2014-06-09 21:04:48,670 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-06-09 21:04:48,697 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 26ms)
+2014-06-09 21:04:48,705 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-06-09 21:04:48,732 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 26ms)
+2014-06-09 21:04:48,732 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-06-09 21:04:48,768 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 35ms)
+2014-06-09 21:04:48,779 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-06-09 21:04:48,806 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 26ms)
+2014-06-09 21:04:48,806 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-06-09 21:04:48,826 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 19ms)
+2014-06-09 21:04:50,037 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-06-09 21:04:52,229 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-06-09 21:04:52,241 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-06-09 21:04:52,276 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 34ms)
+2014-06-09 21:04:52,674 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-06-09 21:04:52,768 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 93ms)
+2014-06-09 21:04:55,272 [8] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2014-06-09 21:04:55,936 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-06-09 21:04:55,956 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 19ms)
+2014-06-09 21:07:54,427 [8] INFO  umbraco.BasePages.BasePage - [Thread 5] User admin (Id: 0) logged in
+2014-06-09 21:07:54,604 [8] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-06-09 21:07:54,624 [8] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 20ms)
+2014-06-09 21:07:54,772 [8] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2014-06-09 21:07:54,830 [8] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 58ms)
+2014-06-09 21:22:07,619 [8] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-06-09 21:22:07,640 [8] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 20ms)
+2014-06-09 21:28:14,659 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-06-09 21:28:14,695 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 35ms)
+2014-06-09 21:29:17,143 [8] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 34] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): A space or line break was encountered after the "@" character.  Only valid identifiers, keywords, comments, "(" and "{" are valid at the start of a code block and they must occur immediately following "@" with no space in between.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass1.<FindPartialView>b__0()
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.<>c__DisplayClass1.<CachedPartialView>b__0()
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem, Object syncLock)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.CacheHelper.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, TimeSpan timeout, Func`1 getCacheItem)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData)
+   at ASP._Page_Views_uBlogsySiteHome_cshtml.<Execute>b__2() in c:\Users\hilary\sites\dakotaalano\dakotaalano\Views\uBlogsySiteHome.cshtml:line 36
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClassb.<RenderSection>b__9(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views__uBlogsyBaseSite_cshtml.<Execute>b__0() in c:\Users\hilary\sites\dakotaalano\dakotaalano\Views\_uBlogsyBaseSite.cshtml:line 55
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClassb.<RenderSection>b__9(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views__uBlogsyBase_cshtml.Execute() in c:\Users\hilary\sites\dakotaalano\dakotaalano\Views\_uBlogsyBase.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-06-09 21:29:59,569 [8] INFO  umbraco.BusinessLogic.Log - [Thread 36] Log scrubbed.  Removed all items older than 2014-04-10 21:29:59
+2014-06-09 21:29:59,578 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 36] Application shutdown. Reason: ConfigurationChange
+2014-06-09 21:30:03,103 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Determining hash of code files on disk
+2014-06-09 21:30:03,120 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Hash determined (took 12ms)
+2014-06-09 21:30:03,141 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-06-09 21:30:03,443 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 300ms)
+2014-06-09 21:30:03,472 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-06-09 21:30:03,492 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 19ms)
+2014-06-09 21:30:03,496 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-06-09 21:30:03,512 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 16ms)
+2014-06-09 21:30:03,513 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-06-09 21:30:03,527 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 14ms)
+2014-06-09 21:30:03,529 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-06-09 21:30:03,550 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 21ms)
+2014-06-09 21:30:03,551 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-06-09 21:30:03,573 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 21ms)
+2014-06-09 21:30:03,837 [17] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 9] Initializing Examine and binding to business logic events
+2014-06-09 21:30:04,571 [17] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 9] Adding examine event handlers for index providers: 3
+2014-06-09 21:30:04,586 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IApplication
+2014-06-09 21:30:04,615 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 28ms)
+2014-06-09 21:30:04,686 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2014-06-09 21:30:04,734 [17] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 48ms)
+2014-06-09 21:30:05,018 [17] INFO  umbraco.content - [Thread 34] Loading content from disk cache...
+2014-06-09 21:30:05,190 [17] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-06-09 21:30:05,222 [17] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 31ms)
+2014-06-09 21:30:46,551 [17] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-06-09 21:30:46,596 [17] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 44ms)
+2014-06-09 21:30:46,702 [17] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2014-06-09 21:30:46,803 [17] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 100ms)
+2014-06-09 21:30:46,978 [17] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-06-09 21:30:47,001 [17] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 23ms)

@@ -1,0 +1,24 @@
+2014-06-08 12:52:04,488 [26] ERROR umbraco.BusinessLogic.Log - [Thread 27] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146
+2014-06-08 12:52:04,504 [26] ERROR umbraco.BusinessLogic.Log - [Thread 13] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146

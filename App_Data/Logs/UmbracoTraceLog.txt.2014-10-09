@@ -1,0 +1,9 @@
+2014-10-09 16:17:18,882 [7] INFO  umbraco.BusinessLogic.Log - [Thread 111] Log scrubbed.  Removed all items older than 2014-08-10 16:17:18
+2014-10-09 18:15:42,275 [7] INFO  umbraco.BasePages.BasePage - [Thread 93] User admin (Id: 0) logged in
+2014-10-09 18:18:14,215 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 93] New document 1386
+2014-10-09 18:19:12,465 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content 'Mnpls Intergroup' with Id '1386' has been published.
+2014-10-09 18:25:31,832 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 110] Content 'Contact Us' with Id '1224' has been published.
+2014-10-09 18:26:05,316 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 119] Content 'Contact Us' with Id '1224' has been published.
+2014-10-09 18:26:26,082 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 119] Content 'Contact Us' with Id '1224' has been published.
+2014-10-09 18:26:55,816 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 118] Content 'Dakota Alano' with Id '1159' has been published.
+2014-10-09 18:28:34,963 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 120] Content 'Alano Board' with Id '1259' has been published.

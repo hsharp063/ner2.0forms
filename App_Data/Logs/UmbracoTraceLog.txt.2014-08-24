@@ -1,0 +1,1439 @@
+2014-08-24 08:22:54,350 [8] INFO  umbraco.BusinessLogic.Log - [Thread 17] Log scrubbed.  Removed all items older than 2014-06-25 08:22:54
+2014-08-24 08:25:21,621 [8] INFO  umbraco.BasePages.BasePage - [Thread 13] User admin (Id: 0) logged in
+2014-08-24 08:46:46,389 [8] WARN  umbraco.macro - [Thread 34] Error loading MacroEngine script (file: homepageSponsers.cshtml, Type: ''. Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'umbraco.MacroEngines.DynamicNodeList' does not contain a definition for 'getAt'
+   at CallSite.Target(Closure , CallSite , Object , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_macroScripts_homepageSponsers_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\MacroScripts\homepageSponsers.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-24 08:46:58,210 [8] WARN  umbraco.macro - [Thread 13] Error loading MacroEngine script (file: homepageSponsers.cshtml, Type: ''. Exception: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'umbraco.MacroEngines.DynamicNodeList' does not contain a definition for 'getAt'
+   at CallSite.Target(Closure , CallSite , Object , Int32 )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_macroScripts_homepageSponsers_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\MacroScripts\homepageSponsers.cshtml:line 11
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy(IEnumerable`1 executors)
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at umbraco.MacroEngines.RazorMacroEngine.ExecuteRazor(MacroModel macro, INode currentPage)
+   at umbraco.MacroEngines.RazorMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-24 08:59:33,964 [8] INFO  umbraco.BusinessLogic.Log - [Thread 17] Log scrubbed.  Removed all items older than 2014-06-25 08:59:33
+2014-08-24 08:59:34,135 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 17] Application shutdown. Reason: MaxRecompilationsReached
+2014-08-24 08:59:43,429 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-08-24 08:59:43,477 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 40ms)
+2014-08-24 08:59:43,487 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-24 08:59:44,150 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 663ms)
+2014-08-24 08:59:44,215 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-24 08:59:44,232 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+2014-08-24 08:59:44,232 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-24 08:59:44,249 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 16ms)
+2014-08-24 08:59:44,249 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-24 08:59:44,266 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 16ms)
+2014-08-24 08:59:44,328 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-24 08:59:44,343 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 14ms)
+2014-08-24 08:59:44,344 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-24 08:59:44,358 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 14ms)
+2014-08-24 08:59:44,942 [54] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-08-24 08:59:45,936 [54] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-08-24 08:59:46,007 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-24 08:59:46,202 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 195ms)
+2014-08-24 08:59:46,314 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-08-24 08:59:46,376 [54] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 61ms)
+2014-08-24 08:59:47,446 [54] INFO  umbraco.content - [Thread 50] Loading content from disk cache...
+2014-08-24 08:59:47,697 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-24 08:59:47,762 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 64ms)
+2014-08-24 08:59:49,561 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-24 08:59:49,578 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 16ms)
+2014-08-24 08:59:49,947 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-24 08:59:49,989 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 42ms)
+2014-08-24 08:59:49,999 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of umbraco.interfaces.ITree
+2014-08-24 08:59:50,047 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 47ms)
+2014-08-24 08:59:50,070 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-24 08:59:50,088 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 17ms)
+2014-08-24 09:30:01,304 [54] INFO  umbraco.cms.businesslogic.web.Document - [Thread 24] New document 1218
+2014-08-24 09:30:01,310 [54] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-08-24 09:30:01,332 [54] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 21ms)
+2014-08-24 09:30:42,832 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-24 09:30:42,873 [54] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 40ms)
+2014-08-24 09:30:57,108 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content 'District 19' with Id '1218' has been published.
+2014-08-24 09:36:53,369 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'aastpaul' with Id '1213' has been published.
+2014-08-24 09:40:30,562 [54] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-08-24 09:40:30,593 [54] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 30ms)
+2014-08-24 09:43:46,163 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'Acoa' with Id '1216' has been published.
+2014-08-24 09:43:46,163 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'aastpaul' with Id '1213' has been published.
+2014-08-24 09:43:46,163 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'Alanon' with Id '1214' has been published.
+2014-08-24 09:44:05,325 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'aastpaul' with Id '1213' has been published.
+2014-08-24 09:44:05,325 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Acoa' with Id '1216' has been published.
+2014-08-24 09:46:25,461 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Acoa' with Id '1216' has been published.
+2014-08-24 09:46:25,461 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'aastpaul' with Id '1213' has been published.
+2014-08-24 10:32:09,137 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,163 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,216 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,240 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,310 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,325 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,366 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,393 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,463 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,479 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,513 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:09,538 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 50] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,646 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,666 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,694 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,733 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,764 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,778 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,802 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,816 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,838 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,854 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,878 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:32:18,892 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 19] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:32,926 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:32,977 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,018 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,034 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,057 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,072 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,103 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,127 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,151 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,166 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,194 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:36:33,209 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 6] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:07,836 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:07,856 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:07,886 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:07,902 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:07,930 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:07,947 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:07,972 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:07,985 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:08,019 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:08,035 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:08,058 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:08,072 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:39:08,239 [54] INFO  Umbraco.Core.Services.ContentService - [Thread 7] Content 'Sample Site Root' with Id '1159' could not be published because of invalid properties.
+2014-08-24 10:40:40,360 [54] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 53] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\Partials\uBlogsy\Global\uBlogsyGlobalFooter.cshtml(55): error CS1502: The best overloaded method match for 'string.IsNullOrEmpty(string)' has some invalid arguments
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass1.<FindPartialView>b__0()
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.<>c__DisplayClass1.<CachedPartialView>b__0()
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem, Object syncLock)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.CacheHelper.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, TimeSpan timeout, Func`1 getCacheItem)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData)
+   at ASP._Page_Views__uBlogsyBaseSite_cshtml.<Execute>b__0() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBaseSite.cshtml:line 58
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClassb.<RenderSection>b__9(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views__uBlogsyBase_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBase.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-24 10:40:57,450 [54] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 6] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\Partials\uBlogsy\Global\uBlogsyGlobalFooter.cshtml(54): error CS0266: Cannot implicitly convert type 'object' to 'string'. An explicit conversion exists (are you missing a cast?)
+2014-08-24 10:40:57,458 [54] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 38] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\Partials\uBlogsy\Global\uBlogsyGlobalFooter.cshtml(54): error CS0266: Cannot implicitly convert type 'object' to 'string'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass1.<FindPartialView>b__0()
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.<>c__DisplayClass1.<CachedPartialView>b__0()
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem, Object syncLock)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.CacheHelper.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, TimeSpan timeout, Func`1 getCacheItem)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData)
+   at ASP._Page_Views__uBlogsyBaseSite_cshtml.<Execute>b__0() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBaseSite.cshtml:line 58
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClassb.<RenderSection>b__9(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views__uBlogsyBase_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBase.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-24 10:41:09,567 [54] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 53] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Partials_uBlogsy_Global_uBlogsyGlobalFooter_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\Partials\uBlogsy\Global\uBlogsyGlobalFooter.cshtml:line 54
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.<>c__DisplayClass1.<CachedPartialView>b__0()
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem, Object syncLock)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.CacheHelper.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, TimeSpan timeout, Func`1 getCacheItem)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData)
+   at ASP._Page_Views__uBlogsyBaseSite_cshtml.<Execute>b__0() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBaseSite.cshtml:line 58
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClassb.<RenderSection>b__9(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views__uBlogsyBase_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBase.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-24 10:41:46,417 [54] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 38] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\Partials\uBlogsy\Global\uBlogsyGlobalFooter.cshtml(54): error CS0266: Cannot implicitly convert type 'object' to 'string'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass1.<FindPartialView>b__0()
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.<>c__DisplayClass1.<CachedPartialView>b__0()
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem, Object syncLock)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.CacheHelper.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, TimeSpan timeout, Func`1 getCacheItem)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData)
+   at ASP._Page_Views__uBlogsyBaseSite_cshtml.<Execute>b__0() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBaseSite.cshtml:line 58
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClassb.<RenderSection>b__9(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views__uBlogsyBase_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBase.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-24 10:42:11,430 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,451 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,498 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,520 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,565 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,584 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,620 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,633 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,685 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,703 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,751 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:11,773 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 52] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,487 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,506 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,533 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,552 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,589 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,604 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,627 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,641 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,669 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,743 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,768 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,781 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:14,968 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Sample Site Root' with Id '1159' has been published.
+2014-08-24 10:42:33,763 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:33,785 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:33,843 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:33,870 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:33,916 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:33,933 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:33,969 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:33,983 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:34,424 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:34,460 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:34,516 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:34,536 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,517 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,533 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,561 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,582 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,609 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,625 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,651 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,667 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,696 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,710 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,736 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,752 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:39,907 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Sample Site Root' with Id '1159' has been published.
+2014-08-24 10:42:55,684 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,706 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,768 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,790 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,833 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,852 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,892 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,906 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,942 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,955 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:55,992 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:56,006 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:42:56,280 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Sample Site Root' with Id '1159' has been published.
+2014-08-24 10:43:55,960 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:55,983 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,020 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,032 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,065 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,084 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,134 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,160 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,199 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,214 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,250 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,263 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,402 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:43:56,422 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,214 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,232 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,259 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,276 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,302 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,314 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,343 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,371 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,400 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,418 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,462 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,516 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,607 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,622 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:01,747 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Sample Site Root' with Id '1159' has been published.
+2014-08-24 10:44:04,775 [54] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 6] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\Partials\uBlogsy\Global\uBlogsyGlobalFooter.cshtml(51): error CS0103: The name 'GetPropertyValue' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass1.<FindPartialView>b__0()
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.<>c__DisplayClass1.<CachedPartialView>b__0()
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem, Object syncLock)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.CacheHelper.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, TimeSpan timeout, Func`1 getCacheItem)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData)
+   at ASP._Page_Views__uBlogsyBaseSite_cshtml.<Execute>b__0() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBaseSite.cshtml:line 58
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClassb.<RenderSection>b__9(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views__uBlogsyBase_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBase.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-24 10:44:54,532 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,551 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,603 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,615 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,667 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,683 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,723 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,738 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,790 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,809 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,848 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:54,863 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:55,054 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:55,069 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:44:55,251 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Dakota Alano' with Id '1159' has been published.
+2014-08-24 10:59:51,303 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,320 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,355 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,370 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,403 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,420 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,455 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,468 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,505 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,525 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,566 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,582 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,712 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,726 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 10:59:51,897 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Dakota Alano' with Id '1159' has been published.
+2014-08-24 11:03:04,199 [54] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 38] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\Partials\uBlogsy\Global\uBlogsyGlobalFooter.cshtml(13): error CS1002: ; expected
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass1.<FindPartialView>b__0()
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.<>c__DisplayClass1.<CachedPartialView>b__0()
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem, Object syncLock)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.CacheHelper.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, TimeSpan timeout, Func`1 getCacheItem)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData)
+   at ASP._Page_Views__uBlogsyBaseSite_cshtml.<Execute>b__0() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBaseSite.cshtml:line 58
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClassb.<RenderSection>b__9(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views__uBlogsyBase_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBase.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-24 11:03:35,987 [54] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 6] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\Partials\uBlogsy\Global\uBlogsyGlobalFooter.cshtml(14): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'URL' and no extension method 'URL' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.FixedRazorViewEngine.Microsoft.Web.Mvc.IViewEngineProxy.FileExists(ControllerContext controllerContext, String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.<>c__DisplayClassb.<GetDisplayInfoForVirtualPath>b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.<>c__DisplayClass1.<FindPartialView>b__0()
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.Find(ControllerContext controllerContext, String name, Func`1 finder, Boolean isPartial)
+   at StackExchange.Profiling.MVCHelpers.ProfilingViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at Umbraco.Web.CacheHelperExtensions.<>c__DisplayClass1.<CachedPartialView>b__0()
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem, Object syncLock)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, CacheDependency cacheDependency, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.Cache.HttpRuntimeCacheProvider.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, Nullable`1 timeout, Func`1 getCacheItem)
+   at Umbraco.Core.CacheHelper.GetCacheItem[TT](String cacheKey, CacheItemPriority priority, CacheItemRemovedCallback refreshAction, TimeSpan timeout, Func`1 getCacheItem)
+   at Umbraco.Web.CacheHelperExtensions.CachedPartialView(CacheHelper cacheHelper, HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, String cacheKey, ViewDataDictionary viewData)
+   at Umbraco.Web.HtmlHelperRenderExtensions.CachedPartial(HtmlHelper htmlHelper, String partialViewName, Object model, Int32 cachedSeconds, Boolean cacheByPage, Boolean cacheByMember, ViewDataDictionary viewData)
+   at ASP._Page_Views__uBlogsyBaseSite_cshtml.<Execute>b__0() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBaseSite.cshtml:line 58
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClassb.<RenderSection>b__9(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views__uBlogsyBase_cshtml.Execute() in c:\Users\hilary\sites\DakotaAlano\DakotaAlano\Views\_uBlogsyBase.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-08-24 11:04:01,901 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:01,920 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:01,962 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:01,986 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,022 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,044 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,093 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,108 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,142 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,155 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,190 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,204 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,313 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,329 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 53] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:02,496 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Dakota Alano' with Id '1159' has been published.
+2014-08-24 11:04:07,956 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:07,974 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:11,912 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:11,931 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:12,047 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Contact' with Id '1173' has been published.
+2014-08-24 11:04:14,498 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:14,522 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 14] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:23,021 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:23,037 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 25] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:35,683 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:04:35,705 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 38] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:06:34,337 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:06:34,349 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 46] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:07:10,272 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:07:10,292 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:07:15,174 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:07:15,198 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 18] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 11:07:15,277 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Meetings' with Id '1204' has been published.
+2014-08-24 19:47:33,023 [54] INFO  umbraco.BasePages.BasePage - [Thread 7] User admin (Id: 0) logged in
+2014-08-24 19:47:33,023 [54] INFO  umbraco.BasePages.BasePage - [Thread 26] User admin (Id: 0) logged in
+2014-08-24 19:53:23,296 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 19:53:23,310 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 19:53:31,805 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 19:53:31,834 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:00:16,140 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 28] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:00:16,160 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 28] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:04:18,340 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 10] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:04:18,363 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 10] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:04:20,400 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 10] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:04:20,442 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 10] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:07:47,548 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 29] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:07:47,568 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 29] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:08:06,788 [54] INFO  umbraco.cms.businesslogic.web.Document - [Thread 31] New document 1224
+2014-08-24 20:08:07,576 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 31] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:08:07,605 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 31] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:08:54,862 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 10] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:08:54,887 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 10] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 20:08:55,024 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Contact Us' with Id '1224' has been published.
+2014-08-24 20:34:11,523 [54] WARN  umbraco.macro - [Thread 37] Error creating usercontrol (~/usercontrols/ContactForm.ascx). Exception: System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\UserControls\ContactForm.ascx.cs(47): error CS0103: The name 'subject' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at umbraco.macro.loadUserControl(String fileName, MacroModel model, Hashtable pageElements)
+2014-08-24 20:34:11,524 [54] WARN  umbraco.macro - [Thread 37] Error loading userControl (~/usercontrols/ContactForm.ascx). Exception: System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\UserControls\ContactForm.ascx.cs(47): error CS0103: The name 'subject' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at umbraco.macro.loadUserControl(String fileName, MacroModel model, Hashtable pageElements)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-24 20:35:03,129 [54] WARN  umbraco.macro - [Thread 37] Error creating usercontrol (~/usercontrols/ContactForm.ascx). Exception: System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\UserControls\ContactForm.ascx.cs(47): error CS0103: The name 'subject' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at umbraco.macro.loadUserControl(String fileName, MacroModel model, Hashtable pageElements)
+2014-08-24 20:35:03,129 [54] WARN  umbraco.macro - [Thread 37] Error loading userControl (~/usercontrols/ContactForm.ascx). Exception: System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\UserControls\ContactForm.ascx.cs(47): error CS0103: The name 'subject' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at umbraco.macro.loadUserControl(String fileName, MacroModel model, Hashtable pageElements)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-24 20:35:46,958 [54] WARN  umbraco.macro - [Thread 32] Error creating usercontrol (~/usercontrols/ContactForm.ascx). Exception: System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\UserControls\ContactForm.ascx.cs(99): error CS0103: The name 'subject' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at umbraco.macro.loadUserControl(String fileName, MacroModel model, Hashtable pageElements)
+2014-08-24 20:35:46,958 [54] WARN  umbraco.macro - [Thread 32] Error loading userControl (~/usercontrols/ContactForm.ascx). Exception: System.Web.HttpCompileException (0x80004005): c:\Users\hilary\sites\DakotaAlano\DakotaAlano\UserControls\ContactForm.ascx.cs(99): error CS0103: The name 'subject' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at umbraco.macro.loadUserControl(String fileName, MacroModel model, Hashtable pageElements)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2014-08-24 21:22:26,010 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:22:26,026 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:23:40,588 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:23:40,606 [54] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:23:40,743 [54] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Contact Us' with Id '1224' has been published.
+2014-08-24 21:23:42,184 [54] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 8] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2014-08-24 21:39:21,875 [54] INFO  umbraco.BusinessLogic.Log - [Thread 7] Log scrubbed.  Removed all items older than 2014-06-25 21:39:21
+2014-08-24 21:39:22,180 [54] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 7] Application shutdown. Reason: MaxRecompilationsReached
+2014-08-24 21:39:42,842 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Determining hash of code files on disk
+2014-08-24 21:39:42,865 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Hash determined (took 13ms)
+2014-08-24 21:39:42,912 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-08-24 21:39:44,750 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 1835ms)
+2014-08-24 21:39:44,931 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-08-24 21:39:44,974 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 42ms)
+2014-08-24 21:39:44,977 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-08-24 21:39:45,007 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 30ms)
+2014-08-24 21:39:45,008 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-08-24 21:39:45,088 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 80ms)
+2014-08-24 21:39:45,106 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-08-24 21:39:45,125 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 19ms)
+2014-08-24 21:39:45,125 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-08-24 21:39:45,143 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 17ms)
+2014-08-24 21:39:46,501 [19] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 17] Initializing Examine and binding to business logic events
+2014-08-24 21:39:49,543 [19] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 17] Adding examine event handlers for index providers: 3
+2014-08-24 21:39:49,563 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.interfaces.IApplication
+2014-08-24 21:39:49,606 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 43ms)
+2014-08-24 21:39:49,823 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.interfaces.ITree
+2014-08-24 21:39:49,905 [19] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 82ms)
+2014-08-24 21:39:53,039 [19] INFO  umbraco.content - [Thread 41] Loading content from disk cache...
+2014-08-24 21:39:54,892 [19] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-08-24 21:39:55,024 [19] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 131ms)
+2014-08-24 21:39:56,650 [19] INFO  Umbraco.Core.PluginManager - [Thread 35] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-08-24 21:39:56,670 [19] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 19ms)
+2014-08-24 21:39:56,728 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Contact' with Id '1173' has been unpublished.
+2014-08-24 21:39:57,526 [19] INFO  Umbraco.Core.PluginManager - [Thread 35] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-08-24 21:39:57,597 [19] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 70ms)
+2014-08-24 21:39:57,897 [19] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.interfaces.IDataType
+2014-08-24 21:39:57,968 [19] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 70ms)
+2014-08-24 21:39:57,980 [19] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.interfaces.ITree
+2014-08-24 21:39:58,031 [19] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 51ms)
+2014-08-24 21:39:58,436 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 24] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:39:58,459 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 24] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:40:05,257 [19] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-08-24 21:40:05,326 [19] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 68ms)
+2014-08-24 21:40:06,151 [19] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-08-24 21:40:06,186 [19] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 34ms)
+2014-08-24 21:44:04,900 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 9] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:44:04,926 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 9] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:45:19,095 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Author 1' with Id '1164' has been published.
+2014-08-24 21:48:26,745 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:48:26,767 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 7] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:49:16,912 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:49:16,934 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 12] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:49:17,425 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Board Minutes' with Id '1160' has been published.
+2014-08-24 21:51:40,276 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 24] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:51:40,292 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 24] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:51:48,718 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 41] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:51:48,740 [19] ERROR umbraco.editorControls.tinyMCE3.TinyMCE - [Thread 41] Error adding stylesheet to tinymce Id:1049
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at umbraco.editorControls.tinyMCE3.TinyMCE..ctor(IData Data, String Configuration)
+2014-08-24 21:51:48,870 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Board Minutes' with Id '1160' has been published.

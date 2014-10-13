@@ -6,8 +6,8 @@
 	var cssClass="";
 
 				<!-- Start Sponsors -->
-
-	if(nodes != null){
+<div id="sponsors" class="one_third column_last">
+	@if(nodes != null){
 		var resourceFolder = nodes[0];
 		var resources = resourceFolder.Children();
 	<div class="box_heading">
@@ -21,10 +21,15 @@
 			}else{
 				cssClass="";
 			}
-			<li @cssClass><a href="@resources[i].link" target="_blank"><img src="@(Model.MediaById(resources[i].image).umbracoFile)" alt="@resources[i].link" /></a></li>
+			var mediaSrc = Model.MediaById(resources[i].image).umbracoFile;
+			if(!String.IsNullOrEmpty(mediaSrc) && !mediaSrc.Contains("/dakota/")){
+				mediaSrc = "/dakota/" + mediaSrc;
+			}			
+			<li @cssClass><a href="@resources[i].link" target="_blank"><img src="@mediaSrc" alt="@resources[i].link" /></a></li>
 	
 		}
 	</ul>
 	}
+</div>
 }
 <!-- End Sponsors -->

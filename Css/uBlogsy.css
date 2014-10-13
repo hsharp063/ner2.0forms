@@ -38,7 +38,7 @@
 
 
 
-.uBlogsy_post_body, .uBlogsy_content_body{line-height:20px;}
+.uBlogsy_post_body, .uBlogsy_content_body{line-height:20px;margin-bottom: 10px;}
 .uBlogsy_post_body{ padding-top: 20px;}
 
 
@@ -319,6 +319,8 @@
 .uBlogsy_tag_cloud98 { font-size: 55px;}
 .uBlogsy_tag_cloud99 { font-size: 55px;}
 .uBlogsy_tag_cloud100 { font-size: 56px;}
+
+
 
 
 

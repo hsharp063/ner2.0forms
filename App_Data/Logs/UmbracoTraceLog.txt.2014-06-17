@@ -1,0 +1,49 @@
+2014-06-17 07:46:31,922 [25] ERROR umbraco.BusinessLogic.Log - [Thread 87] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146
+2014-06-17 07:46:31,953 [25] ERROR umbraco.BusinessLogic.Log - [Thread 87] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146
+2014-06-17 07:46:32,502 [25] INFO  umbraco.BusinessLogic.Log - [Thread 87] Log scrubbed.  Removed all items older than 2014-04-18 07:46:32
+2014-06-17 18:41:34,197 [25] ERROR umbraco.BusinessLogic.Log - [Thread 59] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146
+2014-06-17 18:41:34,430 [25] ERROR umbraco.BusinessLogic.Log - [Thread 6] An error occurred
+System.Net.WebException: The remote name could not be resolved: 'feeds.feedburner.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at uBlogsy.Common.Helpers.RssReader.Execute() in d:\_PROJECTS\Personal\uBlogsy\uBlogsy MVC\Source\uBlogsy.Common\Helpers\RssReader.cs:line 146
