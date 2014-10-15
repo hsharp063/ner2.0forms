@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <plugins>
   <baseType type="umbraco.interfaces.IApplicationStartupHandler" resolutionType="FindAllTypes">
-    <add type="uDateFoldersy.UmbracoEvents.UmbracoNodeEventsForDateFolders, uDateFoldersy, Version=1.1.2.27330, Culture=neutral, PublicKeyToken=null" />
+    <add type="uBlogsy.BusinessLogic.EventHandlers.UmbracoExamineEvents, uBlogsy.BusinessLogic, Version=3.0.1.30261, Culture=neutral, PublicKeyToken=null" />
+    <add type="uBlogsy.BusinessLogic.EventHandlers.UmbracoNodeEventsForPosts, uBlogsy.BusinessLogic, Version=3.0.1.30261, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.editorControls.PickerRelations.PickerRelationsEventHandler, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
+    <add type="Runway.Blog.BlogDateFolder, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Runway.Blog.EventHandlers.AutoChannelCreator, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Runway.Blog.EventHandlers.Autoping, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Cache.CacheRefresherEventHandler, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.LibraryCacheRefresher, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Search.ExamineEvents, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
@@ -14,16 +19,11 @@
     <add type="umbraco.presentation.nodeFactory.UmbracoSiteMapProviderAccessUpdate, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.presentation.EnsureSystemPathsApplicationStartupHandler, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.presentation.umbraco.Search.ExamineEvents, umbraco, Version=1.0.5021.24870, Culture=neutral, PublicKeyToken=null" />
-    <add type="uBlogsy.BusinessLogic.EventHandlers.UmbracoExamineEvents, uBlogsy.BusinessLogic, Version=3.0.1.30261, Culture=neutral, PublicKeyToken=null" />
-    <add type="uBlogsy.BusinessLogic.EventHandlers.UmbracoNodeEventsForPosts, uBlogsy.BusinessLogic, Version=3.0.1.30261, Culture=neutral, PublicKeyToken=null" />
-    <add type="uLoremsy.Web.UmbracoEvents.uLoremsy, uLoremsy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.BusinessLogic.ApplicationRegistrar, businesslogic, Version=1.0.5021.24868, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.BusinessLogic.ApplicationTreeRegistrar, businesslogic, Version=1.0.5021.24868, Culture=neutral, PublicKeyToken=null" />
     <add type="UmbracoExamine.UmbracoEventManager, UmbracoExamine, Version=0.6.0.24869, Culture=neutral, PublicKeyToken=null" />
-    <add type="Runway.Blog.BlogDateFolder, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="Runway.Blog.EventHandlers.AutoChannelCreator, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="Runway.Blog.EventHandlers.Autoping, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.editorControls.PickerRelations.PickerRelationsEventHandler, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
+    <add type="uLoremsy.Web.UmbracoEvents.uLoremsy, uLoremsy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="uDateFoldersy.UmbracoEvents.UmbracoNodeEventsForDateFolders, uDateFoldersy, Version=1.1.2.27330, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter" resolutionType="FindAllTypes" />
   <baseType type="Umbraco.Web.Mvc.SurfaceController" resolutionType="FindAllTypes" />
@@ -76,8 +76,6 @@
     <add type="Runway.Blog.Installer.addRestExtension, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="umbraco.interfaces.IDataType" resolutionType="FindAllTypes">
-    <add type="Runway.Blog.DataTypes.UserPicker, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="Runway.Blog.DataTypes.SkinBrowserDatatype, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.PickerRelations.PickerRelationsDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.checkboxlist.checkboxListDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.colorpicker.ColorPickerDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
@@ -114,6 +112,8 @@
     <add type="umbraco.editorControls.XPathCheckBoxList.XPathCheckBoxListDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.XPathDropDownList.XPathDropDownListDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.yesno.YesNoDataType, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />
+    <add type="Runway.Blog.DataTypes.UserPicker, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Runway.Blog.DataTypes.SkinBrowserDatatype, Runway.Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="umbraco.interfaces.ITree" resolutionType="FindAllTypes">
     <add type="umbraco.editorControls.MultiNodeTreePicker.FilteredContentTree, umbraco.editorControls, Version=1.0.5021.24871, Culture=neutral, PublicKeyToken=null" />

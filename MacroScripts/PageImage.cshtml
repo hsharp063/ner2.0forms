@@ -1,0 +1,13 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+	if(Model.pageImage != null){
+		<div class="pageimage">
+		<img src="@Model.MediaById(Model.pageImage).umbracoFile" class="center" style="display: block; margin: auto;"/>
+			@if(!String.IsNullOrEmpty(@Model.imageCaption.ToString())){
+				<div class="meta"><span class="caption">@Model.imageCaption</span></div>
+			}
+		</div>
+	}
+}
+
+

@@ -12,7 +12,7 @@
 						<ul class="slides">
 							@foreach(var s in slides){
 								<li>
-						      	<img src="@("/dakota/" + Model.MediaById(s.sliderImage).umbracoFile)" alt="@s.Name" />
+						      	<img src="@Model.MediaById(s.sliderImage).umbracoFile" alt="@s.Name" />
 									@if(! string.IsNullOrEmpty(s.caption))
 									{	<p class="flex-caption">
 											@Html.Raw(s.caption)

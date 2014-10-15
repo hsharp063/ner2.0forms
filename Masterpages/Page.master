@@ -1,202 +1,56 @@
-﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Home.master" AutoEventWireup="true" %>
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Main.master" AutoEventWireup="true" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="cp_body" runat="server">
 <section class="page_heading">
-	<div class="logo container">
+		<div class="logo container">
 			<a href="/"><umbraco:item ID="Item1" runat="server" field="siteName" recursive="true"></umbraco:item></a>		
-			<span class="tagline"><umbraco:Item ID="tagline" runat="server" Field="tagLine" recursive="true"></umbraco:item></span>
-	</div>
-</section>
-<div class="page_wrapper">
-		<section class="container">
-			
-			<!-- Start Page Content -->
-			<div id="blog" class="page with_sidebar">
-				
-				<h1>Blog</h1>
-				
-				<!-- Start Blog Post -->
-				<div class="post">
-					<img src="images/content/blog-1.jpg" alt="" class="rounded">
-					<h3><a href="blog_single.html">Wildlife Protection</a></h3>
-					<div class="meta">
-						<span class="date"> <span class="icon general">i</span> June 27</span>
-						<span class="comments"><span class="icon social_misc">w</span> <a href="" title="">2 Comments</a></span>  
-						<span class="author"> <span class="icon social_misc">x</span> by eric</span>
-					</div>
-					<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. <a href="blog_single.html">read more...</a></p>
+			<span class="tagline"><umbraco:Item ID="tagline" runat="server" Field="tagline" recursive="true"></umbraco:item></span>
+		</div>
+	</section>     
+            
+    <div class="page_wrapper">
+        <section class="container">
+			<div id="about" class="page with_sidebar">
+				  <h1><umbraco:Item field="pageHeading" runat="server" /></h1>
+				<div class="full">
+					<umbraco:Macro Alias="PageImage" runat="server"></umbraco:Macro>
+					<umbraco:Item field="pageContent" runat="server" />
 				</div>
-				<!-- End Blog Post -->
-				
-				<!-- Start Blog Post -->
-				<div class="post">
-					<img src="images/content/blog-post_1.jpg" alt="" class="rounded">
-					<h3><a href="blog_single.html">Give a little, Get a lot</a></h3>
-					<div class="meta">
-						<span class="date"> <span class="icon general">i</span> June 2, 2012</span>
-						<span class="comments"><span class="icon social_misc">w</span> <a href="" title="">2 Comments</a></span>  
-						<span class="author"> <span class="icon social_misc">x</span> by elizabeth</span>
-					</div>
-					<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. <a href="blog_single.html">read more...</a></p>
-				</div>
-				<!-- End Blog Post -->
-				
-				<!-- Start Blog Post -->
-				<div class="post">
-					<img src="images/content/blog-post_4.jpg" alt="" class="rounded">
-					<h3><a href="blog_single.html">Whale Watch</a></h3>
-					<div class="meta">
-						<span class="date"> <span class="icon general">i</span> May 30</span>
-						<span class="comments"><span class="icon social_misc">w</span> <a href="" title="">2 Comments</a></span>  
-						<span class="author"> <span class="icon social_misc">x</span> by elizabeth</span>
-					</div>
-					<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. <a href="blog_single.html">read more...</a></p>
-				</div>
-				<!-- End Blog Post -->
-				
-				<!-- Start Blog Post -->
-				<div class="post">
-					<img src="images/content/blog-2.jpg" alt="" class="rounded">
-					<h3><a href="#">Save the Rainforest</a></h3>
-					<div class="meta">
-						<span class="date"> <span class="icon general">i</span> May 23</span>
-						<span class="comments"><span class="icon social_misc">w</span> <a href="" title="">2 Comments</a></span>  
-						<span class="author"> <span class="icon social_misc">x</span> by elizabeth</span>
-					</div>
-					<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. <a href="blog_single.html">read more...</a></p>
-				</div>
-				<!-- End Blog Post -->
-				
-				<!-- Start Blog Post -->
-				<div class="post">
-					<img src="images/content/blog-post_5.jpg" alt="" class="rounded">
-					<h3><a href="blog_single.html">Gardening 101</a></h3>
-					<div class="meta">
-						<span class="date"> <span class="icon general">i</span> May 3</span>
-						<span class="comments"><span class="icon social_misc">w</span> <a href="" title="">2 Comments</a></span>  
-						<span class="author"> <span class="icon social_misc">x</span> by elizabeth</span>
-					</div>
-					<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. <a href="blog_single.html">read more...</a></p>
-				</div>
-				<!-- End Blog Post -->
 			</div>
-			<!-- End Page Content -->
-			
-			<!-- Start Sidebar -->
-			<aside>
-				
-				<div class="widget widget_search" id="search-2">
-					<form action="http://themes.two2twelve.com/wordpress/advocate/" id="searchform" method="get">
-						<p>	
-							<label for="s">Enter a search term...</label>
-					        <input type="text" id="s" class="text_field" name="s" value="">
-							<input type="submit" value="Search" id="searchsubmit" class="button white">
-						</p>
-					</form>
-				</div>
-				
-				<div class="widget">
-						<h5>Recent Posts</h5>
-						<div class="recent_posts">
-							<ul>
-								<li>
-									<a href="">Wildlife Protection</a>
-								</li>
-								<li>
-									<a href="">Give a little, Get a lot</a>
-								</li>
-								<li>
-									<a href="">Whale Watch</a>
-								</li>
-								<li>
-									<a href="">Save the Rain Forest</a>
-								</li>
-								<li>
-									<a href="">Organic Gardening 101</a>
-								</li>
-							</ul>
-							
-						</div>
-					</div>
-				
-				<div class="widget">
-					<h5>Categories</h5>
-					<div class="widget_categories">
-						<ul>
-							<li>
-								<a href="">Wildlife <span>15</span></a>
-							</li>
-							<li>
-								<a href="">Conservation <span>22</span></a>
-							</li>
-							<li>
-								<a href="">Environmental <span>17</span></a>
-							</li>
-							<li>
-								<a href="">Volunteer <span>6</span></a>
-							</li>
-							<li>
-								<a href="">Donate <span>12</span></a>
-							</li>
-						</ul>
+ 		  <aside>
+				<div id="sidebar">
 						
-					</div>
-				</div>
-				
-				<div class="widget">
-					<h5>Video</h5>
-					<div class="video">
-						<iframe src="http://player.vimeo.com/video/43580167?title=0&amp;byline=0&amp;portrait=0" width="215" height="121"></iframe>
-					</div>
-					<p>by Revolution</p>
-				</div>
-				
-				<div class="widget">
-					<h5>Gallery</h5>
-					<div class="gallery">
-						<ul>
-							<li><img src="images/content/gallery_thumb_1.jpg" alt=""></li>
-							<li><img src="images/content/gallery_thumb_2.jpg" alt=""></li>
-							<li><img src="images/content/gallery_thumb_3.jpg" alt=""></li>
-							<li><img src="images/content/gallery_thumb_4.jpg" alt=""></li>
-							<li><img src="images/content/gallery_thumb_5.jpg" alt=""></li>
-							<li><img src="images/content/gallery_thumb_6.jpg" alt=""></li>
-						</ul>
+					<div class="widget">
+						<h5>Recent Posts</h5>
+						<umbraco:Macro Alias="UBlogsyRecentPostsSidebar" runat="server"></umbraco:Macro>
 					</div>
 					
-				</div>
-				
-				
-				
-				
-				<div class="widget">
-					<h5>Location</h5>
-					<div class="location_widget">
-						<p>
-							1234 Revolutionary Drive <br>
-							Miami, FL 33445
-						</p>
-						<p>
-							<span class="icon general">r</span> 123.333.4524 <br>
-							<span class="icon general">h</span> <a href="">info@revolution.com</a> <br>
-							<span class="icon general">l</span> <a href="">www.revolution.com</a>
-						</p>
+					
+					<div class="widget">
+						<h5>Gallery</h5>
+						<div class="gallery">
+							<ul>
+								<li><img src="images/facepaint.jpg" style="height:62px;width:62px;" alt=""></li>
+								<li><img src="images/facepaint2.jpg" style="height:62px;width:62px;" alt=""></li>
+								<li><img src="images/girls.jpg" style="height:62px;width:62px;" alt=""></li>
+								<li><img src="images/picnic.jpg" style="height:62px;width:62px;" alt=""></li>
+								<li><img src="images/horse.jpg" style="height:62px;width:62px;" alt=""></li>
+								<li><img src="images/gallery_thumb_6.jpg" style="height:62px;width:62px;" alt=""></li>
+							</ul>
+						</div>
+						
+					</div>	
+						
+					<div class="widget">
+						<h5>Video</h5>
+						<div class="video">
+							<iframe src="http://player.vimeo.com/video/43580167?title=0&amp;byline=0&amp;portrait=0" width="215" height="121"></iframe>
+						</div>
+						<p>by Revolution</p>
 					</div>
+						
 				</div>
-				
-				<div class="widget">
-					<h5>Twitter</h5>
-
-					<div class="twitter_stream"><p class="loading">loading tweets...</p></div>
-
-				</div>
-				
-				
-	
 			</aside>
-			<!-- End Sidebar -->
-			
-		</section>
-	</div>
-
+        </section>
+    </div>
 
 </asp:Content>
