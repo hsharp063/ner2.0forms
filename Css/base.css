@@ -695,30 +695,30 @@ ul li div.hover{
 /*--------------------------------------------
 6. Contact
 ---------------------------------------------*/
-div#contact input,
-div#contact select,
-div#contact textarea { background: #f9f9f9; }
-div#contact input:focus,
-div#contact select:focus,
-div#contact textarea:focus { background: #fff; }
-div#contact p { margin-bottom: 25px; }
-	div#contact div.row {
+div#contact input, div#pnlApplication input,
+div#contact select, div#pnlApplication select
+div#contact textarea, div#pnlApplication textarea{ background: #f9f9f9; }
+div#contact input:focus,div#pnlApplication input:focus,
+div#contact select:focus,div#pnlApplication select:focus,
+div#contact textarea:focus, div#pnlApplication textarea:focus { background: #fff; }
+div#contact p, div#pnlApplication p { margin-bottom: 25px; }
+	div#contact div.row, div#pnlApplication div.row {
 		overflow: hidden;
 		clear: both;
-		width: 715px;
+		width: 95%;
 		border-bottom:none;
 	}
-		div#contact div.row input,
-		div#contact div.row select { width: 315px; }
-		div#contact div.row p {
+		div#contact div.row input, div#pnlApplication div.row input
+		div#contact div.row select, div#pnlApplication div.row select { width: 315px; }
+		div#contact div.row p, div#pnlApplication div.row p {
 			width: 340px;
 			float: left;
 			margin-right: 15px;
 		}
-		div#contact div.row select { width: 340px; }
-		div#contact textarea { width: 96%; height: 200px; } 
-		div#contact .button { float: right; }
-	div#contact .error {
+		div#contact div.row select, div#pnlApplication div.row select { width: 340px; }
+		div#contact textarea, div#pnlApplication textarea { width: 96%; height: 200px; } 
+		div#contact .button, div#pnlApplication .button { float: right; }
+	div#contact .error, div#pnlApplication .error {
 		border-color: #E01C46;
 	}
 	div#contact .validation,
@@ -1375,7 +1375,6 @@ input,textarea {
 	font-family: "Helvetica Neue", helvetica, sans-serif;
 	font-size: 13px;
 	outline: none;
-	-webkit-appearance: none;
 	-webkit-focus-ring-color: none
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -1386,7 +1385,7 @@ input[type="text"],
 input[type="email"] {
 	border: 1px solid #ddd;
 	padding: 8px 12px 8px 12px;
-	width: 100%;
+	width: 95%;
 	color: #555;
 	background: #fff;
 }
@@ -1412,13 +1411,13 @@ select {
 	color: #aaa;
 }
 form p { position: relative; }
-label { 
+/*label { 
 	position: absolute; 
 	top: 7px !important; 
 	left: 15px !important; 
 	color: #aaa;
 	font-weight: normal;
-}
+}*/
 :-moz-placeholder {
 	color: #333333 !important;
 	font-weight: bold;
@@ -1690,6 +1689,15 @@ margin-bottom: 20px;
 
 .pageimage img {
 width: 90%;
+}
+
+span.area-header {
+font-size: 20px;
+margin-top: 20px;
+display: block;
+font-family: 'Cabin';
+font-weight: bold;
+border-bottom: 1px solid #ccc;
 }
 
 

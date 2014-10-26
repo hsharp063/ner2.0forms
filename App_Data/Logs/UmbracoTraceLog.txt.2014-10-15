@@ -1,0 +1,123 @@
+2014-10-15 15:56:33,785 [34] INFO  umbraco.BusinessLogic.Log - [Thread 40] Log scrubbed.  Removed all items older than 2014-08-16 15:56:32
+2014-10-15 16:33:28,615 [157] INFO  umbraco.content - [Thread 36] Loading content from disk cache...
+2014-10-15 16:34:03,630 [157] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-10-15 16:34:04,302 [157] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 671ms)
+2014-10-15 16:34:09,395 [157] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.IDataType
+2014-10-15 16:34:09,504 [157] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 109ms)
+2014-10-15 16:34:09,614 [157] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.ITree
+2014-10-15 16:34:10,153 [157] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 538ms)
+2014-10-15 16:34:10,905 [157] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-10-15 16:34:11,291 [157] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 385ms)
+2014-10-15 16:34:26,596 [157] INFO  Umbraco.Core.PluginManager - [Thread 90] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-10-15 16:34:26,706 [157] INFO  Umbraco.Core.PluginManager - [Thread 90] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 110ms)
+2014-10-15 16:37:07,971 [157] INFO  umbraco.BasePages.BasePage - [Thread 8] User admin (Id: 0) logged in
+2014-10-15 16:37:08,505 [157] INFO  Umbraco.Core.PluginManager - [Thread 107] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-10-15 16:37:08,671 [157] INFO  Umbraco.Core.PluginManager - [Thread 107] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 165ms)
+2014-10-15 16:42:26,173 [157] INFO  Umbraco.Core.PluginManager - [Thread 108] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-10-15 16:42:26,251 [157] INFO  Umbraco.Core.PluginManager - [Thread 108] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 77ms)
+2014-10-15 16:43:49,273 [157] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content 'About' with Id '1172' has been published.
+2014-10-15 16:44:02,595 [157] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 108] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Cannot find ContentPlaceHolder 'cp_body' in the master page '/masterpages/Home.master', verify content control's ContentPlaceHolderID attribute in the content page.
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.MasterPage.get_Master()
+   at System.Web.UI.MasterPage.ApplyMasterRecursive(MasterPage master, IList appliedMasterFilePaths)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c339b890\5686dcac\App_Web_default.aspx.cdcab7d2.xwjwvsyh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-10-15 16:44:58,673 [157] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 8] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Cannot find ContentPlaceHolder 'cp_body' in the master page '/masterpages/Home.master', verify content control's ContentPlaceHolderID attribute in the content page.
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.MasterPage.get_Master()
+   at System.Web.UI.MasterPage.ApplyMasterRecursive(MasterPage master, IList appliedMasterFilePaths)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\c339b890\5686dcac\App_Web_default.aspx.cdcab7d2.xwjwvsyh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-10-15 17:06:40,321 [157] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content 'About' with Id '1172' has been published.
+2014-10-15 17:07:33,002 [157] INFO  umbraco.BusinessLogic.Log - [Thread 50] Log scrubbed.  Removed all items older than 2014-08-16 17:07:32
+2014-10-15 17:07:33,122 [157] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 50] Application shutdown. Reason: MaxRecompilationsReached
+2014-10-15 17:07:48,574 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-10-15 17:07:48,738 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 148ms)
+2014-10-15 17:07:48,866 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-10-15 17:07:50,059 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 23 (took 1190ms)
+2014-10-15 17:07:50,261 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-10-15 17:07:50,361 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 100ms)
+2014-10-15 17:07:50,368 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-10-15 17:07:50,422 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 53ms)
+2014-10-15 17:07:50,423 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-10-15 17:07:50,479 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 56ms)
+2014-10-15 17:07:50,485 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-10-15 17:07:50,525 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 39ms)
+2014-10-15 17:07:50,525 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-10-15 17:07:50,635 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 108ms)
+2014-10-15 17:07:52,862 [76] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-10-15 17:07:52,864 [76] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-10-15 17:07:52,921 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2014-10-15 17:07:53,098 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 176ms)
+2014-10-15 17:07:53,254 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2014-10-15 17:07:53,421 [76] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 166ms)
+2014-10-15 17:07:56,199 [76] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2014-10-15 17:07:57,604 [76] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2014-10-15 17:07:57,662 [76] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 58ms)
+2014-10-15 17:07:59,884 [76] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.IDataType
+2014-10-15 17:08:00,084 [76] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 200ms)
+2014-10-15 17:08:00,107 [76] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ITree
+2014-10-15 17:08:00,273 [76] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 165ms)
+2014-10-15 17:08:00,333 [76] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2014-10-15 17:08:00,669 [76] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 335ms)
+2014-10-15 17:08:21,377 [76] INFO  Umbraco.Core.PluginManager - [Thread 53] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-10-15 17:08:21,400 [76] INFO  Umbraco.Core.PluginManager - [Thread 53] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 22ms)
+2014-10-15 17:09:43,384 [76] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-10-15 17:09:43,461 [76] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 76ms)
+2014-10-15 17:09:45,392 [76] INFO  Umbraco.Core.PluginManager - [Thread 53] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2014-10-15 17:09:45,447 [76] INFO  Umbraco.Core.PluginManager - [Thread 53] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 54ms)
+2014-10-15 17:18:50,745 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'About' with Id '1172' has been published.
+2014-10-15 17:36:18,908 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 8] New document 1175
+2014-10-15 17:39:54,551 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Respite Care' with Id '1175' has been published.
+2014-10-15 17:40:38,173 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content 'Respite Care' with Id '1175' has been published.
+2014-10-15 17:41:13,771 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 53] New document 1177
+2014-10-15 17:42:47,699 [76] INFO  Umbraco.Core.Services.ContentService - [Thread 72] Content 'Extended Day' with Id '1177' could not be published because of invalid properties.
+2014-10-15 17:43:02,786 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Extended Day' with Id '1177' has been published.
+2014-10-15 17:43:48,143 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 19] New document 1179
+2014-10-15 17:45:09,109 [76] INFO  Umbraco.Core.Services.ContentService - [Thread 16] Content 'In Home Support' with Id '1179' could not be published because of invalid properties.
+2014-10-15 17:45:37,703 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'In Home Support' with Id '1179' has been published.
+2014-10-15 17:46:25,385 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content 'In Home Support' with Id '1179' has been published.
+2014-10-15 17:47:22,304 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 8] New document 1181
+2014-10-15 17:48:27,185 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Long Term Care' with Id '1181' has been published.
+2014-10-15 17:48:30,391 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Long Term Care' with Id '1181' has been published.
+2014-10-15 17:49:22,258 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 32] New document 1183
+2014-10-15 17:50:26,238 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'BoardOfDirectors' with Id '1183' has been published.
+2014-10-15 17:59:26,216 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 50] New document 1185
+2014-10-15 18:01:02,127 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Support NER' with Id '1185' has been published.
+2014-10-15 18:02:40,458 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 50] New document 1187
+2014-10-15 18:04:45,036 [76] INFO  Umbraco.Core.Services.ContentService - [Thread 32] Content 'Donate' with Id '1187' could not be published because of invalid properties.
+2014-10-15 18:05:29,739 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Donate' with Id '1187' has been published.
+2014-10-15 18:06:44,930 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 32] New document 1189
+2014-10-15 18:08:27,941 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Volunteer Opportunities' with Id '1189' has been published.
+2014-10-15 18:09:43,824 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 5] New document 1191
+2014-10-15 18:12:01,663 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'Family Support' with Id '1191' has been published.
+2014-10-15 18:13:48,508 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 50] New document 1193
+2014-10-15 18:14:41,747 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content 'Resources' with Id '1193' has been published.
+2014-10-15 18:22:18,173 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 16] New document 1194
+2014-10-15 18:24:55,402 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Employment' with Id '1194' has been published.
+2014-10-15 18:26:27,491 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 50] New document 1196
+2014-10-15 18:27:35,764 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Job Listings' with Id '1196' has been published.
+2014-10-15 18:29:34,064 [76] INFO  umbraco.cms.businesslogic.web.Document - [Thread 19] New document 1197
+2014-10-15 18:30:40,843 [76] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Scholarships' with Id '1197' has been published.

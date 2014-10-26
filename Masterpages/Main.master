@@ -29,6 +29,7 @@
     <asp:ContentPlaceHolder id="cp_head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
+	<form runat="server">
 <body>
 	<header>
 		<div class="container">	
@@ -65,9 +66,9 @@
 			<div class="widget one_fourth">
 				<h5>Newsletter</h5>
 								
-				<form runat="server">
+				
 					<umbraco:Macro Alias="NewsletterLeadForm" runat="server"></umbraco:Macro>
-				</form>
+				
 			</div>
 			<div class="widget one_fourth column_last">
 				<h5><umbraco:item ID="Item5" runat="server" field="siteName" recursive="true"></umbraco:item></h5>
@@ -88,7 +89,7 @@
 			
 		</div>
 	</footer>
-
+	</form>
 <div id="fancybox-tmp"></div>
 <div id="fancybox-loading"><div></div></div>
 <div id="fancybox-overlay"></div>
