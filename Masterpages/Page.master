@@ -26,18 +26,8 @@
 					
 					
 					<div class="widget">
-						<h5>Gallery</h5>
-						<div class="gallery">
-							<ul>
-								<li><img src="images/facepaint.jpg" style="height:62px;width:62px;" alt=""></li>
-								<li><img src="images/facepaint2.jpg" style="height:62px;width:62px;" alt=""></li>
-								<li><img src="images/girls.jpg" style="height:62px;width:62px;" alt=""></li>
-								<li><img src="images/picnic.jpg" style="height:62px;width:62px;" alt=""></li>
-								<li><img src="images/horse.jpg" style="height:62px;width:62px;" alt=""></li>
-								<li><img src="images/gallery_thumb_6.jpg" style="height:62px;width:62px;" alt=""></li>
-							</ul>
-						</div>
-						
+											
+						<umbraco:Macro Alias="GalleryPreview" runat="server"></umbraco:Macro>
 					</div>	
 						
 					<div class="widget">

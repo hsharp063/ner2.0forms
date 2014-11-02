@@ -41,7 +41,7 @@ public partial class EmploymentApplication : System.Web.UI.UserControl
             }
             catch (Exception ex)
             {
-                 string errEmail = ConfigurationManager.AppSettings["errEmail"];
+                string errEmail = ConfigurationManager.AppSettings["errEmail"];
                 litMessage.Text = ex.Message + ex.StackTrace;
                 string data = "Info: " + ex.Message + ex.StackTrace;
                 umbraco.library.SendMail("err@nerinc.org", errEmail, "NER - Error with emp application", data, true);

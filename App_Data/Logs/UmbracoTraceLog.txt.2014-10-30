@@ -1,0 +1,94 @@
+2014-10-30 18:34:02,144 [24] INFO  umbraco.BasePages.BasePage - [Thread 64] User admin (Id: 0) logged in
+2014-10-30 18:49:55,085 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 73] New document 1230
+2014-10-30 18:50:05,092 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Event Gallery' with Id '1230' has been unpublished.
+2014-10-30 18:50:18,483 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 20] New document 1231
+2014-10-30 18:50:36,888 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 20] New document 1232
+2014-10-30 18:50:46,690 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 27] New document 1233
+2014-10-30 18:50:54,345 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 27] New document 1234
+2014-10-30 18:51:06,021 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 32] New document 1235
+2014-10-30 18:51:25,562 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Golf Tournament' with Id '1235' will not be published because some of it's content is not passing validation rules.
+2014-10-30 18:51:25,597 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Special Olympics' with Id '1234' will not be published because some of it's content is not passing validation rules.
+2014-10-30 18:51:25,612 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Tootsie Roll Drive' with Id '1233' will not be published because some of it's content is not passing validation rules.
+2014-10-30 18:51:25,612 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Fundraiser Dinner' with Id '1232' will not be published because some of it's content is not passing validation rules.
+2014-10-30 18:51:25,628 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Luau' with Id '1231' will not be published because some of it's content is not passing validation rules.
+2014-10-30 18:51:37,287 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Luau' with Id '1231' has been published.
+2014-10-30 18:51:47,641 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Fundraiser Dinner' with Id '1232' has been published.
+2014-10-30 18:51:56,582 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Tootsie Roll Drive' with Id '1233' has been published.
+2014-10-30 18:52:04,573 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Special Olympics' with Id '1234' has been published.
+2014-10-30 18:52:12,470 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Golf Tournament' with Id '1235' has been published.
+2014-10-30 18:52:33,435 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 32] New document 1236
+2014-10-30 18:52:47,806 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Event Gallery' with Id '1236' has been published.
+2014-10-30 18:53:12,820 [24] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2014-10-30 18:53:13,074 [24] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 254ms)
+2014-10-30 18:53:29,574 [24] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2014-10-30 18:53:29,606 [24] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 41ms)
+2014-10-30 18:53:30,698 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 14] Success uploading to parent 1237
+2014-10-30 18:53:31,527 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 14] Success uploading to parent 1237
+2014-10-30 18:53:32,369 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 56] Success uploading to parent 1237
+2014-10-30 18:53:33,513 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 56] Success uploading to parent 1237
+2014-10-30 18:53:34,619 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 74] Success uploading to parent 1237
+2014-10-30 18:53:35,134 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 14] Success uploading to parent 1237
+2014-10-30 18:53:35,702 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 74] Success uploading to parent 1237
+2014-10-30 18:53:36,516 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 27] Success uploading to parent 1237
+2014-10-30 18:53:37,196 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 56] Success uploading to parent 1237
+2014-10-30 18:53:37,590 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 27] Success uploading to parent 1237
+2014-10-30 18:53:38,164 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 74] Success uploading to parent 1237
+2014-10-30 18:53:38,908 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 56] Success uploading to parent 1237
+2014-10-30 18:53:39,806 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 56] Success uploading to parent 1237
+2014-10-30 18:53:40,623 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 7] Success uploading to parent 1237
+2014-10-30 18:53:41,292 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 14] Success uploading to parent 1237
+2014-10-30 18:53:41,744 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 14] Success uploading to parent 1237
+2014-10-30 18:53:42,159 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 18] Success uploading to parent 1237
+2014-10-30 18:53:42,559 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 14] Success uploading to parent 1237
+2014-10-30 18:53:43,318 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 18] Success uploading to parent 1237
+2014-10-30 18:53:43,777 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 56] Success uploading to parent 1237
+2014-10-30 18:54:06,829 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 74] New document 1258
+2014-10-30 18:54:36,944 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Luau - Eric & Sara' with Id '1258' has been published.
+2014-10-30 18:54:51,109 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 7] New document 1259
+2014-10-30 18:55:09,505 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Fundraiser Dinner 1' with Id '1259' has been published.
+2014-10-30 18:55:16,942 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 74] New document 1260
+2014-10-30 18:55:42,867 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Fundraiser Dinner 2' with Id '1260' has been published.
+2014-10-30 18:55:55,772 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 31] New document 1261
+2014-10-30 18:56:13,659 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Fundraiser Dinner 3' with Id '1261' has been published.
+2014-10-30 18:56:25,620 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 31] New document 1262
+2014-10-30 18:56:26,316 [24] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 7] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2014-10-30 18:56:47,590 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Golf Tournament' with Id '1262' has been published.
+2014-10-30 18:57:11,495 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 72] New document 1263
+2014-10-30 18:57:39,861 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Luau - Jason & Tricia' with Id '1263' has been published.
+2014-10-30 18:57:59,932 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 70] New document 1264
+2014-10-30 18:58:23,338 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Luau - Heather & Mac' with Id '1264' has been published.
+2014-10-30 18:59:31,042 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Luau - Eric & Sara' with Id '1258' has been published.
+2014-10-30 18:59:42,946 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Fundraiser Dinner 2' with Id '1260' has been published.
+2014-10-30 18:59:53,877 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Luau - Heather & Mac' with Id '1264' has been published.
+2014-10-30 19:00:04,568 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Fundraiser Dinner 1' with Id '1259' has been published.
+2014-10-30 19:00:16,835 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Fundraiser Dinner 3' with Id '1261' has been published.
+2014-10-30 19:00:30,249 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Golf Tournament' with Id '1262' has been published.
+2014-10-30 19:00:45,478 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Luau - Jason & Tricia' with Id '1263' has been published.
+2014-10-30 19:00:54,262 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Event Gallery' with Id '1236' has been unpublished.
+2014-10-30 19:00:54,955 [24] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 77] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2014-10-30 19:02:02,276 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 52] New document 1265
+2014-10-30 19:02:38,905 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Luau - Heather' with Id '1265' has been published.
+2014-10-30 19:03:10,881 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 37] New document 1266
+2014-10-30 19:03:36,325 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Luau - Sheila & Robb' with Id '1266' has been published.
+2014-10-30 19:03:53,045 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 69] New document 1267
+2014-10-30 19:04:13,061 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'Luau - Todd' with Id '1267' has been published.
+2014-10-30 19:04:40,224 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 7] New document 1268
+2014-10-30 19:04:56,163 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'Luau - Wade & Michael' with Id '1268' has been published.
+2014-10-30 19:05:10,428 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 49] New document 1269
+2014-10-30 19:05:28,415 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Special Olympics 3' with Id '1269' has been published.
+2014-10-30 19:05:39,836 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 52] New document 1270
+2014-10-30 19:05:59,514 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Special Olympics 4' with Id '1270' has been published.
+2014-10-30 19:06:19,484 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 7] New document 1271
+2014-10-30 19:06:34,424 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Special Olympics' with Id '1271' has been published.
+2014-10-30 19:06:46,932 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 71] New document 1272
+2014-10-30 19:07:01,651 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Special Olympics 2' with Id '1272' has been published.
+2014-10-30 19:07:21,847 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 68] New document 1273
+2014-10-30 19:07:43,446 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Tootsie Roll Drive 2' with Id '1273' has been published.
+2014-10-30 19:08:01,847 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 71] New document 1274
+2014-10-30 19:08:18,545 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Tootsie Roll Drive 3' with Id '1274' has been published.
+2014-10-30 19:08:30,722 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 7] New document 1275
+2014-10-30 19:08:53,255 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Tootsie Roll Drive 4' with Id '1275' has been published.
+2014-10-30 19:09:06,673 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 59] New document 1276
+2014-10-30 19:09:22,200 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Tootsie Roll Drive 5' with Id '1276' has been published.
+2014-10-30 19:09:44,621 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 63] New document 1277
+2014-10-30 19:10:05,756 [24] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 59] Content 'Tootsie Roll Drive' with Id '1277' has been published.

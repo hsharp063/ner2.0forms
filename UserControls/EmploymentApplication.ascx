@@ -46,7 +46,7 @@
 <div class="row"><span class="area-header">Personal Information</span></div>
 <div class="row">
 	<p>
-		<label for="txtFirst">First Name*</label><asp:TextBox ID="txtFirst" runat="server" CssClass="smallinput" MaxLength="50" ></asp:TextBox>
+		<label for="txtFirst">First Name*:</label><asp:TextBox ID="txtFirst" runat="server" CssClass="smallinput" MaxLength="50" ></asp:TextBox>
 	</p>
 	<p>
 		<label for="txtLast">Last Name*:</label><asp:TextBox ID="txtLast" runat="server" CssClass="smallinput" MaxLength="50"></asp:TextBox>
@@ -56,32 +56,30 @@
 <p>
 	<label for="txtAddress">Address*:</label><asp:TextBox ID="txtAddress" CssClass="wideinput" runat="server" MaxLength="200"></asp:TextBox>
 </p>
-</div>
-<div class="row">
 <p>
 	<label for="txtCity">City*:</label><asp:TextBox ID="txtCity" runat="server" MaxLength="45"></asp:TextBox>
 </p>
+</div>
+<div class="row">
 <p>
-	<label for="txtState">State*</label><asp:TextBox ID="txtState" runat="server" MaxLength="2"></asp:TextBox>
+	<label for="txtState">State*:</label><asp:TextBox ID="txtState" runat="server" MaxLength="2"></asp:TextBox>
 </p>
 <p>
-	<label for="txtZip">Zip Code*</label><asp:TextBox ID="txtZip" runat="server" MaxLength="10"></asp:TextBox>
+	<label for="txtZip">Zip Code*:</label><asp:TextBox ID="txtZip" runat="server" MaxLength="10"></asp:TextBox>
 </p>
 </div>
 <div class="row">
 <p>
-	<label for="txtPhone">Phone Number*</label><asp:TextBox id="txtPhone" runat="server" CssClass="smallinput" MaxLength="15"></asp:TextBox>
+	<label for="txtPhone">Phone Number*:</label><asp:TextBox id="txtPhone" runat="server" CssClass="smallinput" MaxLength="15"></asp:TextBox>
+</p>
+<p>
+	<label for="txtEmail">Email:</label><asp:TextBox ID="txtEmail" runat="server" MaxLength="200" CssClass="wideinput"></asp:TextBox>
 </p>
 </div>
 <div class="row">
-<p>
-	<label for="txtEmail">Email</label><asp:TextBox ID="txtEmail" runat="server" MaxLength="200" CssClass="wideinput"></asp:TextBox>
-</p>
-</div>
-<div class="row">
-<p>
+<span>
 	How did you find out about Northeast Residence, Inc?
-</p>
+</span>
 </div>
 <div class="row">
 
@@ -102,15 +100,17 @@
 <div class="row"><span class="area-header">Position</span></div>
 <div class="row">
 <p>
-    <label for="txtPosition">Position applying for</label><asp:TextBox ID="txtPosition" runat="server" MaxLength="50"></asp:TextBox>
+    <label for="txtPosition">Position applying for:</label><asp:TextBox ID="txtPosition" runat="server" MaxLength="50"></asp:TextBox>
 </p>
 </div>
 <div class="row">
-<p><label for="txtHours" style="opacity:1">Number of hours available per week</label> <asp:TextBox ID="txtHours" 
+<p><label for="txtHours">Number of hours available per week:</label> <asp:TextBox ID="txtHours" 
         runat="server" MaxLength="30"></asp:TextBox>
 </p>
 <p>
-Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full Time"/><asp:CheckBox runat="server" ID="chkPart" text="Part Time"/>
+Are you interested in: <br/>
+<asp:CheckBox ID="chkFullTime" runat="server" Text="Full Time"/><br/>
+<asp:CheckBox runat="server" ID="chkPart" text="Part Time"/>
 </p>
 </div>
 <div class="row"><span style="display:block;">Please check all shifts you are available to work:</span></div>
@@ -146,8 +146,8 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </table>
 </div>
 <div class="row"><span class="area-header">Education</span></div>
-<table style="width:100%">
-<tr><td colspan="2"></td><td>Location</td><td>Years Completed</td></tr>
+<table id="tblSchools" style="width:100%">
+<tr><th>Type</th><th>School Name</th><th>Location</th><th>Years <br/>Completed</th></tr>
 <tr><td>High School:</td><td><asp:TextBox id="txtHighSchool" runat="server" 
         MaxLength="45"></asp:TextBox></td><td><asp:TextBox ID="txtHighSchoolLoc" 
             runat="server" MaxLength="50"></asp:TextBox></td>
@@ -167,10 +167,10 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </table>
 
 <div class="row">
-<p>
+
 	<label for="txtAdditionalTraining">Additional Training</label>
-	<asp:TextBox ID="txtAdditionalTraining" runat="server" CssClass="wideinput" MaxLength="500"></asp:TextBox>
-</p>
+	<asp:TextBox ID="txtAdditionalTraining" runat="server" CssClass="wideinput" TextMode="multiline" Rows="3" MaxLength="500"></asp:TextBox>
+
 </div>
 
 <div class="row">
@@ -192,19 +192,48 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </p></div>
 <div class="row"><p><span class="leftlabel">Are you of legal age to work?</span>
 <asp:CheckBoxList ID="chkListLegalAge" runat="server"><asp:ListItem value="Yes" Text="Yes"></asp:ListItem><asp:ListItem Value="No" Text="No"></asp:ListItem></asp:CheckBoxList></p></div>
-<div class="row"><p><span class="leftlabel">Have you applied at Northeast Residence Before?</span><asp:CheckBoxList ID="chkListAppliedBefore" runat="server"><asp:ListItem value="Yes" Text="Yes"></asp:ListItem><asp:ListItem Value="No" Text="No"></asp:ListItem></asp:CheckBoxList>
+<div class="row">
+<p>
+	<span class="leftlabel">Have you applied at Northeast Residence Before?</span>
+	<asp:CheckBoxList ID="chkListAppliedBefore" runat="server">
+		<asp:ListItem value="Yes" Text="Yes"></asp:ListItem>
+		<asp:ListItem Value="No" Text="No"></asp:ListItem>
+	</asp:CheckBoxList>
 </p>
-<p><p><span class="leftlabel">If so, when?</span><asp:TextBox 
-        ID="txtAppliedWhen" runat="server" MaxLength="50"></asp:TextBox></p></div>
+</div>
+<div class="row">
+<p>
+	<span class="leftlabel">If so, when?</span>
+	<asp:TextBox ID="txtAppliedWhen" runat="server" MaxLength="50"></asp:TextBox>
+</p>
+</div>
 		
-<div class="row"><p><span class="leftlabel">Have you worked at Northeast Residence Before?</span>
-<asp:CheckBoxList ID="chkListWorkedBefore" runat="server"><asp:ListItem value="Yes" Text="Yes"></asp:ListItem><asp:ListItem Value="No" Text="No"></asp:ListItem></asp:CheckBoxList><p><span class="leftlabel">If so, when?</span><asp:TextBox 
-        ID="txtWorkedwhen" runat="server" MaxLength="50"></asp:TextBox></p><p><span class="leftlabel">Which Site? </span>
-    <asp:TextBox ID="txtWorkedBeforeSite" runat="server" MaxLength="50"></asp:TextBox></p>
-	</div>
+<div class="row">
+<p>
+	<span class="leftlabel">Have you worked at Northeast Residence Before?</span>
+	<asp:CheckBoxList ID="chkListWorkedBefore" runat="server">
+		<asp:ListItem value="Yes" Text="Yes"></asp:ListItem>
+		<asp:ListItem Value="No" Text="No"></asp:ListItem>
+	</asp:CheckBoxList>
+</p>
+</div>
+<div class="row">
+<p>
+	<span class="leftlabel">If so, when?</span>
+	<asp:TextBox ID="txtWorkedwhen" runat="server" MaxLength="50"></asp:TextBox>
+</p>
+<p>
+	<span class="leftlabel">Which Site? </span>
+    <asp:TextBox ID="txtWorkedBeforeSite" runat="server" MaxLength="50"></asp:TextBox>
+</p>
+</div>
 
 <div class="row"><span class="area-header">Work History</span></div>
 <div class="row">
+<p>
+	<label for="txtTitle1">Job Title</label>
+	<asp:TextBox ID="txtTitle1" runat="server" CssClass="wideinput" MaxLength="255"></asp:TextBox>
+</p>
 <p>
 	<label for="txtCompanyName1">Company Name</label>
 	<asp:TextBox ID="txtCompanyName1" runat="server" CssClass="textMedium" MaxLength="255"></asp:TextBox>
@@ -225,32 +254,18 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </p>
 <p>
 	<label for="txtCompanyState1">State</label>
-	<asp:textBox ID="txtCompanyState1" runat="server"  MaxLength="2" Width="50px"></asp:textBox>
+	<asp:textBox ID="txtCompanyState1" runat="server"  MaxLength="2" ></asp:textBox>
 </p>
 </div>
 
 <div class="row">
 <p>
 	<label for="txtEmplFrom1">Employed From (M/YR):</label>
-	<asp:TextBox ID="txtEmplFrom1" runat="server" Width="50px" MaxLength="10"></asp:TextBox>
+	<asp:TextBox ID="txtEmplFrom1" runat="server"  MaxLength="10"></asp:TextBox>
 </p>
 <p>
 	<label for="txtEmplTo1">To</label>
-	<asp:TextBox MaxLength="10" ID="txtEmplTo1" runat="server"  Width="50px"></asp:TextBox>
-</p>
-</div>
-
-<div class="row">
-<p>
-	<label for="txtReason1">Reason for Leaving:</label>
-	<asp:TextBox ID="txtReason1" runat="server" CssClass="wideinput" MaxLength="255"></asp:TextBox>
-</p>
-</div>
-
-<div class="row">
-<p>
-	<label for="txtTitle1">Job Title</label>
-	<asp:TextBox ID="txtTitle1" runat="server" CssClass="wideinput" MaxLength="255"></asp:TextBox>
+	<asp:TextBox MaxLength="10" ID="txtEmplTo1" runat="server"  ></asp:TextBox>
 </p>
 </div>
 
@@ -259,7 +274,12 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 	<label for="txtDescription1">Description of Duties</label>
 	<asp:TextBox ID="txtDescription1" runat="server" CssClass="wideinput" TextMode="MultiLine" MaxLength="500"></asp:TextBox>
 </p>
+<p>
+	<label for="txtReason1">Reason for Leaving:</label>
+	<asp:TextBox ID="txtReason1" runat="server" CssClass="wideinput" TextMode="MultiLine" MaxLength="255"></asp:TextBox>
+</p>
 </div>
+
 
 <div class="row">
 <p>
@@ -268,7 +288,11 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </p>
 </div>
 
-<div class="row">
+<div class="row lineabove">
+<p>
+	<label for="txtTitle2">Job Title</label>
+	<asp:TextBox ID="txtTitle2" runat="server" CssClass="wideinput" MaxLength="255"></asp:TextBox>
+</p>
 <p>
 	<label for="txtCompanyName2">Company Name</label>
 	<asp:TextBox ID="txtCompanyName2" runat="server" CssClass="textMedium" MaxLength="255"></asp:TextBox>
@@ -289,32 +313,18 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </p>
 <p>
 	<label for="txtCompanyState2">State</label>
-	<asp:textBox ID="txtCompanyState2" runat="server"  MaxLength="2" Width="50px"></asp:textBox>
+	<asp:textBox ID="txtCompanyState2" runat="server"  MaxLength="2" ></asp:textBox>
 </p>
 </div>
 
 <div class="row">
 <p>
 	<label for="txtEmplFrom2">Employed From (M/YR):</label>
-	<asp:TextBox ID="txtEmplFrom2" runat="server" Width="50px" MaxLength="10"></asp:TextBox>
+	<asp:TextBox ID="txtEmplFrom2" runat="server"  MaxLength="10"></asp:TextBox>
 </p>
 <p>
 	<label for="txtEmplTo2">To</label>
-	<asp:TextBox MaxLength="10" ID="txtEmplTo2" runat="server"  Width="50px"></asp:TextBox>
-</p>
-</div>
-
-<div class="row">
-<p>
-	<label for="txtReason2">Reason for Leaving:</label>
-	<asp:TextBox ID="txtReason2" runat="server" CssClass="wideinput" MaxLength="255"></asp:TextBox>
-</p>
-</div>
-
-<div class="row">
-<p>
-	<label for="txtTitle2">Job Title</label>
-	<asp:TextBox ID="txtTitle2" runat="server" CssClass="wideinput" MaxLength="255"></asp:TextBox>
+	<asp:TextBox MaxLength="10" ID="txtEmplTo2" runat="server"  ></asp:TextBox>
 </p>
 </div>
 
@@ -322,6 +332,10 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 <p>
 	<label for="txtDescription2">Description of Duties</label>
 	<asp:TextBox ID="txtDescription2" runat="server" CssClass="wideinput" TextMode="MultiLine" MaxLength="500"></asp:TextBox>
+</p>
+<p>
+	<label for="txtReason2">Reason for Leaving:</label>
+	<asp:TextBox ID="txtReason2" runat="server" CssClass="wideinput" TextMode="MultiLine" MaxLength="255"></asp:TextBox>
 </p>
 </div>
 
@@ -332,7 +346,11 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </p>
 </div>
 
-<div class="row">
+<div class="row lineabove">
+<p>
+	<label for="txtTitle3">Job Title</label>
+	<asp:TextBox ID="txtTitle3" runat="server" CssClass="wideinput" MaxLength="255"></asp:TextBox>
+</p>
 <p>
 	<label for="txtCompanyName3">Company Name</label>
 	<asp:TextBox ID="txtCompanyName3" runat="server" CssClass="textMedium" MaxLength="255"></asp:TextBox>
@@ -353,32 +371,18 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </p>
 <p>
 	<label for="txtCompanyState3">State</label>
-	<asp:textBox ID="txtCompanyState3" runat="server"  MaxLength="2" Width="50px"></asp:textBox>
+	<asp:textBox ID="txtCompanyState3" runat="server"  MaxLength="2" ></asp:textBox>
 </p>
 </div>
 
 <div class="row">
 <p>
 	<label for="txtEmplFrom3">Employed From (M/YR):</label>
-	<asp:TextBox ID="txtEmplFrom3" runat="server" Width="50px" MaxLength="10"></asp:TextBox>
+	<asp:TextBox ID="txtEmplFrom3" runat="server"  MaxLength="10"></asp:TextBox>
 </p>
 <p>
 	<label for="txtEmplTo3">To</label>
-	<asp:TextBox MaxLength="10" ID="txtEmplTo3" runat="server"  Width="50px"></asp:TextBox>
-</p>
-</div>
-
-<div class="row">
-<p>
-	<label for="txtReason3">Reason for Leaving:</label>
-	<asp:TextBox ID="txtReason3" runat="server" CssClass="wideinput" MaxLength="255"></asp:TextBox>
-</p>
-</div>
-
-<div class="row">
-<p>
-	<label for="txtTitle3">Job Title</label>
-	<asp:TextBox ID="txtTitle3" runat="server" CssClass="wideinput" MaxLength="255"></asp:TextBox>
+	<asp:TextBox MaxLength="10" ID="txtEmplTo3" runat="server"  ></asp:TextBox>
 </p>
 </div>
 
@@ -386,6 +390,10 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 <p>
 	<label for="txtDescription3">Description of Duties</label>
 	<asp:TextBox ID="txtDescription3" runat="server" CssClass="wideinput" TextMode="MultiLine" MaxLength="500"></asp:TextBox>
+</p>
+<p>
+	<label for="txtReason3">Reason for Leaving:</label>
+	<asp:TextBox ID="txtReason3" runat="server" CssClass="wideinput" TextMode="MultiLine"  MaxLength="255"></asp:TextBox>
 </p>
 </div>
 
@@ -397,10 +405,10 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </div>
 
 <div class="row">
-<p>
+
 	<label for="txtOtherRelevant">Other Relevant Experience</label>
 	<asp:TextBox ID="txtOtherRelevant" runat="server" TextMode="MultiLine" CssClass="wideinput" MaxLength="500"></asp:TextBox>
-</p>
+
 </div>
 
 <div class="row"><span class="area-header">Professional References</span></div>
@@ -420,7 +428,7 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </p>
 </div>
 
-<div class="row">
+<div class="row lineabove">
 <p>
 	<span label for="txtRefName2">Name</span>
 	<asp:TextBox ID="txtRefName2" runat="server" MaxLength="55"></asp:TextBox>
@@ -435,7 +443,7 @@ Are you interested in: <asp:CheckBox ID="chkFullTime" runat="server" Text="Full 
 </p>
 </div>
 
-<div class="row">
+<div class="row lineabove">
 <p>
 	<span label for="txtRefName3">Name</span>
 	<asp:TextBox ID="txtRefName3" runat="server" MaxLength="55"></asp:TextBox>
@@ -467,7 +475,7 @@ I understand that the Immigration Reform and Control Act of November 6, 1986 req
 
 <div class="row">
 <asp:Button ID="btnSubmit" runat="server" Text="Submit" 
-        ValidationGroup="Application" onclick="btnSubmit_Click" CssClass="map-btn"/></div>
+        ValidationGroup="Application" onclick="btnSubmit_Click" CssClass="button white"/></div>
 
 </asp:Panel>
 <asp:Panel ID="pnlSubmissionMessage" runat="server">

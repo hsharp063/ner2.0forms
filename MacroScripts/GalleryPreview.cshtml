@@ -1,0 +1,18 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+	@{
+			@*Get the root of the website *@
+    	var root = Model.AncestorOrSelf(1);
+        var images = root.Descendants("GalleryImage").OrderBy("CreateDate desc").Take(6);
+		if(images.Count() > 0){
+			<div class="gallery">
+				<h5>Gallery</h5>
+				<ul>
+				@foreach(var p in images){
+					<li><a href="@p.Parent.Url"><img src="@Model.MediaById(p.galleryImage).umbracoFile" style="height:62px;" alt="@p.imageName"></a></li>
+				}
+				</ul>
+			</div>
+		}
+	}
+
+

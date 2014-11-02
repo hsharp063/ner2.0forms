@@ -1,0 +1,62 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+ var pics = Model.Children();
+ var catName = "";
+ List<string> friendlyCats = new List<string>();
+ List<string> cats = new List<string>();
+		
+ 
+ @*first get all the categories so we can create the filter menu*@
+ foreach(var p in pics){
+ 	var thisOnesCats = p.category.Split(',');
+ 	foreach (var catId in thisOnesCats){
+	  try{
+			if(catId != String.Empty){
+				catName = Model.NodeById(catId).selector;
+				if(!cats.Contains(catName)){
+				   cats.Add(catName);
+				   friendlyCats.Add(Model.NodeById(catId).name);
+				}
+			}
+		}catch(Exception e){}
+	}
+}
+	
+@* if we have any categories, create the filter menu *@
+if(friendlyCats.Count() > 0){
+<ul class="filter_list" >
+	<li class=""><a href="javascript:;" class="all-items">All</a></li>
+	@for(int i = 0; i < friendlyCats.Count(); i++){
+		<li class=""><a href="javascript:;" class="@cats[i]">@friendlyCats[i]</a></li>
+	}
+</ul>
+}
+
+var catString = "";
+var count = 0;
+
+if(pics.Count() > 0){
+	<ul class="gallery_thumbnails four_column">
+	@foreach(var p in pics){
+		var categories = p.category.Split(',');
+		var pNode = Model.NodeById(p.Id);
+		catString= "";
+		foreach (var catId in categories){
+			if(catId != String.Empty){
+			catString += " " + Model.NodeById(catId).selector;
+			}
+		}
+		
+		<li data-type="@catString">
+			<a href="@Model.MediaById(p.galleryImage).umbracoFile" class="fancybox" title="@p.imageName" rel="portfolio">
+			<img src="@Model.MediaById(p.galleryImage).umbracoFile" alt="@p.imageName">
+			</a>
+		</li>
+	}
+	</ul>
+}else{
+	<h4>Images Coming Soon</h4>
+}
+	}
+
+			

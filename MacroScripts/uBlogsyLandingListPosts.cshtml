@@ -1,0 +1,56 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{
+	var postsPerPage = 5;
+	int count = 0;
+	int groupNum = 1;
+	var posts = Model.Descendants("uBlogsyPost").OrderBy("uBlogsyPostDate desc");
+	if(posts.Count() > 0){
+		foreach(var p in posts){
+			var authorName = "";
+			if(p.uBlogsyPostAuthor != null){
+				var authors = p.uBlogsyPostAuthor.Split(',');
+				foreach (var authId in authors){
+				  try{
+						if(authId != String.Empty){
+							authorName += Model.NodeById(authId).uBlogsyAuthorName + " ";
+						}
+					}catch(Exception e){}
+				}
+			}
+			
+			@*determine which group this post will be in*@
+			count ++;
+			if(count % postsPerPage == 0){
+				groupNum ++;
+			}
+			
+			var className = String.Concat("group", groupNum);
+			
+			<div class="post @className">
+				@if(p.HasValue("uBlogsyPostImage")){
+					<a href="@p.Url" title="@p.uBlogsyContentTitle">
+						<figure class="uBlogsy_post_image">
+							<img src="@Model.MediaById(p.uBlogsyPostImage).umbracoFile" alt="@p.uBlogsyContentTitle" class="rounded" style="width:300px;">
+						</figure>
+					</a>
+				}
+			
+				<h3>@p.uBlogsyContentTitle</h3>
+				<div class="meta">
+					<span class="date"> <span class="icon general">i</span>@p.uBlogsyPostDate</span>
+					@if(!String.IsNullOrEmpty(authorName)){
+						<span class="author"> <span class="icon social_misc">x</span> by @authorName</span>
+					}
+					<p>@p.uBlogsyContentSummary <a href="@p.Url">Read More</a>
+				</div>
+			</div>
+		}
+			<input type="hidden" id="groupCount" value="@groupNum"/>
+			<div id="pagnation">
+			<span id="viewPrev" style="display:none"><a id="showOlderLink" href="javascript:showPre()'"><span class="icon general">v</span>View Previous Posts</a></span>
+			<span id="viewNew" style="display:none"><a id="showNewerLink" href="javascript:showNext();">View Newer Posts<span class="icon general">u</span></a></span>
+			</div>
+	}else{
+		<h3>No posts exist at this time, please check back soon!</h3>
+	}
+}

@@ -1,0 +1,220 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+    Lists posts for landing. 
+*@
+@using Umbraco.Core.Models
+@using System.Linq
+@using uBlogsy.Common.Extensions
+@using uBlogsy.BusinessLogic
+@using uHelpsy.Extensions
+@using uBlogsy.BusinessLogic
+@using uHelpsy.Helpers
+@using uHelpsy.Singletons
+
+@{
+    const int ITEMS_PER_PAGE = 20; // for testing
+
+    // get item count
+    var itemsPerPage = (int)ViewData["ItemsPerPage"];
+
+    // get tag, label, or author from query string
+    var tag = Request.QueryString["tag"];
+    var label = Request.QueryString["label"];
+    var author = Request.QueryString["author"];
+    var searchTerm = Request.QueryString["search"];
+    var commenter = Request.QueryString["commenter"];
+    int page = int.TryParse(Request.QueryString["page"], out page) ? page : 1;
+    var year = Request.QueryString["year"];
+    var month = Request.QueryString["month"];
+    var day = Request.QueryString["day"];
+    int postCount;
+
+    var posts = PostService.Instance.GetPosts(Model.Content, tag, label, author, searchTerm, commenter, year, month, day, out postCount).Skip((page - 1) * itemsPerPage).Take(itemsPerPage).ToIPublishedContent(true);
+        //var posts = NoLuceneFallbackService.Instance.GetPosts(Model.Content.Id, tag, label, author, searchTerm, commenter, year, month, out postCount).Skip((page - 1) * itemsPerPage).Take(itemsPerPage);
+    
+    // pagination
+    @*@RenderPagination(page, postCount, itemsPerPage)*@
+    @RenderForLanding(posts)
+}
+
+
+
+
+@helper RenderForLanding(IEnumerable<IPublishedContent> posts)
+{
+    // render search result count when this script is displaying search results
+    if (Request.QueryString["search"] != null)
+    {
+        <h3>@posts.Count() Results:</h3>
+    }
+	
+	var imageHeight = -1;
+	var imageWidth = 300;
+
+    // show each post
+    foreach (var n in posts)
+    {
+        @*Html.Partial("uBlogsy/Landing/uBlogsyLandingShowPost", new ViewDataDictionary(ViewData) { { "Node", n }, { "GravatarSize", 40 }, { "ImageWidth", 300 }, { "ImageHeight", -1 } })*@
+    
+    	var node = (IPublishedContent)n;
+		
+		<h2>@node</h2>
+
+    	@*var url = Request.QueryString.Count == 0 ? node.Url() : string.Format("{0}?{1}", node.Url(), Request.QueryString);
+    
+    	@ShowPost(node, url, imageHieght, imageWidth, null)*@
+    
+	}
+}
+
+
+
+
+
+@helper RenderPagination(int page, int postCount, int itemsPerPage)
+    {
+        var pages = (int)Math.Ceiling((double)postCount / itemsPerPage);
+        var url = Request.Url.ToString();
+    
+    <ul id="uBlogsy_pagination" class="uBlogsy_font_style20">
+        @* render prev link *@
+        <li class="uBlogsy_page_prev">
+            @if (page > 1)
+            {
+                url = url.ReplaceQueryStringItem("page", (page - 1).ToString());
+                <a href="@url" >Prev</a>
+            }
+            else
+            {
+                <span>Prev</span>
+            }
+        </li>
+
+        @* render page links *@
+        @for (int i = 1; i < pages + 1; i++)
+        {
+            url = url.ReplaceQueryStringItem("page", i.ToString());
+            var liClass = i == page ? "uBlogsy_current" : string.Empty;
+            
+            <li class="uBlogsy_page_item @liClass">
+                @if (page == i)
+                {
+                    <span>@i</span> 
+                }
+                else
+                {
+                    <a href="@url">@i</a>
+                }
+            </li>
+        }
+
+        @* render next link *@
+        <li class="uBlogsy_page_next">
+            @if (page < Math.Ceiling((double)postCount / itemsPerPage))
+            {
+                url = url.ReplaceQueryStringItem("page", (page + 1).ToString());
+                <a href="@url" >Next</a>
+            }
+            else
+            {
+                <span>Next</span>
+            }
+        </li>
+    </ul>
+}
+
+
+@*helper ShowPost(IPublishedContent node, string url, int imageHieght, int imageWidth, string defaultImage)
+    {
+       	<!-- Start Page Content -->
+	  <div class="post">
+			
+				<!-- Start Blog Post -->
+				<div class="post">
+					 @RenderPostImage(node, imageHieght, imageWidth, defaultImage)
+					<h3>@node.GetPropertyValue("uBlogsyContentTitle")</h3>
+					<div class="meta">
+						<span class="date"> <span class="icon general">i</span> @(node.GetPropertyValue<DateTime>("uBlogsyPostDate").ToString("dddd MMMM d, yyyy"))</span>
+					</div>
+					<p>@RenderPostBody(node) <a href="@url">Read More</a></p>
+				</div>*@
+
+        @*<aside class="uBlogsy_post_details">
+            @*list tags
+            <div class="uBlogsy_tag_container">
+                @Html.Partial("uBlogsy/Post/uBlogsyPostListTags", new ViewDataDictionary(ViewData) { { "ShowCount", true } })
+            </div>
+
+            @*list labels
+            <div class="uBlogsy_label_container">
+                @Html.Partial("uBlogsy/Post/uBlogsyPostListLabels", ViewData)
+            </div>
+            
+            @*list authors
+            @Html.Partial("uBlogsy/Post/uBlogsyPostListAuthors", ViewData)
+                
+        </aside>*@
+            
+        @*link to comments on this page - install uCommentsy, then uncomment this line*@
+       @* @try
+        {
+            @Html.Partial("uCommentsy/uCommentsyShowLinkToComments")
+        }
+        catch (Exception) { }*@
+ @*           
+    </div>
+}*@
+
+
+
+
+@*
+
+@helper RenderPostBody(IPublishedContent d)
+    {
+    var useSummary = DataService.Instance.GetValueFromLanding(d, "uBlogsyGeneralUseSummary");
+    if (useSummary == "1" && d.GetPropertyValue<string>("uBlogsyContentSummary").Trim() != string.Empty)
+    {
+        @Html.Raw(d.GetPropertyValue("uBlogsyContentSummary"))
+    }
+    else
+    {
+    @Html.Raw(library.RenderMacroContent(d.GetPropertyValue<string>("uBlogsyContentBody"), d.Id))
+    } 
+}
+
+*@
+
+
+
+@helper RenderPostImage(IPublishedContent node, int imageHieght, int imageWidth, string defaultImage)
+    {
+    var imageId = node.GetPropertyValue<string>("uBlogsyPostImage");
+
+    if (string.IsNullOrWhiteSpace(imageId) && string.IsNullOrWhiteSpace(defaultImage))
+    {
+        // no property or default so do nothing
+        return;
+    }
+
+    var viewData = new ViewDataDictionary(ViewData)
+             {
+                 {"Alias", "uBlogsyPostImage"},
+                 {"Suffix", ""},
+                 {"Height", imageHieght},
+                 {"Width", imageWidth},
+                 {"CssClass", "uBlogsy_post_image"},
+                 {"Title", "Main Image"},
+                 {"Map", string.Empty },
+                 {"DefaultImage", defaultImage}
+             };
+
+    if (!viewData.ContainsKey("Node")) { viewData.Add("Node", node); }
+                 
+    <a href="@node.Url" title="Post image">
+        <figure class="uBlogsy_post_image">
+            @Html.Partial("~/Views/Partials/uBlogsy/Shared/uBlogsyShowImage.cshtml", viewData)     
+        </figure>
+    </a>
+ }

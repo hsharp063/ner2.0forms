@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Main.master" AutoEventWireup="true" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="cp_body" runat="server">
+<section class="page_heading">
+		<div class="logo container">
+			<a href="/"><umbraco:item ID="Item1" runat="server" field="siteName" recursive="true"></umbraco:item></a>		
+			<span class="tagline"><umbraco:Item ID="tagline" runat="server" Field="tagline" recursive="true"></umbraco:item></span>
+		</div>
+	</section>     
+            
+    <div class="page_wrapper">
+        <section class="container">
+ <div id="blog" class="page with_sidebar">
+				  <h1><umbraco:Item field="uBlogsyContentTitle" runat="server" /></h1>
+       	<!-- Start Page Content -->
+
+		 <umbraco:Macro Alias="UBlogsyLandingListPosts" runat="server"></umbraco:Macro>
+
+			</div>
+ 		  <aside>
+				<div id="sidebar">
+						
+					<div class="widget">
+						<h5>Recent Posts</h5>
+						<umbraco:Macro Alias="UBlogsyRecentPostsSidebar" runat="server"></umbraco:Macro>
+					</div>
+					
+					
+					<div class="widget">
+											
+						<umbraco:Macro Alias="GalleryPreview" runat="server"></umbraco:Macro>
+					</div>	
+						
+					<div class="widget">
+						<h5>Video</h5>
+						<div class="video">
+							<iframe src="http://player.vimeo.com/video/43580167?title=0&amp;byline=0&amp;portrait=0" width="215" height="121"></iframe>
+						</div>
+						<p>by Revolution</p>
+					</div>
+						
+				</div>
+			</aside>
+        </section>
+    </div>
+<script type="text/javascript">
+$(document).ready(function(){
+	setupPagnation();
+});
+
+function setupPagnation(){
+	var groupCount = parseInt($("#groupCount").val());
+	if(groupCount > 0){
+		showOnlyGroup(1);
+		$("#viewPrev").show();
+	}
+}
+
+function showOnlyGroup(groupNum){
+	$(".post").hide();
+	
+	//show only posts in the correct group
+	var showGroup = "group" + groupNum;
+	$("." + showGroup).show();
+	
+	//update the links on prev and next links
+	var prevNum = groupNum + 1;
+	var nextNum = groupNum - 1;
+	
+	var groupCount = parseInt($("#groupCount").val());
+	if(prevNum > groupCount){
+		$("#viewPrev").hide();
+	}else{
+		$("#showOlderLink").attr('href','javascript:showOnlyGroup(' + prevNum + ')');
+		$("#viewPrev").show();
+	}
+	
+	if(nextNum < 1){
+		$("#viewNew").hide();
+	}else{
+		$("#showNewerLink").attr('href','javascript:showOnlyGroup(' + nextNum + ')');
+		$("#viewNew").show();
+	}
+}
+</script>
+
+</asp:Content>

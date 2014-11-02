@@ -87,7 +87,7 @@ $(document).ready(function() {
 	});
 	
 	// Form hints	
-	$("label").inFieldLabels({ fadeOpacity: 0.4 });
+	//$("label").inFieldLabels({ fadeOpacity: 0.4 });
 	
 	// Twitter widget
 	$(".twitter_stream").tweet({
